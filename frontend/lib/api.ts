@@ -47,7 +47,13 @@ export async function getLocations(): Promise<Location[]> {
 
         const data = await response.json();
 
-        return data.locations;
+
+        return Object.entries(data.locations).map(
+            ([district, mandals]) => ({
+                district,
+                mandals: mandals as string[],
+            })
+        );
     } catch {
         console.warn("Backend unavailable. Using mock locations.");
 
