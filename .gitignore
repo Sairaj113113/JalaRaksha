@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML generated models
+models/**/*.pkl
+models/**/*.joblib
+
+# Generated data
+data/interim/*
+data/processed/*
+
+# RAG generated files
+rag/embeddings/*
+rag/vector_store/*
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+data/raw/*
