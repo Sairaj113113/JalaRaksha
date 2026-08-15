@@ -19,12 +19,9 @@ models/**/*.joblib
 
 # Raw government datasets
 data/raw/*
-!data/raw/groundwater/
-!data/raw/groundwater/.gitkeep
-!data/raw/rainfall/
-!data/raw/rainfall/.gitkeep
-!data/raw/classifications/
-!data/raw/classifications/.gitkeep
+!data/raw/*/
+data/raw/*/*
+!data/raw/*/.gitkeep
 
 # Generated data
 data/interim/*
