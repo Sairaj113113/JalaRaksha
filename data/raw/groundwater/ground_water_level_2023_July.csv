@@ -1,0 +1,1720 @@
+﻿district,mandal,village,lat,long,date,value
+ADILABAD,Adilabad Urban,Adilabad,78.52,19.67,01/07/23,5.2
+ADILABAD,Bazarhathnoor,Bazarhatnur,78.35,19.46,01/07/23,4.5
+ADILABAD,Bela,Chandpally,78.85,19.68,01/07/23,7.15
+ADILABAD,Bheempoor,Arli,78.38,19.83,01/07/23,3.3
+ADILABAD,Bheempoor,Bheempur,78.42,19.77,01/07/23,5.9
+ADILABAD,Boath,Boath,78.32,19.34,01/07/23,7.9
+ADILABAD,Gudihathnur,Gudihatnoor,78.51,19.53,01/07/23,2.6
+ADILABAD,Jainad,Bhoraj,78.55,19.74,01/07/23,1.6
+ADILABAD,Jainad,Jainath,78.64,19.73,01/07/23,1.2
+ADILABAD,Narnoor,Narnoor,78.85,19.5,01/07/23,0.26
+ADILABAD,Neradigonda,Neradigonda,78.41,19.29,01/07/23,2.6
+ADILABAD,Talamadugu,Devapur,78.46,19.61,01/07/23,5
+ADILABAD,Talamadugu,Talamadugu,78.4,19.63,01/07/23,4.1
+ADILABAD,Tamsi,Tamsi,78.43,19.68,01/07/23,3.6
+ADILABAD,Utnur,Utnoor,78.77,19.38,01/07/23,1
+BHADRADRI,Allapalli,Allapalli,80.48,17.83,01/07/23,7.32
+BHADRADRI,Allapalli,Markodu,80.51,17.91,01/07/23,3.89
+BHADRADRI,Annapureddipalle,Annapureddypalli,80.83,17.35,01/07/23,12.74
+BHADRADRI,Aswapuram,Ammagaripalli,80.85,17.87,01/07/23,
+BHADRADRI,Aswapuram,Aswapuram,80.81,17.84,01/07/23,8.34
+BHADRADRI,Aswapuram,Aswapuram,80.81,17.87,01/07/23,8.5
+BHADRADRI,Aswaraopeta,ASWARAOPET (D),81.11,17.24,01/07/23,25.54
+BHADRADRI,Aswaraopeta,Aswaraopet (S),81.11,17.24,01/07/23,27.32
+BHADRADRI,Aswaraopeta,Duradapadu,81.09,17.43,01/07/23,5.12
+BHADRADRI,Aswaraopeta,Gummadivalli,81.18,17.42,01/07/23,2.28
+BHADRADRI,Aswaraopeta,NANDIPADU,81.13,17.46,01/07/23,1.44
+BHADRADRI,Aswaraopeta,Vinayakapuram,81.12,17.35,01/07/23,15.18
+BHADRADRI,Bhadrachalam,Bhadrachalam,80.9,17.67,01/07/23,
+BHADRADRI,Burgampadu,Krishnasagar,80.81,17.71,01/07/23,9.17
+BHADRADRI,Burgampadu,M.Banjara,80.79,17.64,01/07/23,9.85
+BHADRADRI,Cherla,Cherla,80.83,18.07,01/07/23,6.14
+BHADRADRI,Chandrugonda,Maddukuru,80.68,17.36,01/07/23,21.21
+BHADRADRI,Chandrugonda,Ravikampadu,80.61,17.4,01/07/23,7.33
+BHADRADRI,Cherla,Chinmedisileru,80.85,18.06,01/07/23,4.55
+BHADRADRI,Cherla,Chunchupalli,80.61,17.53,01/07/23,
+BHADRADRI,Dammapeta,Malkaram,81.07,17.31,01/07/23,12.6
+BHADRADRI,Dammapeta,Mandalapalli,81.01,17.24,01/07/23,42.22
+BHADRADRI,Dammapeta,Patwarigudem,80.96,17.35,01/07/23,13.22
+BHADRADRI,Dummugudem,Bandirevu,80.92,17.92,01/07/23,7.16
+BHADRADRI,Dummugudem,Dummugudem,80.89,17.85,01/07/23,2.38
+BHADRADRI,Gundala,Gundala,80.33,17.91,01/07/23,
+BHADRADRI,Gundala,Kanchanapalli,80.42,17.79,01/07/23,
+BHADRADRI,Gundala,Mamakannu,80.41,17.87,01/07/23,5.83
+BHADRADRI,Gundala,Sainapalli,80.35,17.96,01/07/23,3.92
+BHADRADRI,Gundala,Settupalli,80.35,17.81,01/07/23,1.23
+BHADRADRI,Julurpad,P. Narsapuram,80.52,17.44,01/07/23,7.12
+BHADRADRI,Julurpad,Papakollu,80.48,17.42,01/07/23,2.18
+BHADRADRI,Karakagudem,karakagudem,80.51,18.09,01/07/23,3.14
+BHADRADRI,Karakagudem,Karakagudem,80.57,18.03,01/07/23,2.5
+BHADRADRI,Kothagudem,Kothagudem,80.62,17.55,01/07/23,27.42
+BHADRADRI,Laxmidevipalli,Bangaruchelka,80.6,17.76,01/07/23,
+BHADRADRI,Laxmidevipalli,Laxmidevipalli,80.62,17.57,01/07/23,7.2
+BHADRADRI,Manuguru,Manuguru,80.83,17.96,01/07/23,4.5
+BHADRADRI,Manuguru,Pagideru,80.73,17.97,01/07/23,2.02
+BHADRADRI,Mulakalapalle,Mulakalapalli (D),80.83,17.5,01/07/23,8.74
+BHADRADRI,Mulakalapalle,MULAKALAPALLI (S),80.85,17.48,01/07/23,6.47
+BHADRADRI,Mulakalapalle,N. Jaganadhapuram,80.86,17.43,01/07/23,7.55
+BHADRADRI,Mulakalapalle,Pusugudem            (Pakeer thanda),80.76,17.54,01/07/23,1.7
+BHADRADRI,Mulakalapalle,Thimmampet,80.93,17.54,01/07/23,6.85
+BHADRADRI,Palawancha,Danthalaboru,80.84,17.59,01/07/23,7.12
+BHADRADRI,Palawancha,Pathapalwancha,80.69,17.55,01/07/23,6.31
+BHADRADRI,Palawancha,REGELLA,80.58,17.95,01/07/23,1.92
+BHADRADRI,Palawancha,Ulavanoor,80.68,17.78,01/07/23,2.97
+BHADRADRI,Palawancha,Yanmbailu,80.68,17.69,01/07/23,4.31
+BHADRADRI,Pinapaka,Dugenepalli,80.65,18.13,01/07/23,
+BHADRADRI,Pinapaka,Potlapalli ,80.68,18.04,01/07/23,3.47
+BHADRADRI,Sujathanagar,Sarvaram (Gudithanda),80.59,17.53,01/07/23,5.83
+BHADRADRI,Sujathanagar,Sujathanagar,80.59,17.49,01/07/23,
+BHADRADRI,Tekulapalle,Bethampudi,80.45,17.56,01/07/23,10.21
+BHADRADRI,Tekulapalle,Bodu,80.44,17.67,01/07/23,4.88
+BHADRADRI,Tekulapalle,Mutyalampadu,80.5,17.54,01/07/23,4.09
+BHADRADRI,Tekulapalle,Sulanagar,80.5,17.54,01/07/23,5.2
+BHADRADRI,Yellandu,Komararam,80.32,17.71,01/07/23,5.74
+BHADRADRI,Yellandu,Narayanapuram D,80.38,17.51,01/07/23,2.01
+BHADRADRI,Yellandu,NARAYANAPURAM S,80.38,17.51,01/07/23,2.01
+BHADRADRI,Yellandu,Rompedu,80.3,17.65,01/07/23,2.24
+BHADRADRI,Yellandu,Sudimalla,80.35,17.59,01/07/23,2.9
+BHUPALPALLY,Bhupalpalle,Bhupalpally,79.88,18.44,01/07/23,3.41
+BHUPALPALLY,Bhupalpalle,Gudadpally,79.81,18.39,01/07/23,3.17
+BHUPALPALLY,Bhupalpalle,Nandigama,80.06,18.5,01/07/23,0.28
+BHUPALPALLY,Chityal,Chityala,79.67,18.34,01/07/23,0.73
+BHUPALPALLY,Chityal,Jadalpet,79.74,18.38,01/07/23,0.98
+BHUPALPALLY,Ghanapur_Mulug,Chelpur(D),79.85,18.37,01/07/23,2.34
+BHUPALPALLY,Ghanapur_Mulug,Chelpur(S),79.84,18.38,01/07/23,1.93
+BHUPALPALLY,Ghanapur_Mulug,Velthurlapally,79.89,18.3,01/07/23,2.36
+BHUPALPALLY,Kataram,Jadaraopet,79.88,18.7,01/07/23,14.26
+BHUPALPALLY,Kataram,Medipally,79.92,18.55,01/07/23,11.43
+BHUPALPALLY,Kataram,Regulagudem,79.87,18.62,01/07/23,34.26
+BHUPALPALLY,Kataram,Shankarampally 125(D),79.9,18.6,01/07/23,10.28
+BHUPALPALLY,Kataram,Shankarampally 47,79.89,18.61,01/07/23,11.49
+BHUPALPALLY,Mutharam_Mahadevpur,Stambampally,79.99,18.56,01/07/23,0.91
+BHUPALPALLY,Mutharam_Mahadevpur,Yatnaram,80.15,18.57,01/07/23,1.28
+BHUPALPALLY,Mahadevpur,Ambatipalli,80.06,18.7,01/07/23,13.51
+BHUPALPALLY,Mahadevpur,Annaram,79.84,18.76,01/07/23,11.69
+BHUPALPALLY,Mahadevpur,Kaleswaram,79.91,18.8,01/07/23,5.41
+BHUPALPALLY,Mahadevpur,Mahadevpur -125D,79.98,18.73,01/07/23,6.22
+BHUPALPALLY,Mahadevpur,Mahadevpur 199D,79.98,18.73,01/07/23,6.74
+BHUPALPALLY,Mahadevpur,Mahadevpur 75NC,79.98,18.72,01/07/23,5.71
+BHUPALPALLY,Malharrao,Mallaram,79.79,18.56,01/07/23,1.91
+BHUPALPALLY,Mogullapalle,Aknepally,79.61,18.36,01/07/23,6.12
+BHUPALPALLY,Mogullapalle,Rangapur,79.69,18.27,01/07/23,2.49
+BHUPALPALLY,Palmela,Kamanpally,80.25,18.63,01/07/23,0.63
+BHUPALPALLY,Palmela,Lenkalagadda,80.13,18.67,01/07/23,4.39
+BHUPALPALLY,Palmela,Sarvaipet,80.24,18.68,01/07/23,5.29
+BHUPALPALLY,Regonda,Gorikothapally,79.81,18.18,01/07/23,1.28
+BHUPALPALLY,Regonda,Regonda,79.78,18.24,01/07/23,2.38
+BHUPALPALLY,Tekumatla,Ramakrishnapuram,79.63,18.42,01/07/23,2.48
+HYDERABAD,Ammerpet,"DIRECTOR WOMEN AND CHILD WELFARE, YOUSUFGUDA",78.45,17.45,01/07/23,
+HYDERABAD,Ammerpet,S.R.Nagar,78.44,17.44,01/07/23,19.9
+HYDERABAD,Ammerpet,"STDC Chest Hospital, Erragadda",78.43,17.45,01/07/23,14.1
+HYDERABAD,Asifnagar,"Govt. Polytechnic, Masab Tank.",78.45,17.38,01/07/23,2.35
+HYDERABAD,Asifnagar,Himayanagar,78.45,17.4,01/07/23,1.1
+HYDERABAD,Asifnagar,Kulsanapur,78.44,17.37,01/07/23,4.4
+HYDERABAD,Bandlaguda,Chandraingutta,78.48,17.33,01/07/23,13.02
+HYDERABAD,Bandlaguda,Bahadurpura,78.46,17.35,01/07/23,1.53
+HYDERABAD,Charminar,Darul Shifa,78.49,17.38,01/07/23,4.22
+HYDERABAD,Himayatnagar,"Fever Hospital, Nallakunta",78.48,17.41,01/07/23,4.42
+HYDERABAD,Himayatnagar,Indira Park,78.5,17.4,01/07/23,1.42
+HYDERABAD,Khairatabad,"CME premises, Chinthalbasti",78.45,17.43,01/07/23,2.78
+HYDERABAD,Khairatabad,"CME premises, Chinthalbasti",78.45,17.43,01/07/23,2.86
+HYDERABAD,Khairatabad,Khairathabad,78.46,17.41,01/07/23,
+HYDERABAD,Khairatabad,T.S..Secretariat,78.47,17.41,01/07/23,
+HYDERABAD,Maredpally,"Govt.Jr.College,West Maredpally",78.51,17.43,01/07/23,1.89
+HYDERABAD,Maredpally,Maredpally(s),78.51,17.44,01/07/23,8.78
+HYDERABAD,Musheerabad,Musheerabad,78.51,17.42,01/07/23,7.46
+HYDERABAD,Nampally,Nampally,78.47,17.39,01/07/23,2.63
+HYDERABAD,Saidabad,Juvinile home,78.51,17.36,01/07/23,1.85
+HYDERABAD,Secunderabad,"Sanjeevaiah Park, Hussian Sagar.",78.48,17.44,01/07/23,
+HYDERABAD,Shaikpet,Shaikpet,78.45,17.42,01/07/23,
+HYDERABAD,Shaikpet,"Vengal Rao Park, Srinagar colony",78.42,17.41,01/07/23,1.41
+HYDERABAD,Tirumalgiri,"NIMH,Hasmathpet",78.49,17.46,01/07/23,7.46
+JAGITYAL,Beerpur,Kandlapalle,78.96,19.03,01/07/23,0.89
+JAGITYAL,Dharmapuri,Dharmapuri,79.1,18.95,01/07/23,4.06
+JAGITYAL,Dharmapuri,Jaina,79.08,19.01,01/07/23,6.38
+JAGITYAL,Gollapalle,Gollapalli,79.05,18.79,01/07/23,3.77
+JAGITYAL,Ibrahimpatnam,Ibrahimpatnam,78.58,18.9,01/07/23,1.39
+JAGITYAL,Jagtial,Jagityal,78.85,18.83,01/07/23,5.92
+JAGITYAL,Jagityal_Rural,Morapally,78.89,18.79,01/07/23,0.56
+JAGITYAL,Kathlapur,Kathalapur,78.69,18.75,01/07/23,1.42
+JAGITYAL,Kodimial,Chepial,78.94,18.62,01/07/23,4.48
+JAGITYAL,Koratla,Ilapur,78.7,18.86,01/07/23,4.63
+JAGITYAL,Koratla,Korutla,78.71,18.82,01/07/23,7.46
+JAGITYAL,Mallapur,Mallapur,78.71,18.96,01/07/23,4.91
+JAGITYAL,Mallapur,VV Raopet,78.77,18.99,01/07/23,4.36
+JAGITYAL,Malial,Nukapalli,78.92,18.71,01/07/23,2.45
+JAGITYAL,Medipalle,Desaipet,78.45427,18.42,01/07/23,0.49
+JAGITYAL,Medipalle,Katlakunta,78.81,18.84,01/07/23,1.12
+JAGITYAL,Medipalle,Rangapur,78.79,18.76,01/07/23,1.53
+JAGITYAL,Metpalle,Metpalli,78.62,18.85,01/07/23,
+JAGITYAL,Metpalle,Atmakur,78.62,18.75,01/07/23,7.18
+JAGITYAL,Metpalle,Bandalingapur,78.59,18.83,01/07/23,0.91
+JAGITYAL,Metpalle,Metla Chittapur,78.59,18.78,01/07/23,1.02
+JAGITYAL,Pegadapalle,Pegadapalli,79.06,18.71,01/07/23,2.11
+JAGITYAL,Raikal,Bornapally,78.82,19.03,01/07/23,1.48
+JAGITYAL,Raikal,Itikyal,78.76,18.92,01/07/23,0.54
+JAGITYAL,Raikal,Raikal,78.8,18.91,01/07/23,0.41
+JAGITYAL,Raikal,Vodde lingapur,78.84,18.96,01/07/23,0.13
+JAGITYAL,Sarangapur,Rachapalli,78.93,18.93,01/07/23,4.99
+JAGITYAL,Sarangapur,Sarangapur,78.96,18.93,01/07/23,5.81
+JAGITYAL,Velgatoor,Chegyam,79.27,18.81,01/07/23,1.22
+JAGITYAL,Velgatoor,Stambampally,79.16,18.86,01/07/23,2.39
+JAGITYAL,Velgatoor,Velgatur,79.17,18.84,01/07/23,3.92
+JANGAON,Bachannapeta,Bachannapet,79.04,17.79,01/07/23,5.39
+JANGAON,Bachannapeta,Padamati Keshapur,78.94,17.84,01/07/23,7.6
+JANGAON,Chilpur,Kistajigudem,79.3,17.88,01/07/23,4.85
+JANGAON,Chilpur,Malkapur,79.31,17.93,01/07/23,3.95
+JANGAON,Devaruppala,Devaruppula,79.36,17.54,01/07/23,2.9
+JANGAON,Devaruppala,Singarajupalli,79.27,17.59,01/07/23,4.35
+JANGAON,Ganpur_stn,Chagal,79.36,17.84,01/07/23,7.8
+JANGAON,Ganpur_stn,Namiligonda,79.4,17.83,01/07/23,0.6
+JANGAON,Jangaon,Jangaon,79.15,17.7,01/07/23,2.76
+JANGAON,Jangaon,Siddanki,79.1,17.77,01/07/23,10.6
+JANGAON,Kodakandla,Kodakandla,79.51,17.53,01/07/23,8.65
+JANGAON,Lingalaghanpur,Jeedikal,79.16,17.61,01/07/23,5.9
+JANGAON,Lingalaghanpur,Lingala ghanpur,79.2,17.66,01/07/23,6.3
+JANGAON,Lingalaghanpur,Vadicherla,79.24,17.66,01/07/23,1.25
+JANGAON,Narmetta,Machupahad,79.22,17.87,01/07/23,7.2
+JANGAON,Narmetta,Veldanda,79.12,17.86,01/07/23,5.28
+JANGAON,Palakurthi,Gudur,79.41,17.74,01/07/23,3.75
+JANGAON,Palakurthi,Palakurthi,79.42,17.67,01/07/23,9.53
+JANGAON,Raghunathpalle,Ibrahimpur,79.23,17.76,01/07/23,6.5
+JANGAON,Raghunathpalle,Nidigonda,79.23,17.73,01/07/23,3.25
+JANGAON,Raghunathpalle,Raghunadhapalli,79.26,17.76,01/07/23,8.08
+JANGAON,Tharigoppula,Tarigopulla,79.18,17.94,01/07/23,6.2
+JANGAON,Zaffergadh,Kunur,79.48,17.85,01/07/23,7.55
+JANGAON,Zaffergadh,Zafergad,79.49,17.77,01/07/23,5.45
+JOGULAMBA(GADWAL),Alampur,Alampur,78.12,15.9,01/07/23,2.69
+JOGULAMBA(GADWAL),Dharur,Dharoor,77.68,16.22,01/07/23,5.66
+JOGULAMBA(GADWAL),Dharur,Neelahally,77.64,16.27,01/07/23,9.78
+JOGULAMBA(GADWAL),Gadwal,Gadwal,77.8,16.23,01/07/23,2.06
+JOGULAMBA(GADWAL),Ghattu,Allor,77.63,16.18,01/07/23,9.4
+JOGULAMBA(GADWAL),Ghattu,Gattu,77.58,16.13,01/07/23,5.3
+JOGULAMBA(GADWAL),Ghattu,Induvasi,77.52,16.04,01/07/23,4.91
+JOGULAMBA(GADWAL),Aiza,Eklaspur,77.65,16.05,01/07/23,4.04
+JOGULAMBA(GADWAL),Aiza,Ieeza,77.67,16.02,01/07/23,7.37
+JOGULAMBA(GADWAL),Itikyal,Kodandapur,77.57,16.25,01/07/23,8.51
+JOGULAMBA(GADWAL),Kaloor_Timmanadoddi,Kondapur,77.83,16.07,01/07/23,4.34
+JOGULAMBA(GADWAL),Kaloor_Timmanadoddi,Kuchinerla,77.53,16.18,01/07/23,1.82
+JOGULAMBA(GADWAL),Maldakal,Maldakal,77.69,16.13,01/07/23,2.55
+JOGULAMBA(GADWAL),Manopad,Manopad,77.95,15.97,01/07/23,5.96
+JOGULAMBA(GADWAL),Undavelli,Pullur,78.01,15.92,01/07/23,19.45
+JOGULAMBA(GADWAL),Undavelli,Undavally,78.04,15.93,01/07/23,5.28
+JOGULAMBA(GADWAL),Waddepalle,Santhinagar,77.84,15.94,01/07/23,0.4
+KAMAREDDY,Banswada,Bansawada,77.88,18.39,01/07/23,2.95
+KAMAREDDY,Banswada,Budimi,77.89,18.34,01/07/23,0.59
+KAMAREDDY,Bhiknur,Bhiknoor,78.4,18.2,01/07/23,4.27
+KAMAREDDY,Bhiknur,Issannapally,78.48,18.14,01/07/23,10.21
+KAMAREDDY,Bhiknur,P.D.Mallareddy,78.45,18.17,01/07/23,21.6
+KAMAREDDY,Bibipet,Bibipet,78.52,18.21,01/07/23,16.17
+KAMAREDDY,Bichkunda,Pulkal,77.77,18.4,01/07/23,0.45
+KAMAREDDY,Birkoor,Birkur,77.8,18.47,01/07/23,4.8
+KAMAREDDY,Domakonda,Domakonda,78.44,18.25,01/07/23,16.37
+KAMAREDDY,Gandhari,Gandhari,78.11,18.4,01/07/23,2.67
+KAMAREDDY,Gandhari,Ramlaxmanpally,78.13,18.32,01/07/23,15.71
+KAMAREDDY,Gandhari,Sarvapoor,77.99,18.36,01/07/23,15.69
+KAMAREDDY,Jukkal,Jukkal,77.6,18.36,01/07/23,3.72
+KAMAREDDY,Jukkal,Savargao,77.65,18.32,01/07/23,3.1
+KAMAREDDY,Kamareddy,Adloor,78.34,18.34,01/07/23,14.52
+KAMAREDDY,Kamareddy,Narasannapally,78.36,18.27,01/07/23,15.41
+KAMAREDDY,Lingampet,Bhavanipet,78.06,18.28,01/07/23,4.9
+KAMAREDDY,Lingampet,Khannapur,78.16,18.19,01/07/23,17.6
+KAMAREDDY,Lingampet,Mothe,78.17,18.31,01/07/23,15.56
+KAMAREDDY,Machareddy,Machareddy,78.49,18.33,01/07/23,7.49
+KAMAREDDY,Madnur,Menoor,77.65,18.48,01/07/23,3.96
+KAMAREDDY,Madnur,SOMUR,77.6,18.42,01/07/23,4.74
+KAMAREDDY,Naga_Reddipet,Banjara Thanda,78.08,18.14,01/07/23,10.53
+KAMAREDDY,Naga_Reddipet,Malthummeda,78.14,18.11,01/07/23,12
+KAMAREDDY,Naga_Reddipet,Nasurullabad,77.87,18.47,01/07/23,0.59
+KAMAREDDY,Nizamsagar,Achampet,77.93,18.21,01/07/23,7.42
+KAMAREDDY,Nizamsagar,Mohammadnagar,77.91,18.29,01/07/23,2.32
+KAMAREDDY,Pedda Kodapgal,Shanthapur,77.73,18.33,01/07/23,5.93
+KAMAREDDY,Pedda Kodapgal,Maddela Cheruvu,77.85,18.35,01/07/23,8.04
+KAMAREDDY,Rajampet,Argonda,78.27,18.23,01/07/23,11.2
+KAMAREDDY,Rajampet,Kondapur,78.29,18.18,01/07/23,8.12
+KAMAREDDY,Ramareddy,Reddypet,78.42,18.41,01/07/23,10.25
+KAMAREDDY,Sadasivanagar,Sadasivanagar,78.26,18.41,01/07/23,6
+KAMAREDDY,Tadwai,Yerrapahad,78.22,18.29,01/07/23,0.27
+KAMAREDDY,Tadwai,Annaram,78.24,18.35,01/07/23,13.42
+KAMAREDDY,Yellareddy,Yellareddy,78.02,18.19,01/07/23,13.7
+KAMAREDDY,Banswada,HANMAJIPET ,78,18.43,01/07/23,5.49
+KAMAREDDY,Bhiknur,KACHAPOOR ,78.45,18.19,01/07/23,11.59
+KAMAREDDY,Bhiknur,MALLUPALLY ,78.45,18.16,01/07/23,22.9
+KAMAREDDY,Bichkunda,DOULTHAPUR ,77.7,18.38,01/07/23,2.84
+KAMAREDDY,Bichkunda,GUNDE NEMLI ,77.81,18.36,01/07/23,
+KAMAREDDY,Bichkunda,PD DADGI ,77.74,18.37,01/07/23,15.74
+KAMAREDDY,Domakonda,AMBERPET ,78.49,18.26,01/07/23,7.09
+KAMAREDDY,Domakonda,ANCHANOOR ,78.46,18.24,01/07/23,19.32
+KAMAREDDY,Gandhari,CHADMAL ,78.08,18.46,01/07/23,8.75
+KAMAREDDY,Gandhari,GURJAL ,78.14,18.36,01/07/23,16.35
+KAMAREDDY,Lingampet,LINGAMPET ,78.13,18.24,01/07/23,1.58
+KAMAREDDY,Lingampet,PARMALLA,78.13,18.2,01/07/23,9.07
+KAMAREDDY,Machareddy,RAJKHANPET ,78.52,18.36,01/07/23,7.93
+KAMAREDDY,Madnur,MADNOOR ,77.63,18.5,01/07/23,3.03
+KAMAREDDY,Madnur,RUSEGAON,77.68,18.44,01/07/23,0.73
+KAMAREDDY,Naga_Reddipet,WADALPARTHY ,78.15,18.14,01/07/23,18.48
+KAMAREDDY,Naga_Reddipet,BOMMADEVPALLY ,77.9,18.47,01/07/23,0.68
+KAMAREDDY,Naga_Reddipet,BOPPASPALLY ,77.84,18.49,01/07/23,1.49
+KAMAREDDY,Naga_Reddipet,MIRZAPUR ,77.84,18.45,01/07/23,2.54
+KAMAREDDY,Nizamsagar,BURGUL ,77.94,18.26,01/07/23,1.61
+KAMAREDDY,Nizamsagar,NARVA ,77.97,18.26,01/07/23,0.78
+KAMAREDDY,Nizamsagar,VELGANOOR ,77.87,18.2,01/07/23,10.08
+KAMAREDDY,Pedda Kodapgal,CHILLARGI ,77.83,18.29,01/07/23,16.04
+KAMAREDDY,Pedda Kodapgal,GODMAGAON ,77.76,18.23,01/07/23,16.72
+KAMAREDDY,Pedda Kodapgal,KURTHI / RAMPUR,77.88,18.3,01/07/23,12.43
+KAMAREDDY,Pedda Kodapgal,NAGAMPALLY ,77.85,18.25,01/07/23,10.78
+KAMAREDDY,Pedda Kodapgal,PITLAM ,77.84,18.23,01/07/23,12.72
+KAMAREDDY,Rajampet,SIDDAPOOR ,78.24,18.17,01/07/23,15.12
+KAMAREDDY,Ramareddy,DEVANPALLE ,78.44,18.33,01/07/23,12.01
+KAMAREDDY,Sadasivanagar,PADMAJI WADA ,78.24,18.43,01/07/23,4.1
+KAMAREDDY,Sadasivanagar,UTNOOR ,78.19,18.44,01/07/23,2.81
+KAMAREDDY,Tadwai,KANKAL,78.22,18.34,01/07/23,27.83
+KAMAREDDY,Yellareddy,THIMMAREDDY ,78,18.24,01/07/23,12.43
+KAMAREDDY,Yellareddy,YELLAREDDY ,78.01,18.2,01/07/23,13.7
+KARIMNAGAR,Chigurumamidi,Bommanapalli,79.23,18.21,01/07/23,
+KARIMNAGAR,Chigurumamidi,Chigurumamidi,79.15,18.26,01/07/23,9.13
+KARIMNAGAR,Chigurumamidi,Ramancha,79.2,18.24,01/07/23,7.17
+KARIMNAGAR,Choppadandi,Rukmapur,79.15,18.53,01/07/23,3.34
+KARIMNAGAR,Ellandakunta,Illanthukunta ,79.51,18.3,01/07/23,
+KARIMNAGAR,Gangadhara,Burugupally,79.03,18.64,01/07/23,3.01
+KARIMNAGAR,Gangadhara,Gangadhara,79.01,18.58,01/07/23,13.8
+KARIMNAGAR,Gannervaram,Mylaram,79.078,18.368,01/07/23,3
+KARIMNAGAR,Huzurabad,Huzurabad,79.41,18.19,01/07/23,5.39
+KARIMNAGAR,Jammikunta,Vavilala,79.55,18.4,01/07/23,2.31
+KARIMNAGAR,Karimnagar (Rural-I),Nagnur,79.14,18.5,01/07/23,1.2
+KARIMNAGAR,Karimnagar,Karimnagar,79.13,18.44,01/07/23,0.05
+KARIMNAGAR,Shankarapatnam,Thadikal,79.29,18.31,01/07/23,3.18
+KARIMNAGAR,Manakondur,Laxmipur,79.29,18.45,01/07/23,1.21
+KARIMNAGAR,Ramadugu,Gundi,79.09,18.62,01/07/23,0.45
+KARIMNAGAR,V_Saidapur,Saidapur,79.31,18.21,01/07/23,0.59
+KARIMNAGAR,Thimmapur,Alugunur,79.15,18.4,01/07/23,5.67
+KARIMNAGAR,Thimmapur,Nedunur,79.14,18.31,01/07/23,6.7
+KARIMNAGAR,Veenavanka,Veenavanka,79.42,18.35,01/07/23,4.31
+KHAMMAM,Bonakal,Mustikunta,80.22,17.04,01/07/23,1.8
+KHAMMAM,Bonakal,Pedabeeravalli,80.3,17.05,01/07/23,1.95
+KHAMMAM,Chinthakani,Pandillapalli,80.18,17.15,01/07/23,3.38
+KHAMMAM,Enkuru,Enkoor,80.44,17.33,01/07/23,6.8
+KHAMMAM,Enkuru,Timmaraopeta,80.37,17.37,01/07/23,2.9
+KHAMMAM,Kalluru,Kallur,80.55,17.21,01/07/23,2.4
+KHAMMAM,Kamepalle,Kothalingala,80.24,17.43,01/07/23,6.3
+KHAMMAM,Kamepalle,Ootkuru,80.3,17.46,01/07/23,9.4
+KHAMMAM,Khammam_Rural,Theerthala,80.14,17.37,01/07/23,5.12
+KHAMMAM,Khammam_Rural,M.V.Palem,80.1,17.3,01/07/23,5.4
+KHAMMAM,Khammam_Urban,Khammam I,80.13,17.23,01/07/23,0.8
+KHAMMAM,Khammam_Urban,Khammam-II,80.14,17.25,01/07/23,1.4
+KHAMMAM,Konijerla,Gubbagurthi,80.36,17.28,01/07/23,3.5
+KHAMMAM,Konijerla,Konijerla,80.29,17.22,01/07/23,1.01
+KHAMMAM,Kusumanchi,Jakkapally,79.97,17.14,01/07/23,3.2
+KHAMMAM,Kusumanchi,Kusumanchi,79.96,17.22,01/07/23,10.1
+KHAMMAM,Madhira,Madhira,80.37,16.92,01/07/23,8.3
+KHAMMAM,Madhira,Nidhanapuram,80.42,16.92,01/07/23,2.8
+KHAMMAM,Mudigonda,Banapuram,80.12,17.06,01/07/23,2.9
+KHAMMAM,Mudigonda,Mudigonda,80.1,17.19,01/07/23,1.9
+KHAMMAM,Nelakondapalle,Bodulabanda,80.02,17.09,01/07/23,3.1
+KHAMMAM,Nelakondapalle,Buddaram,80.06,17.02,01/07/23,3.8
+KHAMMAM,Penuballi,Lankapalli,80.74,17.2,01/07/23,12.01
+KHAMMAM,Penuballi,Lingagudem,80.66,17.26,01/07/23,
+KHAMMAM,Penuballi,Penuballi,80.67,17.21,01/07/23,2.65
+KHAMMAM,Penuballi,Tallapenta,80.62,17.23,01/07/23,2.29
+KHAMMAM,Raghunadhapalem,Erlapudi,80.27,17.32,01/07/23,8.1
+KHAMMAM,Sathupalle,Cherukupalli,80.78,17.26,01/07/23,4.1
+KHAMMAM,Sathupalle,Prakashnagar,80.89,17.19,01/07/23,32.7
+KHAMMAM,Singareni,Madharam,80.23,17.54,01/07/23,5.1
+KHAMMAM,Thallada,Anjanapuram,80.46,17.21,01/07/23,3.5
+KHAMMAM,Thallada,Laxmipuram,80.48,17.17,01/07/23,3.1
+KHAMMAM,Thirumalayapalem,Kakaravai,79.84,17.31,01/07/23,2.4
+KHAMMAM,Thirumalayapalem,Tippareddigudem,79.98,17.37,01/07/23,3.6
+KHAMMAM,Thirumalayapalem,Bachode,79.9,17.3,01/07/23,5.81
+KHAMMAM,Thirumalayapalem,Tirumalayapalem,80.05,17.32,01/07/23,6.05
+KHAMMAM,Vemsoor,Vemsur,80.81,17.14,01/07/23,2.3
+KHAMMAM,Vemsoor,Kallurigudem,80.75,17.11,01/07/23,3.7
+KHAMMAM,Vemsoor,Kandukuru,80.84,17.07,01/07/23,4.7
+KHAMMAM,Wyra,Siripuram,80.48,16.86,01/07/23,3.26
+KHAMMAM,Yerrupalem,Banigandlapadu,80.48,16.86,01/07/23,11.42
+KHAMMAM,Yerrupalem,Bheemavaram,80.51,16.94,01/07/23,5.04
+KUMURAM BHEEM,Asifabad,Asifabad,79.29,19.36,01/07/23,18.12
+KUMURAM BHEEM,Asifabad,Kommuguda,79.25,19.39,01/07/23,0.74
+KUMURAM BHEEM,Bejjur,Bejjur,79.86,19.36,01/07/23,2.52
+KUMURAM BHEEM,Bejjur,Rebbana,79.75,19.4,01/07/23,1
+KUMURAM BHEEM,Dahegaon,Dahegaon,79.7,19.25,01/07/23,14.12
+KUMURAM BHEEM,Jainoor,Rasimetta,79,19.4,01/07/23,0.42
+KUMURAM BHEEM,Kagaznagar,Jambugaon,79.58,19.33,01/07/23,10.64
+KUMURAM BHEEM,Kagaznagar,Kagaznagar,79.5,19.36,01/07/23,1.89
+KUMURAM BHEEM,Kerameri,Bheemangondi,79.15,19.42,01/07/23,8.15
+KUMURAM BHEEM,Kerameri,Kerameri,79.06,19.44,01/07/23,2.2
+KUMURAM BHEEM,Kouthala,Kowthala,79.73,19.52,01/07/23,3.78
+KUMURAM BHEEM,Lingapur,Loddiguda,79.09,19.23,01/07/23,0.46
+KUMURAM BHEEM,Penchikalpet,Yelkapally,79.76,19.28,01/07/23,13.75
+KUMURAM BHEEM,Rebbana,Rebbena II,79.42,19.26,01/07/23,5.7
+KUMURAM BHEEM,Sirpur_T,Sirput-T,79.57,19.48,01/07/23,0.02
+KUMURAM BHEEM,Tiryani,Bheempur,79.2,19.11,01/07/23,2.08
+KUMURAM BHEEM,Tiryani,Pangidimadra,79.15,19.25,01/07/23,3.76
+KUMURAM BHEEM,Tiryani,Tiryani,79.27,19.17,01/07/23,
+KUMURAM BHEEM,Wankdi,Savathi,79.27,19.57,01/07/23,5.93
+KUMURAM BHEEM,Wankdi,Wankidi,79.32,19.48,01/07/23,6.19
+MAHABUBABAD,Bayyaram,Balajipeta,80.09,17.61,01/07/23,5.8
+MAHABUBABAD,Bayyaram,Gurimalla***,80.06,17.7,01/07/23,3.92
+MAHABUBABAD,Bayyaram,Kothagudem***,80.13,17.61,01/07/23,5.26
+MAHABUBABAD,Bayyaram,Kothapeta***,80.17,17.57,01/07/23,1.16
+MAHABUBABAD,Bayyaram,Motlathimapuram***,80.09,17.69,01/07/23,4.16
+MAHABUBABAD,Chinnagudur,Chinna Gudur,79.89,17.51,01/07/23,5.28
+MAHABUBABAD,Danthalapalle,Dhantalapally,79.73,17.51,01/07/23,1.91
+MAHABUBABAD,Dornakal,Gollacherla,80.09,17.47,01/07/23,2.86
+MAHABUBABAD,Seerole,Mannegudem,80.04,17.37,01/07/23,5.7
+MAHABUBABAD,Dornakal,Perumalla Sankeesa,80.05,17.42,01/07/23,1.86
+MAHABUBABAD,Ganagavaram,Gangaram,80.22,17.85,01/07/23,1.95
+MAHABUBABAD,Ganagavaram,Komatlagudem,80.23,17.88,01/07/23,7.65
+MAHABUBABAD,Garla,Garla***,80.16,17.51,01/07/23,5.26
+MAHABUBABAD,Garla,Maddivancha***,80.1,17.51,01/07/23,4.16
+MAHABUBABAD,Gudur,Gudur,79.98,17.8,01/07/23,4.75
+MAHABUBABAD,Kesamudram,Kalwala,79.89,17.66,01/07/23,2.31
+MAHABUBABAD,Kesamudram,Kesamudram,79.91,17.68,01/07/23,1.91
+MAHABUBABAD,Kuravi,Ayyagaripally,79.99,17.5,01/07/23,3.61
+MAHABUBABAD,Kuravi,Mogilicherla,80.03,17.54,01/07/23,4.4
+MAHABUBABAD,Seerole,Upperagudem,80.04,17.45,01/07/23,3.83
+MAHABUBABAD,Kothaguda,Kothaguda,80.06,17.91,01/07/23,4.36
+MAHABUBABAD,Kothaguda,Madagudem,80.18,17.84,01/07/23,2.86
+MAHABUBABAD,Kothaguda,Sidireddypally,80.05,17.99,01/07/23,6.5
+MAHABUBABAD,Mahabubabad,Amanagal,79.91,17.59,01/07/23,0.81
+MAHABUBABAD,Mahabubabad,Mahabubabad,80,17.6,01/07/23,2.12
+MAHABUBABAD,Maripeda,Giripuram,79.88,17.37,01/07/23,8.64
+MAHABUBABAD,Maripeda,Marripeda,79.89,17.39,01/07/23,3.85
+MAHABUBABAD,Maripeda,Yellampet,79.86,17.45,01/07/23,0.46
+MAHABUBABAD,Narsimhulapet,Komalavancha,79.79,17.53,01/07/23,6.14
+MAHABUBABAD,Inugurthy,Chinna Nagaram,79.77,17.64,01/07/23,7.68
+MAHABUBABAD,Nellikudur,Nellikudur,79.76,17.59,01/07/23,1.11
+MAHABUBABAD,Nellikudur,Ramanjapuram,79.72,17.62,01/07/23,4.69
+MAHABUBABAD,Peddavangara,Waddekothapalli,79.56,17.53,01/07/23,1.52
+MAHABUBABAD,Thorrur,Haripirala,79.65,17.52,01/07/23,0.52
+MAHABUBABAD,Thorrur,Torrur,79.66,17.58,01/07/23,6.44
+MAHABUBNAGAR,Addakal,Addakal,77.95,16.49,01/07/23,7.34
+MAHABUBNAGAR,Balanagar,Udityal,78.12,16.97,01/07/23,11.32
+MAHABUBNAGAR,Bhoothpur,Bhoothpur,78.06,16.7,01/07/23,2.29
+MAHABUBNAGAR,Bhoothpur,Elkicherla,78.12,16.62,01/07/23,7.22
+MAHABUBNAGAR,Chinna_Chintha_Kunta,Damagnapur,77.76,16.5,01/07/23,1.66
+MAHABUBNAGAR,Chinna_Chintha_Kunta,Kurumurthy,77.82,16.44,01/07/23,12.59
+MAHABUBNAGAR,Koukuntla,Thirmalapur,77.82,16.48,01/07/23,2.25
+MAHABUBNAGAR,Devarkadara,Chinnarajmoor,77.77,16.68,01/07/23,7.6
+MAHABUBNAGAR,Devarkadara,Devarakadra,77.83,16.61,01/07/23,7.42
+MAHABUBNAGAR,Koukuntla,Koukuntla,77.86,16.52,01/07/23,6.39
+MAHABUBNAGAR,Devarkadara,Meenuguvanipally,77.81,16.59,01/07/23,6.97
+MAHABUBNAGAR,Gandeed,Mohammadabad,77.9,16.9,01/07/23,5.47
+MAHABUBNAGAR,Gandeed,Salkerpet,77.8,16.95,01/07/23,7.75
+MAHABUBNAGAR,Hanwada,Hanwada,77.9,16.81,01/07/23,9.76
+MAHABUBNAGAR,Hanwada,Vepur,77.79,16.84,01/07/23,14.9
+MAHABUBNAGAR,Jadcherla,Jadcherla,78.12,16.77,01/07/23,15.71
+MAHABUBNAGAR,Jadcherla,Konded,78.27,16.83,01/07/23,8.48
+MAHABUBNAGAR,Koilkonda,Dammaipally,77.9,16.76,01/07/23,5.9
+MAHABUBNAGAR,Koilkonda,Koilkonda,77.79,16.76,01/07/23,3.55
+MAHABUBNAGAR,Mahabubnagar_Rural,Kodur,77.92,16.68,01/07/23,8.28
+MAHABUBNAGAR,Mahabubnagar_Urban,Yenugonda,78.02,16.76,01/07/23,6.36
+MAHABUBNAGAR,Midjil,Kothapalli,78.23,16.75,01/07/23,5.72
+MAHABUBNAGAR,Midjil,Midjil,78.32,16.73,01/07/23,14.87
+MAHABUBNAGAR,Musapet,MOOSPET,77.98,16.6,01/07/23,4.95
+MAHABUBNAGAR,Nawabpet,Nawabpet,78.02,16.89,01/07/23,6.18
+MAHABUBNAGAR,Rajapur,Rajapur,78.15,16.84,01/07/23,10.35
+MANCHERIAL,Bellampalle,Bellampally I,79.5,19.07,01/07/23,14.99
+MANCHERIAL,Bheemini,Rampur,79.58,19.17,01/07/23,1.87
+MANCHERIAL,Chennur,Chennur I,79.78,18.85,01/07/23,6.4
+MANCHERIAL,Chennur,Kommera,79.8,18.77,01/07/23,2.15
+MANCHERIAL,Dandepalle,Myadaripet,79.14,19.01,01/07/23,4.64
+MANCHERIAL,Hajipur,Hazipur,79.32,18.87,01/07/23,4.03
+MANCHERIAL,Jaipur,Jaipur,79.58,18.84,01/07/23,1.62
+MANCHERIAL,Jaipur,Kundaram,79.63,18.79,01/07/23,7.73
+MANCHERIAL,Jannaram,Indanpally,78.94,19.15,01/07/23,1.82
+MANCHERIAL,Kannepalli,Jankapur,79.41,19,01/07/23,0.01
+MANCHERIAL,Kasipet,Kondapur,79.4,19.04,01/07/23,3.22
+MANCHERIAL,Kotapalle,Kotapally,79.88,18.95,01/07/23,12.23
+MANCHERIAL,Luxettipet,Luxettipet,79.2,18.88,01/07/23,1.87
+MANCHERIAL,Mandamarri,Mandamarri,79.48,18.98,01/07/23,4.02
+MANCHERIAL,Mandamarri,Ponnaram,79.54,18.94,01/07/23,14.23
+MANCHERIAL,Nennal,Nennel,79.63,19.08,01/07/23,6.71
+MANCHERIAL,Tandur,Tandur ,79.46,19.16,01/07/23,12.26
+MANCHERIAL,Vemanpalle,Neelwai,79.82,19.05,01/07/23,0.28
+MEDAK,Alladurg,Alladurg,77.94,17.97,01/07/23,19.44
+MEDAK,Alladurg,Muslapur,77.99,17.92,01/07/23,
+MEDAK,Chegunta,Chegunta,78.52,17.93,01/07/23,7.52
+MEDAK,Chegunta,Chandiapet,78.46,17.98,01/07/23,12.62
+MEDAK,Chilipched,Chilipade,78.12,17.87,01/07/23,13.72
+MEDAK,Havelighanpur,Mutayapally,78.22,18.08,01/07/23,7.56
+MEDAK,Havelighanpur,Nagaram (Fareedpur),78.2,18.07,01/07/23,10.11
+MEDAK,Kowdipalle,Kowdipally,78.21,17.9,01/07/23,13.42
+MEDAK,Kulcharam,Rangampet,78.12,17.95,01/07/23,18.55
+MEDAK,Manoharabad,Manaharabad,78.47,17.76,01/07/23,8.76
+MEDAK,Medak,Medak,78.27,18.05,01/07/23,11.74
+MEDAK,Medak,Pillikotal,78.27,18.04,01/07/23,1.6
+MEDAK,Narsapur,Narasapur,78.28,17.74,01/07/23,11.04
+MEDAK,Narsingi,Narasingi,78.42,18.05,01/07/23,25.07
+MEDAK,Narsapur,Reddypally,78.26,17.79,01/07/23,8.73
+MEDAK,Nizampet,Naskal,78.55,18.16,01/07/23,13.39
+MEDAK,Papannapet,Papannapet,78.09,18.04,01/07/23,11.12
+MEDAK,Ramayampet,Ramayampet,78.43,18.12,01/07/23,12.5
+MEDAK,Regode,T.lingampally,77.83,17.94,01/07/23,8.02
+MEDAK,Shankarampet_A,Gavvalapalli,77.92,18.05,01/07/23,7.85
+MEDAK,Shankarampet_R,Shankarampet,78.37,17.97,01/07/23,9.65
+MEDAK,Shivampet,Shivampet,78.37,17.79,01/07/23,9.06
+MEDAK,Shivampet,Gudur,78.37,17.78,01/07/23,14.82
+MEDAK,Shivampet,Usrikapally,78.39,17.82,01/07/23,12.74
+MEDAK,Tekmal,Tekmal,78.03,17.98,01/07/23,11.32
+MEDAK,Tupran,Islampur,78.47,17.88,01/07/23,1.71
+MEDAK,Tupran,Toopran,78.48,17.84,01/07/23,15.34
+MEDAK,Yeldurthy,Edulapally,78.35,17.97,01/07/23,15.34
+MEDAK,Yeldurthy,Kukunoor,78.32,17.91,01/07/23,1.85
+MEDAK,Yeldurthy,Ramayapally,78.32,17.95,01/07/23,7.17
+MEDAK,Yeldurthy,Yeldurthy,78.95,18.78,01/07/23,14.91
+MEDAK,Alladurg,Peddapur,77.98,17.9,01/07/23,13.78
+MEDAK,Chilipched,Chilipched,78.13,17.86,01/07/23,13.72
+MEDAK,Havelighanpur,Kuchanpally,78.23,18.07,01/07/23,5.19
+MEDAK,Havelighanpur,Nagapur,78.26,18.12,01/07/23,13.22
+MEDAK,Havelighanpur,Rajpet,78.2,18.16,01/07/23,7.92
+MEDAK,Havelighanpur,Sardana,78.19,18.09,01/07/23,8.24
+MEDAK,Kulcharam,Kulcharam,78.19,17.96,01/07/23,7.58
+MEDAK,Manoharabad,Muppireddypally,78.48,17.73,01/07/23,11.84
+MEDAK,Masaipet,Masaipet,78.46,17.91,01/07/23,17.95
+MEDAK,Medak,Pathur,78.32,18.09,01/07/23,11.82
+MEDAK,Medak,Perur,78.22,18.03,01/07/23,2.92
+MEDAK,Medak,Rajpally,78.3,18.03,01/07/23,15.04
+MEDAK,Narsapur,Chippalthurthy,78.22,17.77,01/07/23,18.22
+MEDAK,Narsapur,Kagazmaddur,78.28,17.69,01/07/23,20.44
+MEDAK,Narsapur,Lingapur,78.3,17.78,01/07/23,14.46
+MEDAK,Narsingi,Narsingi,78.44,18.05,01/07/23,25.07
+MEDAK,Papannapet,Kodapaka,78.13,17.98,01/07/23,8.94
+MEDAK,Ramayampet,Dharmaram,78.49,18.07,01/07/23,23.24
+MEDAK,Ramayampet,Katriyal,78.34,18.15,01/07/23,13.54
+MEDAK,Ramayampet,Ramayampet,78.43,18.11,01/07/23,12.5
+MEDAK,Regode,Gajwada,77.83,17.92,01/07/23,18.14
+MEDAK,Shankarampet_R,Dharpally,78.39,17.92,01/07/23,8.34
+MEDAK,Shankarampet_R,Shankarampet-R,78.41,17.98,01/07/23,22.29
+MEDAK,Shivampet,Sikindlapur,78.42,17.74,01/07/23,4.24
+MEDAK,Tekmal,Dhannaram,78.05,17.94,01/07/23,14.69
+MEDAK,Tekmal,Yellupet,78.02,18.03,01/07/23,5.09
+MEDAK,Tupran,Malkapur,78.53,17.87,01/07/23,9.65
+MEDAK,Tupran,Nagulapally,78.46,17.86,01/07/23,14.53
+MEDCHAL,Alwal,Old Alwal,78.51,17.49,01/07/23,8.69
+MEDCHAL,Bachpalle,Nizampet,78.38,17.52,01/07/23,3.02
+MEDCHAL,Balanagar,Balanagar 1,78.45,17.47,01/07/23,4.36
+MEDCHAL,Balanagar,Balanagar 2,78.45,17.47,01/07/23,5.3
+MEDCHAL,Balanagar,Fethenagar,78.44,17.46,01/07/23,11.13
+MEDCHAL,Gandimaisamma Dundigal,Dulapally,78.46,17.55,01/07/23,13.22
+MEDCHAL,Gandimaisamma Dundigal,Dundigal,78.42,17.61,01/07/23,21.78
+MEDCHAL,Gandimaisamma Dundigal,Shambhirpur,78.37,17.56,01/07/23,10.97
+MEDCHAL,Ghatkesar,Ghatkesar,78.68,17.45,01/07/23,6.09
+MEDCHAL,Kapra,Balaji Nagar,78.55,17.55,01/07/23,6.51
+MEDCHAL,Kapra,Cherlapally,78.61,17.47,01/07/23,1.39
+MEDCHAL,Keesara,Kessara,78.58,17.48,01/07/23,
+MEDCHAL,Keesara,Yadgarpally,78.63,17.55,01/07/23,13.17
+MEDCHAL,Kukatpally,Kaithalapur,78.4,17.47,01/07/23,7.86
+MEDCHAL,Kukatpally,Kukatpally 1,78.4,17.48,01/07/23,22.37
+MEDCHAL,Kukatpally,Kukatpally 2,78.39,17.49,01/07/23,15.27
+MEDCHAL,Malkajgiri,Malkajgiri,78.54,17.45,01/07/23,20.09
+MEDCHAL,Medchel,Gundla pochampally,78.48,17.57,01/07/23,10.43
+MEDCHAL,Medchel,Medchal,78.49,17.62,01/07/23,3.65
+MEDCHAL,Medchel,Pudur,78.53,17.62,01/07/23,
+MEDCHAL,Quthbullapur,Gajularamaram 1,78.42,17.53,01/07/23,0.55
+MEDCHAL,Quthbullapur,Gajularamaram 2,78.42,17.53,01/07/23,0.57
+MEDCHAL,Quthbullapur,Jeedimetla,78.47,17.52,01/07/23,18.04
+MEDCHAL,Quthbullapur,Qutubullapur 1,78.46,17.5,01/07/23,
+MEDCHAL,Quthbullapur,Qutubullapur 2,78.46,17.5,01/07/23,17.71
+MEDCHAL,Quthbullapur,Shapurnagar,78.44,17.54,01/07/23,
+MEDCHAL,Shamirpet,Jagamguda,78.63,17.62,01/07/23,
+MEDCHAL,Shamirpet,Pothaipally,78.54,17.55,01/07/23,7.78
+MEDCHAL,Shamirpet,Shahmirpet,78.57,17.58,01/07/23,1.97
+MEDCHAL,Shamirpet,Turkapally,78.59,17.67,01/07/23,2.79
+MEDCHAL,Uppal,Uppal,78.58,17.41,01/07/23,11.21
+MEDCHAL,Medipally,MEDIPALLY,78.61,17.42,01/07/23,13
+MEDCHAL,Alwal,Yapral Sub station,78.54,17.51,01/07/23,13.19
+MEDCHAL,Ghatkesar,Singapur Township Sub Station,78.74,17.45,01/07/23,8.81
+MEDCHAL,Kapra,N.N Colony Kapra Sub Station,78.69,17.66,01/07/23,4.54
+MEDCHAL,Kapra,Balaji Nagar Substation,78.57,17.52,01/07/23,3.2
+MEDCHAL,Keesara,Keesara Sub station,78.66,17.53,01/07/23,2.98
+MEDCHAL,Keesara,Jafarguda MPP School (Godumakunta),78.65,17.48,01/07/23,5.78
+MEDCHAL,Kukatpally,Kukatpally MRO Office,78.41,17.48,01/07/23,48.57
+MEDCHAL,Malkajgiri,Moula - Ali Sub station,78.56,17.46,01/07/23,12.94
+MEDCHAL,Medchel,Dabilpur park in GP Layout,78.47,17.68,01/07/23,6.97
+MEDCHAL,Medchel,Banda Madaram Sub station,78.44,17.66,01/07/23,10.41
+MEDCHAL,Shamirpet,Ponnala ZPHS,78.63,17.6,01/07/23,9.02
+MEDCHAL,Shamirpet,DevaraYamjal Near Mission Bhagirath Compound,78.53,17.56,01/07/23,3.55
+MEDCHAL,Shamirpet,Ailayabad ZPHS,78.59,17.63,01/07/23,4.26
+MEDCHAL,Uppal,Mallapur Sub Station             ,78.58,17.44,01/07/23,14.18
+MEDCHAL,Medipally,Chengicharla Sub Station,78.61,17.44,01/07/23,16.52
+MEDCHAL,Medipally,Medipally ZPHS,78.6,17.41,01/07/23,13
+MEDCHAL,Muduchinthalapally,Laxmapur Sub Station,78.69,17.66,01/07/23,10.67
+MULUGU,Eturunagaram,Eturu Nagaram (D),80.44,18.36,01/07/23,
+MULUGU,Eturunagaram,Eturu Nagaram (S),80.42,18.34,01/07/23,6.62
+MULUGU,Govindaraopet,Pasra,80.17,18.21,01/07/23,1.04
+MULUGU,Govindaraopet,Project Nagar,80.19,18.26,01/07/23,2.06
+MULUGU,Kannaigudem,Kannaigudem,80.35,18.53,01/07/23,3.12
+MULUGU,Mangapet,Kamalapuram,80.47,18.27,01/07/23,9.36
+MULUGU,Mangapet,Mallur,80.56,18.22,01/07/23,4.91
+MULUGU,Mangapet,Rajupet,80.63,18.15,01/07/23,1.9
+MULUGU,Mulug,Jakkaram(D),79.91,18.18,01/07/23,6.85
+MULUGU,Mulug,Jakkaram(S),79.89,18.17,01/07/23,
+MULUGU,Mulug,Kasimdevpet,80,18.17,01/07/23,0.87
+MULUGU,Mulug,Mulugu,79.94,18.19,01/07/23,1.65
+MULUGU,Tadvai,Beerelli,80.35,18.03,01/07/23,2.47
+MULUGU,Tadvai,Gangaram,80.37,18.18,01/07/23,5.31
+MULUGU,Tadvai,Lavvala,80.26,18.17,01/07/23,1.23
+MULUGU,Tadvai,Medaram,80.25,18.31,01/07/23,3.7
+MULUGU,Tadvai,Tadvai,80.31,18.24,01/07/23,7.89
+MULUGU,Venkatapur,Laxmidevipet,79.96,18.29,01/07/23,0.82
+MULUGU,Venkatapur,Alubaka ***,80.67,18.21,01/07/23,3.12
+MULUGU,Venkatapur,Edira ***,80.73,18.14,01/07/23,2.62
+MULUGU,Venkatapur,Marikal,80.5,18.32,01/07/23,6.56
+MULUGU,Venkatapur,Nuguru ***,80.55,18.34,01/07/23,2.61
+MULUGU,Wazeed,Jagannadhapuram ***,80.51,18.43,01/07/23,8.48
+MULUGU,Wazeed,Peddagollagudem ***,80.47,18.47,01/07/23,7.12
+MULUGU,Wazeed,Perur ***,80.39,18.53,01/07/23,6.31
+MULUGU,Wazeed,Tekulagudem ***,80.41,18.57,01/07/23,6.24
+NAGARKURNOOL,Achampet,Achampet,78.65,16.4,01/07/23,7.69
+NAGARKURNOOL,Amrabad,Domalapenta,78.88,16.21,01/07/23,4.48
+NAGARKURNOOL,Amrabad,Madhavanipally,78.86,16.41,01/07/23,12.73
+NAGARKURNOOL,Amrabad,Mannanoor,78.76,16.37,01/07/23,10.34
+NAGARKURNOOL,Amrabad,Vatverlapallly,78.78,16.23,01/07/23,23.99
+NAGARKURNOOL,Balmoor,Balmur,78.57,16.33,01/07/23,12.22
+NAGARKURNOOL,Balmoor,Banala,78.64,16.32,01/07/23,13.83
+NAGARKURNOOL,Balmoor,Gattuthummena  ,78.55,16.4,01/07/23,4.07
+NAGARKURNOOL,Bijinapalle,Bijinepalli,78.2,16.54,01/07/23,10.78
+NAGARKURNOOL,Charakonda,Charakonda,78.71,16.7,01/07/23,1.32
+NAGARKURNOOL,Kalwakurthy,GUNDUR,78.46,16.58,01/07/23,4.99
+NAGARKURNOOL,Kalwakurthy,Kalwakuthy,78.49,16.67,01/07/23,10.13
+NAGARKURNOOL,Kalwakurthy,Lingasanipally,78.47,16.55,01/07/23,
+NAGARKURNOOL,Kalwakurthy,Marchala,78.45,16.69,01/07/23,19.33
+NAGARKURNOOL,Kodair,Kodair,78.27,16.27,01/07/23,1.94
+NAGARKURNOOL,Kodair,Thurkadinne,78.22,16.29,01/07/23,2.03
+NAGARKURNOOL,Kollapur,Kollapur,78.31,16.11,01/07/23,2.33
+NAGARKURNOOL,Kollapur,Molachintalapally,78.42,16.14,01/07/23,2.91
+NAGARKURNOOL,Lingal,Ambatipally,78.45,16.28,01/07/23,3.15
+NAGARKURNOOL,Lingal,Lingal,78.52,16.27,01/07/23,7.14
+NAGARKURNOOL,Nagar_Kurnool,Manthati,78.35,16.44,01/07/23,6.6
+NAGARKURNOOL,Nagar_Kurnool,Nagarkurnool,78.3,16.49,01/07/23,20.7
+NAGARKURNOOL,Padra,Padra,78.88,16.43,01/07/23,3.12
+NAGARKURNOOL,Peddakothapalle,Maredumandinne,78.41,16.22,01/07/23,4.04
+NAGARKURNOOL,Pentlavelli,Pentlavelle,78.26,16.08,01/07/23,4.69
+NAGARKURNOOL,Tadoor,Tadoor,78.36,16.51,01/07/23,0.11
+NAGARKURNOOL,Tadoor,Vengampally,78.4,16.54,01/07/23,2.87
+NAGARKURNOOL,Telkapalle,Karvanga,78.41,16.48,01/07/23,5.37
+NAGARKURNOOL,Telkapalle,Telkapally,78.44,16.44,01/07/23,2.65
+NAGARKURNOOL,Thimmajipeta,Gummakonda,78.19,16.62,01/07/23,7.91
+NAGARKURNOOL,Uppunuthala,Laxmapur,78.53,16.48,01/07/23,3.72
+NAGARKURNOOL,Uppunuthala,Uppununthala,78.59,16.45,01/07/23,5.74
+NAGARKURNOOL,Urkonda,Urkonda,78.41,16.73,01/07/23,10.65
+NAGARKURNOOL,Vangoor,Vangoor,78.62,16.61,01/07/23,2.18
+NAGARKURNOOL,Veldanda,Veldanda,78.52,16.73,01/07/23,14.72
+NALGONDA,Adavi devula palli,Ulsaipalem,79.5,16.71,01/07/23,5.7
+NALGONDA,Adavi devula palli,Anumula,79.29,16.8,01/07/23,10.33
+NALGONDA,Adavi devula palli,Chintagudem,79.29,16.83,01/07/23,4.7
+NALGONDA,Adavi devula palli,Pulimamidi,79.27,16.88,01/07/23,7.07
+NALGONDA,Adavi devula palli,Rajavaram,79.41,16.68,01/07/23,11
+NALGONDA,Adavi devula palli,Sreerampur,79.3,16.73,01/07/23,4.08
+NALGONDA,Madugulapally,Bommakal,79.52,17.03,01/07/23,
+NALGONDA,Chandampet,Buddoni thanda,78.96,16.55,01/07/23,18.88
+NALGONDA,Chandampet,Chandampet,78.89,16.58,01/07/23,8.98
+NALGONDA,Chandampet,Kambalapally,79.11,16.45,01/07/23,4.95
+NALGONDA,Chandampet,Thelidevarapally,78.97,16.51,01/07/23,16.33
+NALGONDA,Chandampet,Yelmalmanda,79.08,16.44,01/07/23,
+NALGONDA,Chandur,Angadipet,79.02,16.98,01/07/23,5.89
+NALGONDA,Chandur,Bangarigadda,79.01,16.98,01/07/23,4.88
+NALGONDA,Chandur,Chandur,79.06,16.97,01/07/23,9.17
+NALGONDA,Chandur,Chandur,79.07,16.99,01/07/23,4.74
+NALGONDA,Chandur,Donipamula,78.98,16.99,01/07/23,
+NALGONDA,Gattuppal,Ghattuppal,78.92,17.06,01/07/23,2.55
+NALGONDA,Chandur,Nermata,78.98,17,01/07/23,6.28
+NALGONDA,Chandur,Pullemla,79.021361,17.03,01/07/23,16.06
+NALGONDA,Chandur,Sirdepally,79.06,17.01,01/07/23,8.21
+NALGONDA,Chinthapalle,Kurmed Gate,78.76,16.89,01/07/23,10.11
+NALGONDA,Chinthapalle,Teeded,78.91,16.79,01/07/23,
+NALGONDA,Chityala,Urumadla,79.09,17.18,01/07/23,7.39
+NALGONDA,Chityala,Veliminedu,79.02,17.23,01/07/23,11.03
+NALGONDA,Devarakonda,Kamalapur,78.86,16.73,01/07/23,8.16
+NALGONDA,Devarakonda,Konda Bheemanapally,78.86025,16.69,01/07/23,6.21
+NALGONDA,Devarakonda,Padamtipally,78.8,16.68,01/07/23,7.38
+NALGONDA,Devarakonda,Tatikole,78.86,16.63,01/07/23,7.22
+NALGONDA,Gundlapalle,Dhindi,78.69,16.55,01/07/23,6.27
+NALGONDA,Gundlapalle,Vavikole,78.77,16.68,01/07/23,
+NALGONDA,Gurrampode,Gurrampode,79.09,16.85,01/07/23,6.52
+NALGONDA,Gurrampode,Koppole,79.15,16.91,01/07/23,3.68
+NALGONDA,Gurrampode,Palvai,79.02,16.75,01/07/23,5.48
+NALGONDA,Kondamallapally,K.Mallepally,78.98,16.73,01/07/23,6.34
+NALGONDA,Kangal,kanagala,79.2,16.94,01/07/23,5.82
+NALGONDA,Kattangoor,Cheruvu Annaram,79.35,17.2,01/07/23,8.14
+NALGONDA,Kattangoor,Kattangur,79.32,17.16,01/07/23,4.56
+NALGONDA,Kattangoor,Pamangundla,79.27,17.18,01/07/23,7.64
+NALGONDA,Kethepalle,Kethepally,79.51,17.15,01/07/23,2.42
+NALGONDA,Munugode,Kompalli,79.36,16.67,01/07/23,
+NALGONDA,Chinthapalle,Kurmed Gate,78.76,16.89,01/07/23,
+NALGONDA,Madugulapally,Kannekal,79.37,16.92,01/07/23,8.65
+NALGONDA,Gattuppal,Antampet,78.89,17.04,01/07/23,10.52
+NALGONDA,Marriguda,Khudabhaksh pally,78.83,17.03,01/07/23,16.59
+NALGONDA,Marriguda,Lenkala pally,78.95,16.99,01/07/23,7.89
+NALGONDA,Marriguda,Marriguda,78.86,16.94,01/07/23,2.98
+NALGONDA,Gattuppal,Namapur,78.93,17.03,01/07/23,3.55
+NALGONDA,Marriguda,Sarampet,78.9,16.99,01/07/23,6.6
+NALGONDA,Marriguda,Shivannagudam,79.02,16.98,01/07/23,5.16
+NALGONDA,Marriguda,Shivannagudam,78.89,17,01/07/23,2.72
+NALGONDA,Miryalaguda,B.Annaram,79.56,16.78,01/07/23,4.69
+NALGONDA,Miryalaguda,Kothagudem,79.6,16.82,01/07/23,3.85
+NALGONDA,Munugode,Kistapur,79.02,17.16,01/07/23,0.7
+NALGONDA,Munugode,Kompalli,78.99,17.1,01/07/23,6.13
+NALGONDA,Munugode,Munugode,79.08,17.07,01/07/23,6
+NALGONDA,Nakrekal,Arlagaddagudam,79.4,17.14,01/07/23,15.04
+NALGONDA,Nakrekal,Nakrekal,79.42,17.16,01/07/23,6.15
+NALGONDA,Nakrekal,Palem,79.45,17.23,01/07/23,7.59
+NALGONDA,Nakrekal,Vallabhapur,79.48,17.24,01/07/23,1.34
+NALGONDA,Nalgonda,Mushampally,79.32,16.97,01/07/23,9.15
+NALGONDA,Nalgonda,Nalgonda,79.25,17.04,01/07/23,
+NALGONDA,Nalgonda,Narsingbhatla,79.15,17.02,01/07/23,4.75
+NALGONDA,Nalgonda,Panagal,79.31,17.08,01/07/23,2.11
+NALGONDA,Nalgonda,S L B C G V guda,79.3,17.06,01/07/23,4.15
+NALGONDA,Nalgonda,Seetarampuram,79.22,17.11,01/07/23,8.25
+NALGONDA,Nalgonda,Velugupally,79.31,16.99,01/07/23,12.45
+NALGONDA,Nakrekal,Akkenepally,79.24,17.29,01/07/23,1.46
+NALGONDA,Nakrekal,Narketpalli,79.19,17.2,01/07/23,11.54
+NALGONDA,Neredugommu,Kothapally,79.03,16.57,01/07/23,4.03
+NALGONDA,Neredugommu,Neradugomma,78.97,16.6,01/07/23,17.35
+NALGONDA,Nidamanur,Nidamanur,79.29,16.84,01/07/23,7.3
+NALGONDA,Nidamanur,Thummadam,79.43,16.81,01/07/23,7.15
+NALGONDA,Pedda_adiserlapalle,Angadipet,79.08,16.72,01/07/23,5.47
+NALGONDA,Pedda_adiserlapalle,Azmapur,79.08,16.6,01/07/23,7.54
+NALGONDA,Saligouraram,P.Kondaram,79.42,17.25,01/07/23,
+NALGONDA,Peddavura,Peddavoora,79.19,16.74,01/07/23,3.45
+NALGONDA,Peddavura,Pulicherla,79.17,16.66,01/07/23,5.9
+NALGONDA,Peddavura,Velmaguda,79.18,16.78,01/07/23,10.8
+NALGONDA,Peddavura,Vijayapuri North,79.29,16.58,01/07/23,33.4
+NALGONDA,Saligouraram,Baironibanda,79.3,17.3,01/07/23,12.42
+NALGONDA,Saligouraram,P.Kondaram,79.42,17.25,01/07/23,5.11
+NALGONDA,Saligouraram,Vallala,79.39,17.24,01/07/23,6
+NALGONDA,Thipparthi,Pedda Suraram,79.36,17.1,01/07/23,9.7
+NALGONDA,Thipparthi,Thipparthy,79.42,17.01,01/07/23,2.34
+NALGONDA,Thipparthi,Mamidala,79.47,17.07,01/07/23,8.59
+NALGONDA,Tirumalagiri_Sagar,Nellikal,79.3,16.65,01/07/23,19.44
+NALGONDA,Vemulapalle,Bommakal,79.52,17.03,01/07/23,4.3
+NALGONDA,Vemulapalle,Settipalem,79.55,16.95,01/07/23,7.78
+NARAYANPET,Damaragidda,Kanukurthy,77.47,16.89,01/07/23,7.6
+NARAYANPET,Dhanwada,DHANWADA ,77.66,16.64,01/07/23,9.58
+NARAYANPET,Kosgi,Kosigi,77.71,16.98,01/07/23,6.62
+NARAYANPET,Krishna,Chegunta,77.32,16.47,01/07/23,7.88
+NARAYANPET,Krishna,Hindhupur,77.35,16.42,01/07/23,4.03
+NARAYANPET,Maddur,Maddur,77.61,16.86,01/07/23,12.33
+NARAYANPET,Maganoor,Maganur,77.43,16.45,01/07/23,8.6
+NARAYANPET,Makthal,Makthal,77.5,16.5,01/07/23,4.62
+NARAYANPET,Marikal,Marikal,77.7,16.59,01/07/23,11.08
+NARAYANPET,Narayanpet,Appireddypally  ,77.57,16.73,01/07/23,8.22
+NARAYANPET,Narayanpet,Kollampally,77.62,16.67,01/07/23,5.77
+NARAYANPET,Narayanpet,Kotakonda,77.64,16.75,01/07/23,7.85
+NARAYANPET,Narayanpet,Narayanapet,77.48,16.74,01/07/23,3.37
+NARAYANPET,Narva,Narva,77.66,16.47,01/07/23,6.5
+NARAYANPET,Utkoor,Pulimamidi,77.55,16.57,01/07/23,6.92
+NARAYANPET,Utkoor,Utkoor,77.5,16.64,01/07/23,3.12
+NARAYANPET,Utkoor,Chinnaporla,77.52,16.58,01/07/23,5
+NIRMAL,Dilawarpur,Dilawarpur,78.22,19.09,01/07/23,5.08
+NIRMAL,Kaddampeddur,Kadam,78.78,19.1,01/07/23,0.1
+NIRMAL,Khanapur,Khanapur,78.66,19.05,01/07/23,5.26
+NIRMAL,Kubeer,Kubeer,77.95,19.25,01/07/23,1.19
+NIRMAL,Kuntala,Kuntala,78.1,19.17,01/07/23,11.03
+NIRMAL,Laxmanchanda,Laxmanchanda,78.46,19.02,01/07/23,0.29
+NIRMAL,Lokeswaram,Abdullapur,78.04,18.97,01/07/23,12.1
+NIRMAL,Lokeswaram,Lokeswaram,78.09,19.02,01/07/23,7.08
+NIRMAL,Lokeswaram,Manmad,78.11,19.06,01/07/23,12.15
+NIRMAL,Mamda,Mamada,78.52,19.08,01/07/23,0.85
+NIRMAL,Mudhole,Mudhole,77.92,18.98,01/07/23,7.35
+NIRMAL,Narsapur_G,Narsapur,78.17,19.11,01/07/23,6.9
+NIRMAL,Nirmal (U),Nirmal,78.34,19.09,01/07/23,1.21
+NIRMAL,Pembi,Pembi,78.64,19.19,01/07/23,0.55
+NIRMAL,Sarangapur,Beeravelly,78.26,19.14,01/07/23,7.02
+NIRMAL,Sarangapur,Ponkur (Swarna),78.22,19.25,01/07/23,5.74
+NIRMAL,Tanur,Bhosi,77.88,19.11,01/07/23,3.8
+NIRMAL,Basar,BASAR,77.95,18.87,01/07/23,8.25
+NIRMAL,Bhainsa,BHAINSA,77.98,19.1,01/07/23,0.65
+NIRMAL,Bhainsa,KAMOLE,78,19.06,01/07/23,9.13
+NIRMAL,Bhainsa,MATEGAON-B,78.01,19.1,01/07/23,4.35
+NIRMAL,Dastuarabad,DASTURABAD,78.86,19.09,01/07/23,1.07
+NIRMAL,Dastuarabad,GONDSERIALA,78.9,19.05,01/07/23,0.56
+NIRMAL,Dilawarpur,MALLAPUR,78.27,19.05,01/07/23,6.72
+NIRMAL,Kaddampeddur,CHINNABELLAL,78.82,19.06,01/07/23,9.59
+NIRMAL,Kaddampeddur,LAXMIPUR,78.83,19.13,01/07/23,2.61
+NIRMAL,Kaddampeddur,LINGAPUR,78.72,19.05,01/07/23,1.2
+NIRMAL,Kaddampeddur,ALLAMPALLY,78.72,19.26,01/07/23,4.83
+NIRMAL,Kaddampeddur,GANDIGOPALPUR,78.86,19.24,01/07/23,5.31
+NIRMAL,Khanapur,BEERNANDI,78.71,19.11,01/07/23,0.95
+NIRMAL,Khanapur,RAJURA,78.59,19.15,01/07/23,1.3
+NIRMAL,Khanapur,SURJAPUR,78.64,19.01,01/07/23,2.05
+NIRMAL,Kubeer,PANGRA,77.96,19.18,01/07/23,5.13
+NIRMAL,Kuntala,KALLUR,78.1,19.1,01/07/23,16.9
+NIRMAL,Lokeswaram,DHARMORA,78.08,18.97,01/07/23,7.2
+NIRMAL,Lokeswaram,PUSPUR,78.03,19.04,01/07/23,3.6
+NIRMAL,Mamda,PONKAL,78.54,19.01,01/07/23,1.18
+NIRMAL,Mamda,TANDRA,78.47,19.18,01/07/23,9.06
+NIRMAL,Mudhole,CHINCHALA,77.95,19.01,01/07/23,5.03
+NIRMAL,Pembi,LOTHAR THANDA,78.61,19.25,01/07/23,1.64
+NIRMAL,Soan,PAKPATLA,78.34,18.99,01/07/23,0.05
+NIRMAL,Tanur,TANUR,77.84,19,01/07/23,0.63
+NIZAMABAD,Aloor,Macharla,78.19,18.85,01/07/23,0.15
+NIZAMABAD,Armur,perkit,78.32,18.81,01/07/23,4.36
+NIZAMABAD,Bheemgal,Bheemgal,78.44,18.72,01/07/23,6.98
+NIZAMABAD,Bheemgal,Gongoppula,78.43,18.64,01/07/23,29.63
+NIZAMABAD,Bheemgal,Jagiryal,78.45,18.74,01/07/23,1.26
+NIZAMABAD,Bheemgal,Mendora,78.51,18.71,01/07/23,5.69
+NIZAMABAD,Bheemgal,Thallapally,78.56,18.66,01/07/23,17.4
+NIZAMABAD,Bodhan,Bodhan,77.89,18.67,01/07/23,2.62
+NIZAMABAD,Bodhan,Chinnamavandi,77.88,18.73,01/07/23,18.73
+NIZAMABAD,Saloora,Saloor,77.82,18.68,01/07/23,6.6
+NIZAMABAD,Dharpalle,Ramadugu,78.31,18.61,01/07/23,3.7
+NIZAMABAD,Dharpalle,Honnajipet,78.39,18.53,01/07/23,13.81
+NIZAMABAD,Dichpalle,Yanampally,78.25,18.63,01/07/23,9.57
+NIZAMABAD,Indalwai,Gannaram,78.23,18.51,01/07/23,3.13
+NIZAMABAD,Jakranpalle,Jakrampally,78.27,18.71,01/07/23,5.22
+NIZAMABAD,Kammarpalle,Choutpalli,78.54,18.78,01/07/23,1.33
+NIZAMABAD,Kammarpalle,Inayathnagar,78.56,18.71,01/07/23,2.18
+NIZAMABAD,Kammarpalle,Kammarpally,78.52,18.83,01/07/23,1.4
+NIZAMABAD,Kotgiri,Kotagiri,77.83,18.58,01/07/23,10.85
+NIZAMABAD,Pothangal,Kallur,77.77,18.52,01/07/23,6.06
+NIZAMABAD,Pothangal,Takli,77.8,18.65,01/07/23,12.23
+NIZAMABAD,Makloor,Madanapally,78.18,18.68,01/07/23,12.28
+NIZAMABAD,Makloor,Makloor,78.12,18.75,01/07/23,12.26
+NIZAMABAD,Mendora,Mendora,78.4,18.95,01/07/23,8.15
+NIZAMABAD,Mortad,Morthad,78.45,18.83,01/07/23,4.15
+NIZAMABAD,Mugpal,Manchippa,78.11,18.54,01/07/23,2.07
+NIZAMABAD,Mupkal,Mupkal,78.36,18.91,01/07/23,3.26
+NIZAMABAD,Mupkal,Renjarla,78.41,18.89,01/07/23,1.56
+NIZAMABAD,Nandipet,Ailapoor,78.11,18.85,01/07/23,4.61
+NIZAMABAD,Nandipet,Badguni,78.14,18.93,01/07/23,6.98
+NIZAMABAD,Donkeshwar,Nutpally,78.22,18.94,01/07/23,1.71
+NIZAMABAD,Nandipet,Velmal,78.14,18.83,01/07/23,2.82
+NIZAMABAD,Navipet,Fakeerabad,77.84,18.54,01/07/23,
+NIZAMABAD,Navipet,Nizampur,78.06,18.87,01/07/23,0.2
+NIZAMABAD,Navipet,Yemcha,77.97,18.85,01/07/23,4.18
+NIZAMABAD,Nizamabad_North,Arsapally,78.07,18.69,01/07/23,1.01
+NIZAMABAD,Nizamabad_Rural,Malkapur,78.01,18.59,01/07/23,9.62
+NIZAMABAD,Ranjal,Dupally,77.99,18.73,01/07/23,10.63
+NIZAMABAD,Ranjal,Satapoor,77.93,18.75,01/07/23,6.4
+NIZAMABAD,Rudrur,Rayakur,77.86,18.61,01/07/23,5.96
+NIZAMABAD,Sirkonda,Cheemanpally,78.56,18.57,01/07/23,14.38
+NIZAMABAD,Sirkonda,Gadkole,78.43,18.53,01/07/23,17.55
+NIZAMABAD,Sirkonda,Pakala,78.5,18.53,01/07/23,4.93
+NIZAMABAD,Sirkonda,Peddavolgote,78.43,18.6,01/07/23,1.93
+NIZAMABAD,Sirkonda,Sirikonda,78.48,18.54,01/07/23,19.82
+NIZAMABAD,Sirkonda,Thumpally,78.48,18.49,01/07/23,9.77
+NIZAMABAD,Tadwai,Aragonda,78.27,18.23,01/07/23,
+NIZAMABAD,Vailpur,Ankushpur,78.4,18.81,01/07/23,0.86
+NIZAMABAD,Vailpur,Vailpoor,78.39,18.77,01/07/23,4.34
+NIZAMABAD,Rudrur,Rudrur,77.89,18.59,01/07/23,0.4
+NIZAMABAD,Varni,Jalalpur,77.98,18.49,01/07/23,13.59
+NIZAMABAD,Varni,Varni,77.9,18.54,01/07/23,6
+NIZAMABAD,Yeda_Palle,Yedapalli,77.95,18.68,01/07/23,11.63
+NIZAMABAD,Yergatla,Yergatla,78.49,18.9,01/07/23,1.02
+NIZAMABAD,Armur,Ankapur,78.24,18.77,01/07/23,4.03
+NIZAMABAD,Armur,Manthini,78.25,18.85,01/07/23,6.3
+NIZAMABAD,Balkonda,Balkonda,78.35,18.87,01/07/23,5.95
+NIZAMABAD,Balkonda,Vannel (B),78.38,18.86,01/07/23,2.07
+NIZAMABAD,Bheemgal,Bada Bheemgal,78.4,18.7,01/07/23,14.95
+NIZAMABAD,Bheemgal,Kupkal,78.51,18.72,01/07/23,8.11
+NIZAMABAD,Bheemgal,Pallykonda,78.48,18.67,01/07/23,8.24
+NIZAMABAD,Bodhan,Sangam,77.91,18.6,01/07/23,18.33
+NIZAMABAD,Dharpalle,Kotalpally,78.36,18.47,01/07/23,2.56
+NIZAMABAD,Dichpalle,Dichpally,78.19,18.63,01/07/23,10.45
+NIZAMABAD,Indalwai,Indalwai,78.25,18.55,01/07/23,0.45
+NIZAMABAD,Jakranpalle,Thorikonda,78.31,18.75,01/07/23,10.69
+NIZAMABAD,Mendora,Doodgaon,78.37,18.96,01/07/23,0.6
+NIZAMABAD,Mortad,Palem,78.44,18.86,01/07/23,7.26
+NIZAMABAD,Mosra,Mosra,77.98,18.61,01/07/23,9.37
+NIZAMABAD,Mugpal,Mugpal,78.12,18.62,01/07/23,20.15
+NIZAMABAD,Donkeshwar,Donkeswar,78.19,18.93,01/07/23,0.52
+NIZAMABAD,Nandipet,Talweda,78.09,18.88,01/07/23,5.35
+NIZAMABAD,Nizamabad_North,Dubba,78.1,18.7,01/07/23,12.2
+NIZAMABAD,Nizamabad_North,Kanteswar,78.11,18.69,01/07/23,23.06
+NIZAMABAD,Nizamabad_Rural,Gupanpally,78.13,18.69,01/07/23,16.61
+NIZAMABAD,Nizamabad_Rural,Palda,78.08,18.76,01/07/23,6.14
+NIZAMABAD,Nizamabad_South,Shivajinagar,78.09,18.68,01/07/23,13.82
+NIZAMABAD,Ranjal,Dandigutta,77.98,18.75,01/07/23,4.05
+NIZAMABAD,Sirkonda,Chinna Volgate,78.45,18.61,01/07/23,16.65
+NIZAMABAD,Sirkonda,Musheernagar,78.41,18.51,01/07/23,11.73
+NIZAMABAD,Vailpur,Pachal Narkuda,78.37,18.73,01/07/23,15.65
+NIZAMABAD,Vailpur,Ramannapet,78.44,18.76,01/07/23,0.49
+NIZAMABAD,Yeda_Palle,Thanakalan,78.01,18.67,01/07/23,0.62
+NIZAMABAD,Yergatla,Gumriyal,78.52,18.95,01/07/23,0.82
+PEDDAPALLY,Antargoan,Goliwada,79.42,18.84,01/07/23,2.4
+PEDDAPALLY,Dharmaram,Dharmaram,79.19,18.75,01/07/23,1.9
+PEDDAPALLY,Dharmaram,Khilavanparthy,79.28,18.7,01/07/23,1.8
+PEDDAPALLY,Elgaid,Eligedu,79.26,18.55,01/07/23,2.8
+PEDDAPALLY,Julapalle,Julapalli,79.25,18.62,01/07/23,2.3
+PEDDAPALLY,Kamanpur,Rompikunta,79.48,18.67,01/07/23,2.75
+PEDDAPALLY,Manthani,Eglaspur,79.69,18.65,01/07/23,19.5
+PEDDAPALLY,Manthani,Gunjapadugu,79.6,18.69,01/07/23,14.3
+PEDDAPALLY,Manthani,Khansaipet,79.73,18.67,01/07/23,6.01
+PEDDAPALLY,Manthani,Manthani ,79.67,18.64,01/07/23,14.6
+PEDDAPALLY,Manthani,Venkatapur,79.8,18.65,01/07/23,9.85
+PEDDAPALLY,Mutharam_Manthani,Khammampally,79.7,18.56,01/07/23,4.96
+PEDDAPALLY,Odela,Odella,79.46,18.45,01/07/23,1.3
+PEDDAPALLY,Peddapalle,Peddapalli,79.39,18.6,01/07/23,2.68
+PEDDAPALLY,Ramagundam,Palakurthy,79.38,18.72,01/07/23,2.4
+PEDDAPALLY,Ramagundam,Ramagundam,79.51,18.76,01/07/23,0.6
+PEDDAPALLY,Srirampur,Srirampuram,79.53,18.48,01/07/23,4.2
+RANGAREDDY,Chevella,Alur,78.06,17.32,01/07/23,9.65
+RANGAREDDY,Amangal,Amangal,78.54,16.84,01/07/23,5.76
+RANGAREDDY,Shabad,Antharam,78.78,17.05,01/07/23,10.15
+RANGAREDDY,Balapur,Balapur (Leninnagar),78.45,17.25,01/07/23,8.26
+RANGAREDDY,Abdullapurmet,Batasingaram,78.74,17.3,01/07/23,2.3
+RANGAREDDY,Kondurg,Bhairampally,78.08,17.12,01/07/23,6.46
+RANGAREDDY,Manchal,Bodakonda,78.77,17.06,01/07/23,11.18
+RANGAREDDY,Chevella,Dharmasagar,78.15,17.34,01/07/23,17.75
+RANGAREDDY,Ibrahimpatnam,Elimenadu,78.6,17.15,01/07/23,11.99
+RANGAREDDY,Serilingampally,Gachibowli,78.37,17.43,01/07/23,
+RANGAREDDY,Madgul,Irvin,78.72,16.78,01/07/23,3.84
+RANGAREDDY,Kadthal,Kadthal,78.52,16.98,01/07/23,15.51
+RANGAREDDY,Kandukur,Kandukur,78.48,17.08,01/07/23,9.21
+RANGAREDDY,Kadthal,Karkalpad,78.53,16.93,01/07/23,6.77
+RANGAREDDY,Keshampeta,Keshampet,78.33,16.94,01/07/23,7.06
+RANGAREDDY,Moinabad,Kethereddipally,78.22,17.28,01/07/23,13.66
+RANGAREDDY,Ibrahimpatnam,Kongarkalan,78.55,17.2,01/07/23,7.39
+RANGAREDDY,Kothur,Kothur,78.29,17.16,01/07/23,9.38
+RANGAREDDY,Madgul,Kulkulpally,78.73,16.91,01/07/23,10.15
+RANGAREDDY,Abdullapurmet,Kuntloor,78.63,17.34,01/07/23,10.57
+RANGAREDDY,Madgul,Madgula,78.69,16.84,01/07/23,10.5
+RANGAREDDY,Maheshwaram,Maheswaram,78.44,17.14,01/07/23,12.56
+RANGAREDDY,Shamshabad,Malkaram,78.28,17.26,01/07/23,13.13
+RANGAREDDY,Manchal,Manchal,78.74,17.16,01/07/23,3.78
+RANGAREDDY,Ibrahimpatnam,Mangalpally,78.6,17.22,01/07/23,6.71
+RANGAREDDY,Moinabad,Moinabad,78.29,17.33,01/07/23,5.84
+RANGAREDDY,Balapur,Nadhargull,78.54,17.27,01/07/23,6.44
+RANGAREDDY,Shamshabad,Ootlapally,78.37,17.25,01/07/23,8.54
+RANGAREDDY,Shamshabad,Palmokole,78.3,17.2,01/07/23,7.89
+RANGAREDDY,Maheshwaram,Pondiyala,78.38,17.12,01/07/23,4.78
+RANGAREDDY,Rajendranagar,Rajender Nagar,78.41,17.32,01/07/23,9.9
+RANGAREDDY,Farooqnagar,Shadnagar,78.18,17.06,01/07/23,20.85
+RANGAREDDY,Shabad,Shahbad,78.1,17.2,01/07/23,4.26
+RANGAREDDY,Shankarpalle,Shankarpalli,78.13,17.45,01/07/23,19.22
+RANGAREDDY,Kothur,Siddapur,78.35,17.05,01/07/23,5.91
+RANGAREDDY,Talakondapalle,Talakondapalli,78.41,16.89,01/07/23,10.35
+RANGAREDDY,Kothur,Teegapur,78.27,17.16,01/07/23,14.85
+RANGAREDDY,Yacharam,Tumotoniguda (Mall),78.7,16.99,01/07/23,7.15
+RANGAREDDY,Jilled Chowdergudem,Vanampalli,78,17.11,01/07/23,3.49
+RANGAREDDY,Yacharam,Yacharam,78.67,17.05,01/07/23,7.21
+RANGAREDDY,Shankarpalle,Yeravaguda,78.13,17.41,01/07/23,7.85
+RANGAREDDY,Abdullapurmet,ABDULLAPURMET,78.69,17.31,01/07/23,4.51
+RANGAREDDY,Abdullapurmet,TURKAYAMJAL,78.58,17.26,01/07/23,5.21
+RANGAREDDY,Chevella,KANDAWADA,78.69,17.31,01/07/23,11.11
+RANGAREDDY,Jilled Chowdergudem,THUMMALAPALLY,78.58,17.26,01/07/23,18.56
+RANGAREDDY,Jilled Chowdergudem,VEERANNAPET,78.53,16.86,01/07/23,7.41
+RANGAREDDY,Farooqnagar,BURGULA,78.17,17.28,01/07/23,2.66
+RANGAREDDY,Farooqnagar,CHINCHODE,78.01,17.13,01/07/23,4.36
+RANGAREDDY,Gandipet,NARSINGI,77.97,17.06,01/07/23,8.77
+RANGAREDDY,Ibrahimpatnam,DANDU MAILARAM,78.22,16.97,01/07/23,13.43
+RANGAREDDY,Ibrahimpatnam,IBRAHIMPATNAM,78.11,17.03,01/07/23,23.08
+RANGAREDDY,Kadthal,MUDVIN,78.35,17.39,01/07/23,12.54
+RANGAREDDY,Kandukur,MEERKHANPET,78.76,17.22,01/07/23,3.97
+RANGAREDDY,Kandukur,RACHALUR,78.65,17.19,01/07/23,1.45
+RANGAREDDY,Keshampeta,IPPALAPALLY,78.6,16.91,01/07/23,2.74
+RANGAREDDY,Kondurg,KONDURGU,78.58,17.05,01/07/23,5.21
+RANGAREDDY,Kothur,INMULNARVA,78.53,17.12,01/07/23,3.64
+RANGAREDDY,Kothur,KOTHUR,78.29,16.98,01/07/23,7.67
+RANGAREDDY,Kothur,PENJERLA,78.04,17.09,01/07/23,11.55
+RANGAREDDY,Maheshwaram,AMEERPET,78.3,17.09,01/07/23,11.16
+RANGAREDDY,Maheshwaram,MANKAL,78.28,17.14,01/07/23,9.28
+RANGAREDDY,Moinabad,HIMAYATHSAGAR,78.32,17.11,01/07/23,10.72
+RANGAREDDY,Serilingampally,GOPANPALLY,78.34,17.15,01/07/23,11.12
+RANGAREDDY,Shabad,CHANDANVELLY,78.47,17.2,01/07/23,1.57
+RANGAREDDY,Shamshabad,PEDDA SHAPOOR,78.3,17.34,01/07/23,5.42
+RANGAREDDY,Shankarpalle,MOKILA,78.31,17.45,01/07/23,17.38
+RANGAREDDY,Yacharam,NANDIWANAPARTHI,78.17,17.23,01/07/23,4.88
+SANGAREDDY,Ameenapur,Kistareddypet,78.33,17.21,01/07/23,0.86
+SANGAREDDY,Andhole,Jogipet,78.19,17.43,01/07/23,6.69
+SANGAREDDY,Gummadidala,Annaram,78.36,16.83,01/07/23,17.68
+SANGAREDDY,Gummadidala,Gummadiddla,78.63,17.05,01/07/23,13
+SANGAREDDY,Hathanoora,Borapatla,78.16,17.67,01/07/23,18.78
+SANGAREDDY,Hathanoora,Nasthipur,78.22,17.7,01/07/23,21.35
+SANGAREDDY,Jharasangam,Jarasangam,77.72,17.76,01/07/23,
+SANGAREDDY,Jinnaram,Ootla,78.32,17.63,01/07/23,11.33
+SANGAREDDY,Kalher,Bachapally,77.87,18.14,01/07/23,14.42
+SANGAREDDY,Kalher,Masanpalli,77.88,18.18,01/07/23,
+SANGAREDDY,Kalher,Meerkhanpally,77.85,18.12,01/07/23,12.07
+SANGAREDDY,Kandi,Byathole,78.19,17.61,01/07/23,11.8
+SANGAREDDY,Kandi,Cherlagudem,78.09,17.51,01/07/23,
+SANGAREDDY,Kangti,Kangti,77.62,18.22,01/07/23,3.92
+SANGAREDDY,Kohir,Kothur (D),77.77,17.66,01/07/23,4.8
+SANGAREDDY,Kondapur,Kondapur,78.01,17.55,01/07/23,
+SANGAREDDY,Manoor,Manoor,77.74,17.98,01/07/23,9.52
+SANGAREDDY,Mogdampalle,Mogudampally,77.84,17.63,01/07/23,
+SANGAREDDY,Munipalli,Budera,77.87,17.69,01/07/23,1.83
+SANGAREDDY,Nagalgidda,Pusalpad,77.69,18.02,01/07/23,
+SANGAREDDY,Narayankhed,Abbenda,77.71,18.05,01/07/23,
+SANGAREDDY,Narayankhed,Narayanakhed,77.76,18.03,01/07/23,5.91
+SANGAREDDY,Naykal,Hadnoor - s,77.63,17.8,01/07/23,10.76
+SANGAREDDY,Patancheruvu,Isnapur,78.2,17.55,01/07/23,16.17
+SANGAREDDY,Patancheruvu,Patancheruvu,78.27,17.53,01/07/23,15.8
+SANGAREDDY,Pulkal,Kodur,78.03,17.72,01/07/23,4.8
+SANGAREDDY,Pulkal,Muddaipet,77.98,17.75,01/07/23,3.7
+SANGAREDDY,Pulkal,Pulkal,78,17.73,01/07/23,4.38
+SANGAREDDY,Ramachandrapuram,R.C.Puram,78.3,17.51,01/07/23,15.75
+SANGAREDDY,Raikode,Chimnapur,77.75,17.83,01/07/23,
+SANGAREDDY,Sadasivpet,Sadasivpet,77.96,17.62,01/07/23,
+SANGAREDDY,Sangareddy,Sangareddy,78.08,17.6,01/07/23,32.94
+SANGAREDDY,Sirgapoor,Wasar,77.66,18.14,01/07/23,
+SANGAREDDY,Watpalle,Vatpally,77.87,17.91,01/07/23,1.37
+SANGAREDDY,Zahirabad,Ranzole-I,77.66,17.68,01/07/23,15.09
+SIDDIPET,Akkannapeta,Jangaon,79.2,18.09,01/07/23,9.45
+SIDDIPET,Bejjanki,Dacharam,79.06,18.25,01/07/23,2.35
+SIDDIPET,Bejjanki,Guggilla,79.06,18.2,01/07/23,6.94
+SIDDIPET,Bejjanki,Mylaram,79.073,18.369,01/07/23,
+SIDDIPET,Bejjanki,Vodlur Begampet,79.04,18.32,01/07/23,7.31
+SIDDIPET,Cheriyal,Cherila,78.98,17.89,01/07/23,1.63
+SIDDIPET,Cheriyal,Gurijakunta,78.97,17.96,01/07/23,1.78
+SIDDIPET,Cheriyal,Nagapuri,78.88,17.86,01/07/23,7.95
+SIDDIPET,Cheriyal,Veerannapet,78.99,17.86,01/07/23,1.17
+SIDDIPET,Chinnakodur,Allipur,78.92,18.24,01/07/23,7.37
+SIDDIPET,Chinnakodur,Ananthasagar,79,18.18,01/07/23,10.38
+SIDDIPET,Chinnakodur,Machapur,78.88,18.2,01/07/23,
+SIDDIPET,Chinnakodur,Peddakodur,78.89,18.15,01/07/23,3.86
+SIDDIPET,Doultabad,Mubaraspur,78.6,17.96,01/07/23,16.9
+SIDDIPET,Akbarpet-Bhoompally,Chittapur,78.62,18.13,01/07/23,13.32
+SIDDIPET,Dubbak,Dubbak,78.67,18.17,01/07/23,
+SIDDIPET,Dubbak,Gambeerpur,78.61,18.23,01/07/23,18.98
+SIDDIPET,Dubbak,Peddacheekode,78.63,18.21,01/07/23,8.74
+SIDDIPET,Akbarpet-Bhoompally,Pothireddypet,78.57,18.13,01/07/23,8.61
+SIDDIPET,Gajwel,Gajwel,78.68,17.84,01/07/23,8.05
+SIDDIPET,Husnabad,Husnabad,79.21,18.14,01/07/23,2.05
+SIDDIPET,Jagadevpur,Munigadapa,78.82,17.81,01/07/23,4.55
+SIDDIPET,Jagadevpur,Chatlapally,78.86,17.85,01/07/23,6.05
+SIDDIPET,Jagadevpur,Dharmaram,78.81,17.72,01/07/23,14.57
+SIDDIPET,Jagadevpur,Itkal,78.77,17.76,01/07/23,
+SIDDIPET,Jagadevpur,Kondapur,78.85,17.79,01/07/23,5.94
+SIDDIPET,Jagadevpur,T.Narsapur,78.86,17.86,01/07/23,1.89
+SIDDIPET,Koheda,Koheda,79.09,18.17,01/07/23,3.5
+SIDDIPET,Koheda,Varikolu,79.11,18.26,01/07/23,4.29
+SIDDIPET,Komaravelly,Komaravelli,78.9,17.93,01/07/23,5.91
+SIDDIPET,Komaravelly,Ainapur,78.89,17.89,01/07/23,2.52
+SIDDIPET,Komaravelly,Gouraipally,78.9,17.95,01/07/23,2.45
+SIDDIPET,Komaravelly,Komuravelli,78.58,18.25,01/07/23,
+SIDDIPET,Kondapak,Ankireddypally,78.93,18,01/07/23,3.68
+SIDDIPET,Kondapak,Sir singandla,78.83,18.01,01/07/23,4.24
+SIDDIPET,Maddur,Bekkal,79.1,17.99,01/07/23,4.68
+SIDDIPET,Maddur,Madoor,79.05,17.93,01/07/23,8.33
+SIDDIPET,Maddur,Salakpur,79.03,17.89,01/07/23,5.34
+SIDDIPET,Markook,Markood,78.72,17.75,01/07/23,13.61
+SIDDIPET,Akbarpet-Bhoompally,Bhoompalli,78.6,18.12,01/07/23,7.47
+SIDDIPET,Akbarpet-Bhoompally,Jangapally,78.62,18.05,01/07/23,7.93
+SIDDIPET,Mulug,Mulugu,78.63,17.72,01/07/23,32.97
+SIDDIPET,Mulug,Adivimajid,78.68,17.71,01/07/23,12.92
+SIDDIPET,Mulug,Zaptisingaipally,78.61,17.69,01/07/23,6.53
+SIDDIPET,Nanganur,Katha,79.07,18.02,01/07/23,3.27
+SIDDIPET,Nanganur,Kodarajpally,79.09,18.04,01/07/23,11.26
+SIDDIPET,Nanganur,Rampur,78.99,18.09,01/07/23,7.77
+SIDDIPET,Rayapole,Raipole,78.62,17.93,01/07/23,14.54
+SIDDIPET,Siddipet_Urban,Siddipet,78.84,18.1,01/07/23,9.89
+SIDDIPET,Siddipet_Rural,Ragavapur,78.78,18.18,01/07/23,13.85
+SIDDIPET,Siddipet_Rural,Tornal,78.75,18.12,01/07/23,9.62
+SIDDIPET,Thoguta,Kuknoorpally,78.81,17.89,01/07/23,8.95
+SIDDIPET,Wargal,Majidpalli,78.59,17.82,01/07/23,0.2
+SIRCILLA,Boinpalle,Korem,78.91,18.53,01/07/23,0.93
+SIRCILLA,Boinpalle,Kothapet (NC),78.96,18.42,01/07/23,4.45
+SIRCILLA,Chandurthi,Chandurthy,78.78,18.57,01/07/23,0.57
+SIRCILLA,Gambhiraopeta,Gajasingaram,78.57,18.4,01/07/23,5.02
+SIRCILLA,Gambhiraopeta,Kothapally,78.58,18.27,01/07/23,9.87
+SIRCILLA,Gambhiraopeta,Narmal,78.55,18.28,01/07/23,5.78
+SIRCILLA,Ellanthakunta,Ananthagiri,78.9,18.27,01/07/23,1.86
+SIRCILLA,Ellanthakunta,Illanthukunta ,78.96,18.31,01/07/23,13.53
+SIRCILLA,Ellanthakunta,Kandikatkur,78.96,18.37,01/07/23,0.68
+SIRCILLA,Ellanthakunta,Repaka,78.98,18.26,01/07/23,5.29
+SIRCILLA,Konaraopeta,Dharmaram,78.74,18.45,01/07/23,9.18
+SIRCILLA,Konaraopeta,Kolanur,78.78,18.42,01/07/23,10.2
+SIRCILLA,Konaraopeta,Kondapur,78.7,18.51,01/07/23,3.37
+SIRCILLA,Konaraopeta,Mamidipalli,78.76,18.5,01/07/23,8.36
+SIRCILLA,Konaraopeta,Nizamabad,78.72,18.47,01/07/23,9.5
+SIRCILLA,Konaraopeta,Suddala,78.79,18.47,01/07/23,4.25
+SIRCILLA,Mustabad,Avunoor,78.72,18.35,01/07/23,4.2
+SIRCILLA,Mustabad,Kondapur,78.68,18.34,01/07/23,0.66
+SIRCILLA,Sirsilla,Sircilla(urban),78.78,18.36,01/07/23,6.21
+SIRCILLA,Thangallapalle,Rallapet,78.82,18.28,01/07/23,4.73
+SIRCILLA,Thangallapalle,Ramchandrapaur,78.83,18.41,01/07/23,0.88
+SIRCILLA,Veernapalle,Garjanapalle,78.61,18.53,01/07/23,2.23
+SIRCILLA,Veernapalle,Veernapally,78.61,18.47,01/07/23,9.22
+SIRCILLA,Vemulawada,Chekkapalli,78.86,18.53,01/07/23,0.96
+SIRCILLA,Vemulawada,Vemulawada(rural),78.86,18.49,01/07/23,13.21
+SIRCILLA,Yellareddypeta,Racherla Boppaspur,78.62,18.38,01/07/23,3.66
+SIRCILLA,Yellareddypeta,Rajannapet,78.64,18.4,01/07/23,1.36
+SURYAPET,Jajireddigudem,Jajireddigudem,79.5,17.33,01/07/23,3.73
+SURYAPET,Jajireddigudem,Kodur,79.62,17.32,01/07/23,10.76
+SURYAPET,Nagaram,Nagaram,79.5,17.39,01/07/23,0.41
+SURYAPET,Atmakur_S,Aipur,79.73,17.28,01/07/23,5.42
+SURYAPET,Chilkur,Bethevole,79.81,16.97,01/07/23,4.58
+SURYAPET,Chilkur,Chilkuru,79.89,16.95,01/07/23,4.37
+SURYAPET,Chinthala palem,Dondapadu,80.01,16.82,01/07/23,15.82
+SURYAPET,Chinthala palem,Gudimalkapur,79.98,16.8,01/07/23,15.61
+SURYAPET,Chinthala palem,Mallareddigudem,79.98,16.77,01/07/23,8.84
+SURYAPET,Chivvemla,B. Chandupatla,79.72,17.14,01/07/23,1.45
+SURYAPET,Chivvemla,Gumpula Tirumalagiri,79.72,17.11,01/07/23,4.44
+SURYAPET,Garidepalle,Gardepalli,79.72,16.88,01/07/23,
+SURYAPET,Kodad,Thogarrai,79.93,16.94,01/07/23,1.66
+SURYAPET,Mattampalle,Mattampalli,79.85,16.79,01/07/23,5.13
+SURYAPET,Mattampalle,Raghunadhapalem,79.89,16.75,01/07/23,7.58
+SURYAPET,Mellachervu,Mellacheruvu,79.9,16.84,01/07/23,13.42
+SURYAPET,Mothey,Kudali,79.8,17.27,01/07/23,
+SURYAPET,Mothey,Mamillaguda,79.85,17.18,01/07/23,5.64
+SURYAPET,Mothey,Urlaguda,79.85,17.25,01/07/23,2.04
+SURYAPET,Munagala,Akupamula,79.87,17.03,01/07/23,4.14
+SURYAPET,Nadigudem,Vaila Singaram,79.93,17.08,01/07/23,0.56
+SURYAPET,Neredcherla,Dirsencherla,79.67,16.85,01/07/23,4.93
+SURYAPET,Noothankal,Dirsenapally,79.73,17.36,01/07/23,9.83
+SURYAPET,Noothankal,Maddirala,79.7,17.4,01/07/23,
+SURYAPET,Noothankal,Nuthankal,79.69,17.33,01/07/23,4.69
+SURYAPET,Palakeedu,Janpahad,79.71,16.74,01/07/23,11.22
+SURYAPET,Palakeedu,Palakeedu,79.7,16.8,01/07/23,6.04
+SURYAPET,Suryapet,Pillalamarry,79.58,17.15,01/07/23,1.08
+SURYAPET,Suryapet,Yerkaram,79.58,17.23,01/07/23,9.84
+SURYAPET,Thungathurthi,Annaram,79.61,17.38,01/07/23,3.68
+SURYAPET,Thungathurthi,Ravulapally,79.63,17.47,01/07/23,0.89
+SURYAPET,Thungathurthi,Thungathurthi,79.59,17.4,01/07/23,1.44
+SURYAPET,Thungathurthi,Mamidala,79.54,17.51,01/07/23,1.83
+SURYAPET,Ananthagiri,GONDRIYALA,80.04,17,01/07/23,5.97
+SURYAPET,Atmakur_S,ATHMAKUR(S),79.71,17.23,01/07/23,4.14
+SURYAPET,Chivvemla,VATTIKHAMMAMPAHAD,79.69,17.16,01/07/23,3.78
+SURYAPET,Garidepalle,KALMALACHERUVU,79.74,16.83,01/07/23,1.4
+SURYAPET,Huzur nagar,HUZURNAGAR,79.88,16.91,01/07/23,2.76
+SURYAPET,Kodad,KAPUGAL,79.99,16.94,01/07/23,2.1
+SURYAPET,Maddirala,MUKUNDAPURAM,79.74,17.4,01/07/23,2.27
+SURYAPET,Munagala,MUNAGALA,79.83,17.06,01/07/23,1.59
+SURYAPET,Maddirala,REDDYGUDEM,79.68,17.41,01/07/23,4.35
+SURYAPET,Munagala,NELAMARRI,79.76,17.05,01/07/23,10.55
+SURYAPET,Munagala,REPALA,79.81,17.11,01/07/23,6.6
+SURYAPET,Nadigudem,NADIGUDEM,79.87,17.08,01/07/23,4.76
+SURYAPET,Nagaram,ETOOR,79.44,17.43,01/07/23,0.1
+SURYAPET,Neredcherla,PENCHIKALDINNE,79.66,16.92,01/07/23,3.94
+SURYAPET,Palakeedu,ALONGAPURAM,79.75,16.77,01/07/23,9.68
+SURYAPET,Penpahad,N.ANNARAM,79.65,17,01/07/23,4.13
+SURYAPET,Penpahad,PENPAHAD,79.67,17.04,01/07/23,9.85
+SURYAPET,Suryapet,BALEMLA,79.59,17.2,01/07/23,1.22
+SURYAPET,Suryapet,SURYAPET,79.62,17.13,01/07/23,6.59
+SURYAPET,Thirumalagiri,THATIPAMULA,79.39,17.48,01/07/23,12.71
+VIKARABAD,Bantwaram,Bantwaram,77.7,17.45,01/07/23,7.62
+VIKARABAD,Basheerabad,Basheerabad,77.44,17.21,01/07/23,7.21
+VIKARABAD,Bomraspeta,Bomraspet,77.72,17.16,01/07/23,7.8
+VIKARABAD,Bomraspeta,Madnapally,77.77,17.22,01/07/23,3.1
+VIKARABAD,Dharur,Antharam,77.82,17.24,01/07/23,16.3
+VIKARABAD,Dharur,Dharoor,77.77,17.3,01/07/23,9.03
+VIKARABAD,Doma,Doma,77.84,17.09,01/07/23,12.06
+VIKARABAD,Doulatabad,Doulathabad,77.54,17,01/07/23,3.4
+VIKARABAD,Kodangal,Kodangal,77.6,17.1,01/07/23,3.3
+VIKARABAD,Kodangal,Rudraram (D),77.51,17.13,01/07/23,10.78
+VIKARABAD,Kodangal,Rudraram (S),77.51,17.13,01/07/23,10.5
+VIKARABAD,Kulkacharla,Kulkacherla,77.88,17.02,01/07/23,5.1
+VIKARABAD,Kulkacharla,Puttaphad ,77.86,16.96,01/07/23,25.75
+VIKARABAD,Marpalle,Marpalli,77.77,17.53,01/07/23,15.4
+VIKARABAD,Marpalle,Narsapur,77.83,17.57,01/07/23,17.33
+VIKARABAD,Mominpet,Durgam Cheruvu,77.86,17.45,01/07/23,5.56
+VIKARABAD,Mominpet,Mominpet,77.89,17.52,01/07/23,5.83
+VIKARABAD,Nawabpet,Nawabpet,77.97,17.43,01/07/23,
+VIKARABAD,Nawabpet,Vattinenipally(s),77.98,17.45,01/07/23,4.94
+VIKARABAD,Pargi,Parigi,77.88,17.18,01/07/23,15.73
+VIKARABAD,Peddemul,Kandanelli,77.65,17.29,01/07/23,3.6
+VIKARABAD,Peddemul,Peddamul,77.66,17.33,01/07/23,8.43
+VIKARABAD,Peddemul,Thattepalli,77.66,17.33,01/07/23,13.54
+VIKARABAD,Pudur,Chengamala,78.03,17.26,01/07/23,5.96
+VIKARABAD,Pudur,Pedda Umintyal,77.98,17.23,01/07/23,3.9
+VIKARABAD,Pudur,Pudur,77.96,17.26,01/07/23,12.33
+VIKARABAD,Tandur,Kota Basupally,77.5,17.33,01/07/23,6.13
+VIKARABAD,Tandur,Tandur,77.59,17.25,01/07/23,5.09
+VIKARABAD,Vikarabad,Maildevarpally,77.51423,16.57,01/07/23,35.48
+VIKARABAD,Vikarabad,Vikarabad(S),77.91,17.32,01/07/23,12.6
+VIKARABAD,Yelal,Yalal,77.64,17.2,01/07/23,10.72
+VIKARABAD,Yelal,Bagayapalli,77.69,17.22,01/07/23,5.96
+VIKARABAD,Yelal,Yenkapally,77.54,17.2,01/07/23,4.18
+WANAPARTHY,Amarchinta,Singampet,77.78,16.35,01/07/23,1.95
+WANAPARTHY,Atmakur,Atmakuru,77.81,16.34,01/07/23,6.05
+WANAPARTHY,Ghanpur,Ghanapur,78.05,16.56,01/07/23,7.6
+WANAPARTHY,Ghanpur,Kamaluddinpur,78.02,16.61,01/07/23,2.05
+WANAPARTHY,Gopalpeta,Gopalpet,78.13,16.38,01/07/23,3.5
+WANAPARTHY,Gopalpeta,Yedutla,78.18,16.36,01/07/23,7.6
+WANAPARTHY,Kothakota,Kanaipally,77.96,16.39,01/07/23,13.85
+WANAPARTHY,Kothakota,Madnapur,77.87,16.38,01/07/23,6.5
+WANAPARTHY,Pangal,Pangal,78.1,16.25,01/07/23,6.8
+WANAPARTHY,Pebbair,Ayyavaripalli,78.02,16.12,01/07/23,2.5
+WANAPARTHY,Wanaparthy,Peddagudem,78,16.31,01/07/23,3.65
+WANAPARTHY,Peddamandadi,Peddamandadi,78.03,16.43,01/07/23,3.45
+WANAPARTHY,Veepangandla,Sanginonipally,78.16,16.14,01/07/23,4.6
+WARANGAL,Chennaraopeta,Chennaraopet,79.87,17.88,01/07/23,0.72
+WARANGAL,Duggondi,Duggondi,79.81,18.02,01/07/23,4.04
+WARANGAL,Geesugonda,Geesgonda,79.7,17.96,01/07/23,0.9
+WARANGAL,Geesugonda,Vanchanagiri,79.69,17.95,01/07/23,4.65
+WARANGAL,Khanapur,Khanapur,79.93,17.9,01/07/23,0.82
+WARANGAL,Nallabelly,Narakkapet,79.89,18.01,01/07/23,3.25
+WARANGAL,Narsampet,Narasampet,79.89,17.92,01/07/23,1.95
+WARANGAL,Nekkonda,Ameenpet,79.8,17.81,01/07/23,0.15
+WARANGAL,Nekkonda,Nagaram,79.89,17.76,01/07/23,3.04
+WARANGAL,Parvathagiri,Parvathagiri,79.72,17.74,01/07/23,7.74
+WARANGAL,Raiparthy,Kondur,79.61,17.71,01/07/23,3.57
+WARANGAL,Raiparthy,Rayaparthy,79.55,17.69,01/07/23,4.82
+WARANGAL,Sangem,Sangem,79.71,17.88,01/07/23,3.37
+WARANGAL,Sangem,Theegarajupally,79.71,17.83,01/07/23,8.17
+WARANGAL,Wardhannapet,Wardhannapet,79.58,17.77,01/07/23,6.6
+WARANGAL,Khilla_Warangal,Mamnoor,79.6,17.91,01/07/23,4.2
+WARANGAL,Warangal,Charbowli,79.61,17.98,01/07/23,1.8
+HANUMAKONDA,Bheemadevarapalle,Gatla Narsingapur,79.33,18.09,01/07/23,0.25
+HANUMAKONDA,Bheemadevarapalle,Kothapally,79.39,18.08,01/07/23,0.64
+HANUMAKONDA,Bheemadevarapalle,Vangara,79.35,18.13,01/07/23,9.56
+HANUMAKONDA,Dharmasagar,Dharmapuri,79.46,17.89,01/07/23,5.2
+HANUMAKONDA,Dharmasagar,Narayanagiri,79.38,17.99,01/07/23,0.1
+HANUMAKONDA,Velair,Velair,79.34,18.01,01/07/23,0.22
+HANUMAKONDA,Elkathurthi,Elkathurthy,79.44,18.09,01/07/23,8.2
+HANUMAKONDA,Hanumakonda,Hanumkonda,79.56,18,01/07/23,0.84
+HANUMAKONDA,Hasanparthy,Seethampet,79.52,18.08,01/07/23,1.81
+HANUMAKONDA,Inavole,Panthini,79.61,17.85,01/07/23,3.75
+HANUMAKONDA,Inavole,Punnelu,79.59,17.87,01/07/23,5.1
+HANUMAKONDA,Kamalapur,Kamalapur,79.52,18.18,01/07/23,
+HANUMAKONDA,Kamalapur,Shanigaram,79.6,18.18,01/07/23,1.1
+HANUMAKONDA,Atmakur,Atmakur,79.74,18.07,01/07/23,1.1
+HANUMAKONDA,Damera,Damera,79.64,18.06,01/07/23,1.2
+HANUMAKONDA,Nadikuda,Cherlapally,79.61,18.23,01/07/23,7.2
+HANUMAKONDA,Nadikuda,Nadikuda,79.64,18.19,01/07/23,1.7
+HANUMAKONDA,Nadikuda,Parkal,79.64,18.2,01/07/23,2.2
+WARANGAL,Parvathagiri,Annaram shariff,79.72,17.68,01/07/23,8.52
+HANUMAKONDA,Shayampet,Pathipaka(Abendent),79.76,18.12,01/07/23,0.3
+YADADRI,Gundala,Ambala,79.25,17.49,01/07/23,2.72
+YADADRI,Gundala,Peddapadishala,79.34,17.47,01/07/23,1.4
+YADADRI,Gundala,Velmajala,79.21,17.57,01/07/23,1.75
+YADADRI,Alair,Kolanpaka,79.02,17.7,01/07/23,3
+YADADRI,Alair,Sarajipet,79.12,17.62,01/07/23,8.15
+YADADRI,Mootakondur,Chada,79.07,17.48,01/07/23,5.7
+YADADRI,Atmakur_M,Atmakur,79.14,17.47,01/07/23,9.98
+YADADRI,Pochampalle,B.Pochampalli,78.81,17.34,01/07/23,4.26
+YADADRI,Bhongiri,Bhongiri,78.91,17.48,01/07/23,3.1
+YADADRI,Bhongiri,Chandupatla,78.98,17.5,01/07/23,5.62
+YADADRI,Bhongiri,Nandanam,78.93,17.44,01/07/23,4.85
+YADADRI,Bibinagar,Bibinagar,78.8,17.46,01/07/23,11.84
+YADADRI,Bibinagar,Yenkiryal,78.77,17.4,01/07/23,4.93
+YADADRI,Choutuppal,D.Malkapur,78.8,17.26,01/07/23,1.9
+YADADRI,Turkapalle_M,Ch.Laxmapur,78.75,17.65,01/07/23,2.12
+YADADRI,Addagudur,Kanchanapalli,79.34,17.4,01/07/23,3.2
+YADADRI,Mothkur,Mothukur,79.26,17.45,01/07/23,5.01
+YADADRI,Mothkur,Paladugu,79.19,17.39,01/07/23,0.83
+YADADRI,Mothkur,Podichedu,79.28,17.38,01/07/23,8.1
+YADADRI,Rajapet,Bondugala,78.97,17.77,01/07/23,1.71
+YADADRI,Rajapet,Kurraram,78.93,17.78,01/07/23,5.4
+YADADRI,Rajapet,Raghunadapuram,78.95,17.68,01/07/23,5.2
+YADADRI,Rajapet,Rajapet,78.93,17.73,01/07/23,2.6
+YADADRI,Rajapet,Somaram,78.99,17.73,01/07/23,10.53
+YADADRI,Ramannapeta,Ramanapet,79.1,17.28,01/07/23,4.75
+YADADRI,Ramannapeta,Yellanki,79.03,17.29,01/07/23,9.36
+YADADRI,Ramannapeta,Yennaram,79.2,17.32,01/07/23,1.12
+YADADRI,Narayanapur,S.Narayanpur,78.86,17.14,01/07/23,8.25
+YADADRI,Turkapalle_M,Gandamalla,78.85,17.73,01/07/23,6.31
+YADADRI,Valigonda,Arror,79.11,17.39,01/07/23,1.15
+YADADRI,Valigonda,T. somaram,78.95,17.4,01/07/23,3.93
+YADADRI,Valigonda,Varkatpally,78.93,17.34,01/07/23,4.01
+YADADRI,Valigonda,Vemulakonda,79.14,17.35,01/07/23,1.4
+YADADRI,Yadagirigutta,Mallapuram,78.91,17.63,01/07/23,4.7
+YADADRI,Mootakondur,Motakondur,79.03,17.55,01/07/23,8.1
+Hanumakonda,Shayampet,Pathhipaka,79.75,18.12,01/07/23,0.3
+Hanumakonda,Hasanparthy,Yellapur,79.5,18.08,01/07/23,2.21
+Hanumakonda,Bheemadevarapalle,Jaganadhapur,79.39,18.13,01/07/23,7.16
+Hanumakonda,Velair,Peechara,79.29,17.97,01/07/23,1.69
+Hanumakonda,Dharmasagar,Dharmsagar,79.44,18.01,01/07/23,0.21
+Hanumakonda,Dharmasagar,Peddapendyal,79.42,17.92,01/07/23,1.57
+Hanumakonda,Inavole,Inavolu,79.55,17.87,01/07/23,5.72
+Hanumakonda,Hasanparthy,Nagaram,79.56,18.1,01/07/23,2.4
+WARANGAL,Sangem,Lohitha,79.65,17.84,01/07/23,8.45
+WARANGAL,Wardhannapet,Yellanda,79.6,17.79,01/07/23,6.5
+WARANGAL,Nekkonda,Redlawada,79.77,17.74,01/07/23,0.46
+WARANGAL,Chennaraopeta,Upparapalli,79.81,17.88,01/07/23,1.58
+WARANGAL,Khanapur,Mangalavaripet,79.98,17.88,01/07/23,0.79
+WARANGAL,Nallabelly,Medapalli,79.92,18.02,01/07/23,4.03
+WARANGAL,Narsampet,Naguralapally,79.88,17.96,01/07/23,0.56
+WARANGAL,Duggondi,Rekkampally,79.8,17.96,01/07/23,5.58
+MAHABUBABAD,Dornakal,DORNAKAL,80.16,17.44,01/07/23,1.92
+MAHABUBABAD,Gudur,BHUPATHIPETA,79.99,17.85,01/07/23,2.4
+MAHABUBABAD,Gudur,BODDIKONDA,80.02,17.7,01/07/23,1.45
+MAHABUBABAD,Kesamudram,INTIKANNE,79.87,17.72,01/07/23,1.72
+MAHABUBABAD,Kesamudram,ARPANAPALLY,79.94,17.72,01/07/23,1.69
+MAHABUBABAD,Kuravi,BALPALA,80.07,17.48,01/07/23,3.58
+MAHABUBABAD,Seerole,SEEROLU,80,17.41,01/07/23,2.86
+MAHABUBABAD,Kuravi,KORIVI,80,17.53,01/07/23,1.6
+MAHABUBABAD,Kuravi,GUNDRATHIMADUGU,80.06,17.56,01/07/23,4.12
+MAHABUBABAD,Mahabubabad,MALYALA,79.96,17.56,01/07/23,1.86
+MAHABUBABAD,Kesamudram,RANGAPUR,79.96,17.68,01/07/23,4.45
+MAHABUBABAD,Inugurthy,CHINNAMUPPARAM,79.85,17.63,01/07/23,4.72
+MAHABUBABAD,Bayyaram,UPPALAPADU,80.06,17.61,01/07/23,6.7
+MAHABUBABAD,Bayyaram,MOTLATHIMMAPUR,80.11,17.7,01/07/23,7.62
+MAHABUBABAD,Bayyaram,JAGATHRAOPETA,80.17,17.66,01/07/23,8.16
+MAHABUBABAD,Bayyaram,LAXMIPURAM KOMMAVARAM,80.22,17.7,01/07/23,4.26
+MAHABUBABAD,Danthalapalle,PEDDAMUPPARAM,79.68,17.47,01/07/23,0.41
+MAHABUBABAD,Ganagavaram,MARRIGUDEM,80.2,17.93,01/07/23,5.16
+MAHABUBABAD,Ganagavaram,KAMARAM,80.2,17.98,01/07/23,1.82
+MAHABUBABAD,Ganagavaram,KODISHALAMETTA,80.18,17.75,01/07/23,4.26
+MAHABUBABAD,Ganagavaram,PENDEM,80.21,17.74,01/07/23,3.82
+MAHABUBABAD,Garla,GARLA,80.14,17.49,01/07/23,4.25
+MAHABUBABAD,Garla,POCHARAM,80.2,17.49,01/07/23,4.26
+MAHABUBABAD,Kothaguda,BATHULAPALLY,80.1,17.85,01/07/23,5.26
+MAHABUBABAD,Kothaguda,PAGADAPALLI,80.08,17.95,01/07/23,2.4
+MAHABUBABAD,Maripeda,THANAMCHERLA,79.83,17.35,01/07/23,9.58
+MAHABUBABAD,Maripeda,PURUSHOTHAMAYAGUDEM,80.94,17.41,01/07/23,3.62
+MAHABUBABAD,Narsimhulapet,PEDDANAGARAM,79.81,17.45,01/07/23,0.68
+MAHABUBABAD,Peddavangara,CHINNAVANGARA,79.6,17.56,01/07/23,1.94
+JANGAON,Bachannapeta,POCHANNAPET,79.04,17.75,01/07/23,8.72
+JANGAON,Devaruppala,PEDDAMADUR,79.3,17.6,01/07/23,5.15
+JANGAON,Devaruppala,MADHAPURAM,79.35,17.62,01/07/23,2.6
+JANGAON,Jangaon,PEMBARTHY,79.11,17.69,01/07/23,3.43
+JANGAON,Lingalaghanpur,CHEETUR,79.3,17.69,01/07/23,4.15
+JANGAON,Narmetta,MEKALAGATTU,79.2,17.85,01/07/23,10.38
+JANGAON,Palakurthi,VALMIDI,79.45,17.62,01/07/23,9.05
+JANGAON,Raghunathpalle,ASWARAOPALLY,79.28,17.82,01/07/23,8.25
+JANGAON,Raghunathpalle,GABBETA,79.31,17.71,01/07/23,9
+JANGAON,Tharigoppula,AKKARAJUPALLY,79.16,17.93,01/07/23,10.75
+JANGAON,Tharigoppula,ABDULNAGARAM,79.22,17.93,01/07/23,4.15
+JANGAON,Zaffergadh,OBULAPUR,79.49,17.73,01/07/23,7.4
+JANGAON,Zaffergadh,SURARAM,79.44,17.76,01/07/23,8.85
+BHUPALPALLY,Chityal,CHALLAGARIGE,79.74,18.32,01/07/23,0.98
+BHUPALPALLY,Chityal,GIDDAMUTHARAM,79.66,18.46,01/07/23,1.37
+BHUPALPALLY,Mogullapalle,DUBBYALA,79.64,18.29,01/07/23,0.31
+BHUPALPALLY,Mogullapalle,MOTLAPALLE,79.58,18.3,01/07/23,1.24
+BHUPALPALLY,Tekumatla,KORIKISHALA,79.63,18.34,01/07/23,0.49
+BHUPALPALLY,Ghanapur_Mulug,MULUGU GHANPUR,79.88,18.3,01/07/23,5.12
+BHUPALPALLY,Ghanapur_Mulug,BUDDARAM,79.87,18.28,01/07/23,3.16
+BHUPALPALLY,Regonda,REPAKA,79.73,18.28,01/07/23,0.43
+BHUPALPALLY,Kataram,DAMERAKUNTA,79.84,18.69,01/07/23,2.82
+BHUPALPALLY,Mutharam_Mahadevpur,BORLAGUDEM,80.12,18.49,01/07/23,1.43
+BHUPALPALLY,Malharrao,PEDDA THOONDLA,79.8,18.52,01/07/23,4.32
+BHUPALPALLY,Malharrao,RUDRARAM,79.9,18.58,01/07/23,6.14
+BHUPALPALLY,Malharrao,VALLENKUNTA,79.82,18.59,01/07/23,1.97
+BHUPALPALLY,Bhupalpalle,AZAMNAGAR,80.47,18.43,01/07/23,5.13
+BHUPALPALLY,Bhupalpalle,BHUPALPALLY,79.9,18.24,01/07/23,3.72
+BHUPALPALLY,Bhupalpalle,GOLLABUDHARAM,80.43,18.55,01/07/23,2.36
+BHUPALPALLY,Bhupalpalle,KAMALAPUR,80.71,18.16,01/07/23,3.72
+BHUPALPALLY,Bhupalpalle,PEDDAPUR,79.92,18.38,01/07/23,3.17
+YADADRI,Gundala,Gundala,79.29,17.51,01/07/23,2.81
+YADADRI,Bommalaramaram,Cheekatimamidi,78.75,17.6,01/07/23,4.5
+YADADRI,Bommalaramaram,B.Ramaram,78.74,17.57,01/07/23,6.1
+YADADRI,Addagudur,Dharmaram,79.41,17.38,01/07/23,1.55
+YADADRI,Alair,Patelguda,79.08,17.67,01/07/23,2.55
+YADADRI,Alair,Golanukonda,79.14,17.59,01/07/23,2.15
+YADADRI,Mootakondur,Matoor,79.1,17.58,01/07/23,3.5
+YADADRI,Rajapet,Challur,78.93,17.68,01/07/23,5.8
+YADADRI,Rajapet,Pamukunta,78.91,17.77,01/07/23,5.62
+YADADRI,Turkapalle_M,Konapur,78.86,17.7,01/07/23,13.2
+YADADRI,Yadagirigutta,Datharpalle,78.9,17.59,01/07/23,3.24
+YADADRI,Gundala,Bandakothapally,79.36,17.51,01/07/23,5.3
+YADADRI,Pochampalle,Vankamamidi,78.88,17.36,01/07/23,1.1
+YADADRI,Choutuppal,Panthangi,78.95,17.23,01/07/23,5.05
+YADADRI,Ramannapeta,Iskilla,79.17,17.3,01/07/23,7.12
+YADADRI,Narayanapur,Sarvail,78.93,17.17,01/07/23,5.15
+MANCHERIAL,Jannaram,JANNARAM,79.01,19.12,01/07/23,4
+MANCHERIAL,Jannaram,TAPALAPUR,79.09,19.08,01/07/23,3.45
+MANCHERIAL,Bheemaram,BHEEMARAM,79.69,18.85,01/07/23,7.9
+MANCHERIAL,Mancherial,MANCHERIAL,79.46,18.89,01/07/23,2.7
+MANCHERIAL,Naspur,NASPUR,79.47,18.86,01/07/23,9.97
+MANCHERIAL,Vemanpalle,LAXMIPUR,79.75,19.13,01/07/23,3.78
+MANCHERIAL,Kannepalli,NAYAKINPET,79.72,19.16,01/07/23,6.92
+JAGITYAL,Ibrahimpatnam,Bardipur,78.57,18.97,01/07/23,2.77
+JAGITYAL,Mallapur,Mutyampet,78.66,18.88,01/07/23,0.39
+JAGITYAL,Mallapur,Dharmaram,78.72,18.89,01/07/23,3.83
+JAGITYAL,Mallapur,Regunta,78.76,18.94,01/07/23,1.63
+JAGITYAL,Raikal,Tatlavi,78.87,18.97,01/07/23,4.98
+JAGITYAL,Raikal,Devanpalli,78.87,19,01/07/23,3.24
+JAGITYAL,Dharmapuri,Arepalli,79.02,19.06,01/07/23,3.54
+JAGITYAL,Beerpur,Narsimlapalli,79,19,01/07/23,0.41
+JAGITYAL,Dharmapuri,Donur,79.03,18.99,01/07/23,1.32
+JAGITYAL,Buggaram,Buggaram,79.03,18.87,01/07/23,3.58
+SIRCILLA,Thangallapalle,BASWAPUR,78.13,18.32,01/07/23,8.79
+SIRCILLA,Ellanthakunta,GALIPALLI,79,18.34,01/07/23,2.7
+SIRCILLA,Mustabad,MOINKUNTA,78.7,18.24,01/07/23,5.41
+SIRCILLA,Yellareddypeta,BANDALINGAMPALLI,78.66,18.34,01/07/23,8.15
+SIRCILLA,Yellareddypeta,ALMASPUR,78.65,18.43,01/07/23,3.25
+SIRCILLA,Vemulawada_Rural,HANUMAJIPETA,78.8,18.5,01/07/23,3.69
+SIRCILLA,Chandurthi,JOGAPUR,78.75,18.55,01/07/23,
+SIRCILLA,Chandurthi,SANUGULA,78.72,18.56,01/07/23,
+SIRCILLA,Rudrangi,MANALA,78.62,18.63,01/07/23,3.32
+ADILABAD,Bela,BELA,78.76,19.72,01/07/23,3.22
+ADILABAD,Adilabad Rural,PIPPALDHARI,78.65,19.59,01/07/23,1.18
+ADILABAD,Adilabad Rural,YAPALGUDA,78.61,19.66,01/07/23,1.72
+ADILABAD,Inderavelly,MUTHNOOR,78.63,19.51,01/07/23,8.36
+ADILABAD,Gadiguda,GADIGUDA,78.91,19.61,01/07/23,2.42
+ADILABAD,Gadiguda,ARJUNI,78.8,19.6,01/07/23,0.01
+ADILABAD,Sirikonda,SIRIKONDA,78.58,19.43,01/07/23,3.2
+ADILABAD,Ichoda,ICHODA,78.45,19.43,01/07/23,1
+ADILABAD,Ichoda,NARSAPUR,78.5,19.35,01/07/23,0.85
+ADILABAD,Neradigonda,KUNTALA,78.48,19.31,01/07/23,2
+ADILABAD,Neradigonda,SHANKRAPUR,78.42,19.28,01/07/23,5.85
+KHAMMAM,Kusumanchi,Eswaramadharam,79.91,17.15,01/07/23,4.77
+KHAMMAM,Nelakondapalle,Rajeswarapuram,79.99,17.15,01/07/23,2.4
+KHAMMAM,Chinthakani,Nagulavancha,80.21,17.07,01/07/23,1.9
+KHAMMAM,Chinthakani,Chinthakani,80.21,17.12,01/07/23,1.2
+KHAMMAM,Madhira,Illandulapadu,80.38,16.9,01/07/23,5.63
+KHAMMAM,Yerrupalem,Jamalapurm,80.52,16.83,01/07/23,9.35
+KHAMMAM,Wyra,Rebbavaram,80.34,17.11,01/07/23,1.86
+KHAMMAM,Thallada,Kurnavalli,80.43,17.3,01/07/23,3
+KHAMMAM,Kalluru,Chinkorukondi,80.45,17.06,01/07/23,1.9
+KHAMMAM,Kalluru,Chandrupatla,80.55,17.17,01/07/23,1.25
+KHAMMAM,Penuballi,Kuppenakuntla,80.65,17.17,01/07/23,3.55
+KHAMMAM,Thirumalayapalem,Pindiprolu,79.95,17.27,01/07/23,4.56
+KHAMMAM,Kusumanchi,Chegomma,80,17.25,01/07/23,5.43
+KHAMMAM,Penuballi,Adavimallela / Lankasagar,80.7,17.18,01/07/23,4.05
+KHAMMAM,Vemsoor,Kondagatla/ KG Mallela,80.66,17.08,01/07/23,1.5
+KHAMMAM,Sathupalle,Rudrakshapalli,80.66,17.26,01/07/23,6.2
+KHAMMAM,Sathupalle,Sathupalli,80.82,17.21,01/07/23,16.82
+KHAMMAM,Raghunadhapalem,Raghunadhapalem,80.21,17.29,01/07/23,6.1
+KHAMMAM,Singareni,Karepalli,80.27,17.51,01/07/23,6.2
+KUMURAM BHEEM,Bejjur,PAPANPET,79.91,19.31,01/07/23,2.34
+KUMURAM BHEEM,Sirpur_U,SIRPUR-U,78.94,19.34,01/07/23,0.48
+KUMURAM BHEEM,Kerameri,MODIJHARI,79.09,19.45,01/07/23,5.96
+KUMURAM BHEEM,Chintalamanepally,RAVINDRANAGAR,79.79,19.49,01/07/23,0.48
+KUMURAM BHEEM,Chintalamanepally,KARJAVELLI,79.83,19.46,01/07/23,0.67
+KUMURAM BHEEM,Sirpur_T,LONAVELLY,79.64,19.54,01/07/23,1.68
+KUMURAM BHEEM,Sirpur_T,CHINTHAKUNTA,79.58,19.43,01/07/23,7.21
+KUMURAM BHEEM,Tiryani,TIRYANI,79.27,19.18,01/07/23,9.56
+KUMURAM BHEEM,Wankdi,KANNERGAON,79.35,19.41,01/07/23,5.19
+KUMURAM BHEEM,Wankdi,INDHANI,79.24,19.46,01/07/23,2.25
+SIDDIPET,Doultabad,Dommat,78.62,18.01,01/07/23,16.59
+SIDDIPET,Gajwel,Gajwel Pragnapur,78.71,17.83,01/07/23,4.82
+SIDDIPET,Gajwel,Ahmedipur,78.7,17.92,01/07/23,9.53
+SIDDIPET,Kondapak,Kondapak,78.87,17.98,01/07/23,6.01
+SIDDIPET,Mirdoddi,Mirdoddi,78.67,18.07,01/07/23,13.52
+SIDDIPET,Nanganur,Ankushapur,78.02,18.04,01/07/23,7.52
+SIDDIPET,Siddipet_Rural,Tadkapally,78.8,18.06,01/07/23,9.85
+SIDDIPET,Thoguta,Thoguta,78.7,17.99,01/07/23,9.43
+SIDDIPET,Wargal,Meenajipet,78.55,17.77,01/07/23,8.36
+SIDDIPET,Komaravelly,Guruvannapet,78.86,17.88,01/07/23,1.83
+SIDDIPET,Maddur,Dhoolmitta,78.06,17.99,01/07/23,10.96
+SIDDIPET,Cheriyal,Musthyala,78.99,17.9,01/07/23,9.68
+SIDDIPET,Cheriyal,Nagapuri (N),78.89,17.86,01/07/23,9.28
+SIDDIPET,Cheriyal,Aknur,78.02,17.97,01/07/23,10.42
+SIDDIPET,Husnabad,Ummapur,79.25,18.14,01/07/23,5.74
+SIDDIPET,Koheda,Ramachadrapur,79.09,18.2,01/07/23,0.66
+SIDDIPET,Bejjanki,Thotapally,79.08,18.27,01/07/23,5.5
+SIDDIPET,Bejjanki,Devakkapally,79.11,18.28,01/07/23,9.63
+BHADRADRI,Aswapuram,AMMAGARIPALLI,80.86,17.87,01/07/23,1.8
+BHADRADRI,Aswaraopeta,ASWARAOPET (M),81.11,17.24,01/07/23,14.67
+BHADRADRI,Bhadrachalam,BHADRACHALAM,80.9,17.67,01/07/23,12.45
+BHADRADRI,Burgampadu,BURGAMPAHAD,80.86,17.65,01/07/23,7.94
+BHADRADRI,Chandrugonda,RAJAPURAM,80.73,17.35,01/07/23,1.74
+BHADRADRI,Chandrugonda,SEETHAIGUDEM,80.67,17.4,01/07/23,1.73
+BHADRADRI,Cherla,KOYYURU,80.67,17.4,01/07/23,0.31
+BHADRADRI,Cherla,PEDHAMEDISILERU,80.86,18.09,01/07/23,1.05
+BHADRADRI,Cherla,SATHYANARAYANA PURAM,80.87,18.01,01/07/23,2.38
+BHADRADRI,Cherla,CHUNCHUPALLI,80.61,17.54,01/07/23,3.56
+BHADRADRI,Dammapeta,WADLAGUDEM,80.96,17.2,01/07/23,18.5
+BHADRADRI,Gundala,GUNDALA,80.32,17.91,01/07/23,1.5
+BHADRADRI,Gundala,KANCHANAPALLI,80.43,17.76,01/07/23,6.77
+BHADRADRI,Julurpad,JULURPADU,80.51,17.4,01/07/23,4.68
+BHADRADRI,Kothagudem,KOTHAGUDEM,80.63,17.55,01/07/23,27.42
+BHADRADRI,Laxmidevipalli,BANGARUCHELKA,80.6,17.75,01/07/23,6.11
+BHADRADRI,Pinapaka,E. BAYYARAM,80.72,18.04,01/07/23,0.7
+BHADRADRI,Pinapaka,DUGENEPALLI,80.64,18.13,01/07/23,2.45
+BHADRADRI,Pinapaka,JANAMPETA,80.69,18.1,01/07/23,31.66
+BHADRADRI,Sujathanagar,SUJATHANAGAR,80.58,17.48,01/07/23,3.62
+BHADRADRI,Tekulapalle,BOMMANAPALLI,80.57,17.57,01/07/23,6.34
+BHADRADRI,Tekulapalle,SULANAGAR(D),80.5,17.56,01/07/23,10.34
+BHADRADRI,Tekulapalle,TEKULAPALLI,80.47,17.56,01/07/23,5.51
+BHADRADRI,Yellandu,YELLANDU,80.34,17.58,01/07/23,2.42
+KARIMNAGAR,Ellandakunta,ELLANDAKUNTA,79.51,18.29,01/07/23,2.52
+KARIMNAGAR,Ellandakunta,MALLIAL,79.53,18.26,01/07/23,5.42
+KARIMNAGAR,Ellandakunta,RACHAPALLY,79.54,18.36,01/07/23,2.14
+KARIMNAGAR,Gannervaram,GANNERUVARAM,79.05,18.38,01/07/23,3.6
+KARIMNAGAR,Karimnagar (Rural-II),NAGULAMALLIAL,79,18.45,01/07/23,7.7
+KARIMNAGAR,Ramadugu,VELICHALA,79.06,18.5,01/07/23,3.6
+KARIMNAGAR,V_Saidapur,RAIKAL,79.32,18.16,01/07/23,5.08
+PEDDAPALLY,Antargoan,EGLASPUR,79.36,18.78,01/07/23,0.8
+PEDDAPALLY,Antargoan,MUGALPAHAD,79.43,18.75,01/07/23,0.89
+PEDDAPALLY,Dharmaram,KOTHURU,79.24,18.67,01/07/23,1.03
+PEDDAPALLY,Julapalle,KACHAPUR,79.29,18.62,01/07/23,1.35
+PEDDAPALLY,Kamanpur,KAMANPUR,79.5,18.66,01/07/23,1.25
+PEDDAPALLY,Mutharam_Manthani,LAKKARAM,79.58,18.56,01/07/23,2.4
+PEDDAPALLY,Odela,KOLANUR,79.42,18.5,01/07/23,1.4
+PEDDAPALLY,Palakurthy,PUTNOOR,79.33,18.75,01/07/23,2.3
+PEDDAPALLY,Peddapalle,RAGAVAPOOR,79.42,18.64,01/07/23,1.8
+PEDDAPALLY,Peddapalle,BOJANNAPET,79.42,18.57,01/07/23,3.02
+PEDDAPALLY,Ramagiri,KALVACHERLA,79.53,18.63,01/07/23,1.85
+PEDDAPALLY,Ramagiri,MUSTYALA,79.56,18.75,01/07/23,1.35
+PEDDAPALLY,Ramagundam,RAMAGUNDEM,79.44,18.77,01/07/23,4.3
+PEDDAPALLY,Srirampur,MANGAPET,79.48,18.53,01/07/23,0.5
+PEDDAPALLY,Sultanabad,KATANAPALLY,79.29,18.51,01/07/23,1.3
+PEDDAPALLY,Sultanabad,KANUKULA,79.36,18.49,01/07/23,1.65
+SANGAREDDY,Ameenapur,SULTHANPUR,78.31,17.57,01/07/23,1.55
+SANGAREDDY,Andhole,TALELMA,77.98,17.84,01/07/23,4.27
+SANGAREDDY,Chowtakur,SULTHANPUR,78.09,17.73,01/07/23,11.53
+SANGAREDDY,Chowtakur,SHIVAMPET,78.1,17.68,01/07/23,14.41
+SANGAREDDY,Gummadidala,GUMMADIDDLA,78.37,17.67,01/07/23,1.83
+SANGAREDDY,Hathanoora,REDDY KHANAPUR,78.17,17.69,01/07/23,18.37
+SANGAREDDY,Hathanoora,SIRPURAM,78.16,17.81,01/07/23,22.54
+SANGAREDDY,Hathanoora,NAGARAM,78.29,17.66,01/07/23,9.79
+SANGAREDDY,Jinnaram,GADDAPOTHARAM,78.37,17.59,01/07/23,6.43
+SANGAREDDY,Kalher,MASANPALLY,77.88,18.18,01/07/23,14.83
+SANGAREDDY,Kalher,FATHEPOOR,77.79,18.19,01/07/23,12.08
+SANGAREDDY,Kandi,CHERLAGUDEM (KAVALAMPET)/IIT KANDI,78.09,17.52,01/07/23,11.09
+SANGAREDDY,Kandi,INDRAKARAN,78.15,17.52,01/07/23,18.38
+SANGAREDDY,Kandi,JULKAL,78.11,17.51,01/07/23,5.48
+SANGAREDDY,Kangti,KANGTI-1,77.62,18.22,01/07/23,19.85
+SANGAREDDY,Kangti,DAMARGIDDA PANCHAMAHA,77.71,18.2,01/07/23,10.7
+SANGAREDDY,Kangti,BABULGOAN,77.62,18.3,01/07/23,
+SANGAREDDY,Kangti,DEGULWADI,77.6,18.24,01/07/23,22.5
+SANGAREDDY,Kondapur,KONDAPUR                 (THOGARPALLY),78.01,17.55,01/07/23,16.5
+SANGAREDDY,Manoor,BORANCHA,77.79,17.94,01/07/23,0.62
+SANGAREDDY,Munipalli,PEDDALONI,77.83,17.77,01/07/23,13.25
+SANGAREDDY,Munipalli,TATIPALLY,77.81,17.74,01/07/23,6.34
+SANGAREDDY,Nagalgidda,PUSALPAD,77.74,17.98,01/07/23,2.43
+SANGAREDDY,Nagalgidda,KARASGUTTI,77.61,18.07,01/07/23,4.94
+SANGAREDDY,Narayankhed,NARAYANAKHED,77.79,18.35,01/07/23,15
+SANGAREDDY,Narayankhed,SANJEEVRAOPET,77.8,18.1,01/07/23,0.44
+SANGAREDDY,Patancheruvu,INOLE,78.25,17.58,01/07/23,21.76
+SANGAREDDY,Patancheruvu,MUTHANGI,78.23,17.54,01/07/23,11.6
+SANGAREDDY,Patancheruvu,RUDRARAM,78.17,17.55,01/07/23,12.2
+SANGAREDDY,Raikode,CHINNAPUR/MAHABATHPUR,77.73,17.86,01/07/23,3.35
+SANGAREDDY,Raikode,KARCHAL,77.82,17.83,01/07/23,8.19
+SANGAREDDY,Raikode,SINGITHAM,77.79,17.8,01/07/23,3.75
+SANGAREDDY,Ramachandrapuram,R.C.PURAM,78.29,17.52,01/07/23,9.24
+SANGAREDDY,Sadasivpet,SADASIVPET,77.96,17.62,01/07/23,10.18
+SANGAREDDY,Sadasivpet,ATMAKUR,77.93,17.68,01/07/23,9.51
+SANGAREDDY,Sadasivpet,NIZAMPUR,77.99,17.67,01/07/23,24.89
+SANGAREDDY,Sangareddy,IRGIPALLY,78.07,17.62,01/07/23,5.85
+SANGAREDDY,Sangareddy,FASALWADI,78.12,17.63,01/07/23,11.84
+SANGAREDDY,Watpalle,PALVATLA,77.92,17.87,01/07/23,1.13
+MULUGU,Eturunagaram,BHUTARAM,80.41,18.35,01/07/23,
+MULUGU,Eturunagaram,CHELPAKA,80.37,18.4,01/07/23,4.23
+MULUGU,Eturunagaram,CHINNABOINAPALLY,80.4,18.29,01/07/23,
+MULUGU,Eturunagaram,MUPPANAPALLY,80.35,18.51,01/07/23,4.12
+MULUGU,Eturunagaram,SHANKARRAJUPALLY,80.43,18.41,01/07/23,3.43
+MULUGU,Kannaigudem,TUPAKULAGUDEM,80.38,18.58,01/07/23,4.98
+MULUGU,Govindaraopet,MACHAPUR,80.06,18.21,01/07/23,1.85
+MULUGU,Govindaraopet,BUSSAPUR,80.08,18.18,01/07/23,3.72
+MULUGU,Mangapet,AKINEPALLI MALLARAM,80.68,18.11,01/07/23,3.68
+MULUGU,Mulug,ABBAPUR,79.88,18.18,01/07/23,7.02
+MULUGU,Mulug,POTLAPUR,79.99,18.11,01/07/23,3.72
+MULUGU,Mulug,SARVAPUR,80.07,18.12,01/07/23,1.21
+MULUGU,Tadvai,KATAPUR,80.4,18.16,01/07/23,2.65
+MULUGU,Tadvai,KODISHALA,80.24,18.08,01/07/23,2.98
+MULUGU,Tadvai,LINGALA,80.28,18,01/07/23,4.12
+MULUGU,Tadvai,NARLAPUR,80.21,18.31,01/07/23,0.73
+MULUGU,Tadvai,OORATTAM,80.24,18.34,01/07/23,2.24
+MULUGU,Venkatapur,NARSAPUR,79.89,18.24,01/07/23,2.67
+MULUGU,Venkatapur,SURAVEDU ,80.7,18.17,01/07/23,4.45
+MULUGU,Wazeed,WAZEED,80.48,18.44,01/07/23,5.76
+Nizamabad,Bheemgal,Bheemgal,78.41,18.69,01/07/23,
+Nizamabad,Makloor,Makloor,78.13,18.76,01/07/23,
+Nizamabad,Navipet,Yemcha,77.97,18.85,01/07/23,
+Nizamabad,Ranjal,Satapoor,77.94,18.76,01/07/23,
+Nizamabad,Rudrur,Rudroor,77.88,18.59,01/07/23,
+Nizamabad,Sirkonda,Cheemanpally,78.54,18.55,01/07/23,
+MEDAK,Papannapet,PODCHANPALLY,78.19,18.05,01/07/23,5.62
+KHAMMAM,Chinthakani,Nereda,80.24,17.14,01/07/23,1.83
+KHAMMAM,Enkuru,Arekayalapadu,80.38,17.32,01/07/23,15.5
+KHAMMAM,Enkuru,Jannaram,80.41,17.32,01/07/23,8.95
+KHAMMAM,Thallada,Annarugudem,80.44,17.26,01/07/23,0.75
+KHAMMAM,Thallada,Billupadu,80.46,17.24,01/07/23,0.98
+KHAMMAM,Thallada,Mallaram,80.41,17.23,01/07/23,1.35
+KUMURAM BHEEM,Asifabad,ASIFABAD-2,79.28,19.36,01/07/23,12.5
+KUMURAM BHEEM,Rebbana,REBBENA-1,79.41,19.26,01/07/23,3.97
+SANGAREDDY,Kangti,Chapta-K,77.67,18.22,01/07/23,9.8
+SANGAREDDY,Andhole,Annasagar,78.07,17.85,01/07/23,3.77
+SANGAREDDY,Gummadidala,Kanukunta,78.4,17.7,01/07/23,24.17
+SANGAREDDY,Hathanoora,Panyal,78.13,17.75,01/07/23,19.08
+SANGAREDDY,Munipalli,Munipally,77.87,17.69,01/07/23,3.24
+SANGAREDDY,Sadasivpet,Maddikunta,77.92,17.6,01/07/23,3.23
+SANGAREDDY,Sirgapoor,Wangdhal,77.67,18.13,01/07/23,6.22
+SIRCILLA,Konaraopeta,Marrimadla,78.61,18.55,01/07/23,
+SIRCILLA,Mustabad,Mustabad (NC),78.71,18.28,01/07/23,
+SIRCILLA,Rudrangi,Rudrangi (NC),78.71,18.62,01/07/23,3.32
+VIKARABAD,Basheerabad,Manthatti,77.51,17.25,01/07/23,6.65
+VIKARABAD,Doma,Dirsanpally,77.8,17.09,01/07/23,19.58
+VIKARABAD,Kulkacharla,Mujahidpur,77.91,17.06,01/07/23,12.92
+VIKARABAD,Marpalle,Marpalle(D),77.76,17.54,01/07/23,15.62
+VIKARABAD,Vikarabad,Vikarabad (D),77.92,17.33,01/07/23,12.4
+VIKARABAD,Yelal,Bennur,77.6,17.21,01/07/23,
+VIKARABAD,Yelal,Thimmaipally,77.61,17.17,01/07/23,8.38
+Rangareddy,Amangal,Amangal,78.53,16.86,01/07/23,6.81
+Rangareddy,Talakondapalle,Veljal,78.36,16.83,01/07/23,14.6
+Vikarabad,Bantwaram,Turmamidi,77.65,17.46,01/07/23,4.38
+Vikarabad,Basheerabad,Mailwar,77.75,17.38,01/07/23,11.22
+Vikarabad,Bomraspeta,Amsanpalle,77.72,17.09,01/07/23,24.97
+Vikarabad,Bomraspeta,Burhanpoor,77.76,17.19,01/07/23,9.4
+Vikarabad,Bomraspeta,Gouraram,78.65,17.77,01/07/23,15.5
+Vikarabad,Dharur,Kerelli,77.83,17.31,01/07/23,6.83
+Vikarabad,Doma,Gumdal,77.79,17.01,01/07/23,7.13
+Vikarabad,Doulatabad,Gokafasalwada,77.57,16.96,01/07/23,10.56
+Vikarabad,Kodangal,Angadiraichur,77.54,17.09,01/07/23,2.65
+Vikarabad,Kodangal,Nagaram,77.53,17.14,01/07/23,2.02
+Vikarabad,Kodangal,Upparpalle,77.5,17.11,01/07/23,11.75
+Vikarabad,Kotepally,Kotepalli,77.75,17.38,01/07/23,7.48
+Vikarabad,Kotepally,Jinnaram,77.79,17.4,01/07/23,7.7
+Vikarabad,Kulkacharla,Veerapur,77.99,16.97,01/07/23,13.04
+Vikarabad,Kulkacharla,Antharam,77.87,16.97,01/07/23,11.2
+Vikarabad,Marpalle,Dargupalli,77.82,17.59,01/07/23,10.78
+Vikarabad,Mominpet,Mekavanampally,77.91,17.56,01/07/23,11.1
+Vikarabad,Nawabpet,Ekmamidi,77.92,17.4,01/07/23,4.57
+Vikarabad,Nawabpet,Madireddy palli,77,17.45,01/07/23,24.91
+Vikarabad,Pargi,Mittakodur,77.81,17.2,01/07/23,1.23
+Vikarabad,Pargi,Naskal,77.87,17.23,01/07/23,20.65
+Vikarabad,Pargi,Rangampalli,77.83,17.16,01/07/23,24.57
+Vikarabad,Pargi,Rapole,77.95,17.13,01/07/23,9.03
+Vikarabad,Peddemul,Nagulapalli,77.65,17.39,01/07/23,16.1
+Vikarabad,Pudur,"Nizampet
+medipalli",78,17.16,01/07/23,2.63
+Vikarabad,Tandur,Bijwaram,77.66,17.25,01/07/23,10.3
+Vikarabad,Tandur,Gingurthy,77.55,17.34,01/07/23,14.52
+Vikarabad,Tandur,Karankote,77.48,17.29,01/07/23,6.28
+Vikarabad,Tandur,Sangamkalan,77.46,17.36,01/07/23,3.8
+Vikarabad,Tandur,Uddendapur,77.53,17.39,01/07/23,18.92
+Vikarabad,Vikarabad,Madanpalli,77.86,17.39,01/07/23,5.86
+Vikarabad,Yelal,Devanoor,77.68,17.19,01/07/23,20.7
+Vikarabad,Yelal,Juntupally,77.56,17.17,01/07/23,7.08
+Vikarabad,Yelal,Rasnam,77.74,17.25,01/07/23,4.48
+SANGAREDDY,Jharasangam,JHARASANGAM ,77.71,17.76,01/07/23,5.88
+SANGAREDDY,Jharasangam,MACHANOOR,77.67,17.72,01/07/23,10.86
+SANGAREDDY,Kohir,BILALPUR,77.69,17.56,01/07/23,13.94
+SANGAREDDY,Kohir,BADAMPET,77.66,17.56,01/07/23,13.2
+SANGAREDDY,Mogdampalle,MOGUDAMPALLY,77.51,17.62,01/07/23,8.96
+SANGAREDDY,Mogdampalle,MANNAPUR,77.52,17.63,01/07/23,6.1
+SANGAREDDY,Mogdampalle,DHANASRI,77.47,17.65,01/07/23,10.07
+SANGAREDDY,Naykal,NYALKAL,77.67,17.84,01/07/23,5.4
+SANGAREDDY,Sirgapoor,WASAR,77.67,18.13,01/07/23,11.51
+SANGAREDDY,Zahirabad,SATWAR,77.53,17.7,01/07/23,3.57
+SANGAREDDY,Zahirabad,MALCHELMA,77.61,17.59,01/07/23,14.57
+SANGAREDDY,Naykal,Dappur,77.75,17.86,01/07/23,6.5
+NAGARKURNOOL,Achampet,GHANAPUR,78.95,16.5,01/07/23,2.24
+NAGARKURNOOL,Achampet,HAZIPUR,78.7,16.46,01/07/23,10.74
+NAGARKURNOOL,Achampet,SIDDAPUR,78.85,16.54,01/07/23,5.52
+NAGARKURNOOL,Amrabad,AMRABAD,78.82,16.37,01/07/23,7.04
+NAGARKURNOOL,Amrabad,MADHAVANIPALLY,78.87,16.39,01/07/23,12.73
+NAGARKURNOOL,Amrabad,VATVERLAPALLLY,78.8,16.25,01/07/23,23.99
+NAGARKURNOOL,Balmoor,BANALA,78.64,16.32,01/07/23,13.83
+NAGARKURNOOL,Charakonda,CHARAKONDA,78.71,16.7,01/07/23,1.32
+NAGARKURNOOL,Kalwakurthy,THOTAPALLY,78.4,16.61,01/07/23,5.96
+NAGARKURNOOL,Kalwakurthy,YELLIKAL,78.53,16.61,01/07/23,6.27
+NAGARKURNOOL,Kodair,KODAIR,78.29,16.26,01/07/23,1.94
+NAGARKURNOOL,Padra,IPPALAPALLY,79.07,16.35,01/07/23,22.34
+NAGARKURNOOL,Padra,PADARA,78.88,16.43,01/07/23,3.12
+NAGARKURNOOL,Peddakothapalle,PEDDAKOTHAPALLY,78.36,16.29,01/07/23,1.95
+NAGARKURNOOL,Peddakothapalle,YAPATLA,78.43,16.24,01/07/23,2.77
+NAGARKURNOOL,Pentlavelli,JATAPROLE,78.2,16.05,01/07/23,2.82
+NAGARKURNOOL,Pentlavelli,PENTLAVELLY,78.26,16.08,01/07/23,4.69
+NAGARKURNOOL,Tadoor,ITHOLE,78.35,16.62,01/07/23,2.92
+NAGARKURNOOL,Tadoor,TADOOR,78.36,16.52,01/07/23,0.11
+NAGARKURNOOL,Telkapalle,PEDDUR,78.44,16.37,01/07/23,8.21
+NAGARKURNOOL,Thimmajipeta,GORITA,78.15,16.62,01/07/23,11.77
+NAGARKURNOOL,Thimmajipeta,THIMMAJIPETA,78.19,16.67,01/07/23,15.43
+NAGARKURNOOL,Uppunuthala,MAMILLAPALLY,78.51,16.47,01/07/23,7.24
+NAGARKURNOOL,Uppunuthala,PEDDAPUR,78.54,16.49,01/07/23,10.93
+NAGARKURNOOL,Uppunuthala,PENIMILLA,78.73,16.52,01/07/23,17.58
+NAGARKURNOOL,Urkonda,URKONDA,78.41,16.73,01/07/23,10.65
+NAGARKURNOOL,Vangoor,DINDICHINTHAPALLY,78.59,16.53,01/07/23,8.02
+NAGARKURNOOL,Veldanda,BHAIRAPUR,78.65,16.75,01/07/23,2.84
+NAGARKURNOOL,Veldanda,POTHEPALLY,78.58,16.71,01/07/23,5.01
+MAHABUBNAGAR,Midjil,MIDJIL,78.32,16.74,01/07/23,14.87
+MAHABUBNAGAR,Mohammadabad,MOHAMMADABAD,77.89,16.87,01/07/23,5.47
+MAHABUBNAGAR,Musapet,MOOSAPET,77.98,16.6,01/07/23,4.95
+MAHABUBNAGAR,Addakal,GUDIBANDA,77.92,16.53,01/07/23,2.45
+MAHABUBNAGAR,Balanagar,BALANAGAR,78.18,16.94,01/07/23,8.03
+MAHABUBNAGAR,Balanagar,PEDDAREVALLY,78.27,16.91,01/07/23,9.69
+MAHABUBNAGAR,Chinna_Chintha_Kunta,CC.KUNTA,77.81,16.45,01/07/23,6.12
+MAHABUBNAGAR,Chinna_Chintha_Kunta,EDULAPUR,77.8,16.46,01/07/23,4.38
+MAHABUBNAGAR,Devarkadara,NAGARAM,77.81,16.67,01/07/23,4.35
+MAHABUBNAGAR,Mohammadabad,NANCHERLA,77.85,16.91,01/07/23,1.37
+MAHABUBNAGAR,Gandeed,VENNACHED,77.76,16.95,01/07/23,16.69
+MAHABUBNAGAR,Hanwada,TANKARA,77.95,16.81,01/07/23,5.81
+MAHABUBNAGAR,Jadcherla,GANGAPUR,78.19,16.77,01/07/23,9.62
+MAHABUBNAGAR,Jadcherla,KODGAL,78.22,16.82,01/07/23,9.42
+MAHABUBNAGAR,Koilkonda,ABHANGAPATNAM,77.87,16.76,01/07/23,10.7
+MAHABUBNAGAR,Koilkonda,SERIVENKATAPUR,77.74,16.81,01/07/23,14.07
+MAHABUBNAGAR,Mahabubnagar_Urban,MAHABUBNAGAR,77.99,16.75,01/07/23,4.54
+MAHABUBNAGAR,Midjil,DONUR,78.26,16.79,01/07/23,10.85
+MAHABUBNAGAR,Midjil,VELUGOMMULA,78.3,16.71,01/07/23,5.18
+MAHABUBNAGAR,Musapet,NIJALAPUR,77.99,16.59,01/07/23,2.3
+MAHABUBNAGAR,Nawabpet,LOKIREV,78.06,16.91,01/07/23,16.76
+MAHABUBNAGAR,Nawabpet,POMAL,78.02,16.95,01/07/23,21.05
+MAHABUBNAGAR,Nawabpet,TEEGALAPALLE,78.04,16.82,01/07/23,8.22
+MAHABUBNAGAR,Rajapur,EDGANPALLI,78.21,16.85,01/07/23,3.17
+JOGULAMBA(GADWAL),Alampur,Bhemavaram,78.12,15.97,01/07/23,
+JOGULAMBA(GADWAL),Dharur,Dyagadoddi,77.63,16.31,01/07/23,3.16
+JOGULAMBA(GADWAL),Dharur,Marlabeedu,77.66,16.22,01/07/23,10.22
+JOGULAMBA(GADWAL),Gadwal,Atmakur,77.76,16.27,01/07/23,1.56
+JOGULAMBA(GADWAL),Ghattu,Induvasi,77.53,16.02,01/07/23,
+JOGULAMBA(GADWAL),Aiza,Thothinonidoddi,77.54,15.98,01/07/23,5.25
+JOGULAMBA(GADWAL),Aiza,Uthanoor,77.63,16,01/07/23,4.94
+JOGULAMBA(GADWAL),Itikyal,Itikyal,77.86,16.09,01/07/23,2.56
+JOGULAMBA(GADWAL),Kaloor_Timmanadoddi,Irchichedu,77.54,16.26,01/07/23,8.69
+JOGULAMBA(GADWAL),Kaloor_Timmanadoddi,Nandinne,77.53,16.22,01/07/23,20.24
+JOGULAMBA(GADWAL),Maldakal,Burdipadu,77.75,16.16,01/07/23,2.07
+JOGULAMBA(GADWAL),Manopad,Maddur,77.89,15.91,01/07/23,1.84
+JOGULAMBA(GADWAL),Rajoli,Rajoli,77.83,15.9,01/07/23,5.25
+JOGULAMBA(GADWAL),Waddepalle,Tanagala,77.75,15.96,01/07/23,3.02
+NARAYANPET,Damaragidda,DAMARGIDDA,77.52,16.82,01/07/23,6.95
+NARAYANPET,Maddur,KOTHAPALLY,77.69,16.84,01/07/23,11.55
+NARAYANPET,Kosgi,AMILKUNTA,77.72,16.92,01/07/23,15.3
+NARAYANPET,Kosgi,SARJKHANPET,77.74,17.02,01/07/23,6.7
+NARAYANPET,Dhanwada,DHANWADA ,77.67,16.63,01/07/23,15.9
+NARAYANPET,Dhanwada,KONDAPUR,77.74,16.72,01/07/23,18.55
+NARAYANPET,Marikal,VENKATAPUR,77.76,16.62,01/07/23,4.8
+NARAYANPET,Maganoor,MAGANOOR,77.44,16.47,01/07/23,8.85
+NARAYANPET,Krishna,KRISHNA,77.33,16.41,01/07/23,3.4
+NARAYANPET,Maganoor,KOLPUR,77.48,16.39,01/07/23,3.05
+NARAYANPET,Narva,KALWAL,77.61,16.41,01/07/23,2.65
+NARAYANPET,Makthal,PASPUL,77.54,16.37,01/07/23,1.3
+NARAYANPET,Makthal,LINGAMPALLY,77.51,16.57,01/07/23,1.92
+NALGONDA,Chityala,Gundrampally,78.99,17.23,01/07/23,6.26
+NALGONDA,Munugode,Palivela,79.03,17.13,01/07/23,10.01
+NALGONDA,Narketpalle,Cheruvugattu,79.22,17.18,01/07/23,10.5
+NALGONDA,Narketpalle,Nakkalapally,79.27,17.29,01/07/23,6.91
+NALGONDA,Narketpalle,Ammanabole,79.27,17.35,01/07/23,4.01
+NALGONDA,Saligouraram,Manimadde,79.34,17.34,01/07/23,2.06
+NALGONDA,Saligouraram,Shaligouraram,79.39,17.3,01/07/23,1.32
+NALGONDA,Saligouraram,Vangamarthy,79.47,17.32,01/07/23,1.28
+NALGONDA,Kattangoor,Eduluru,79.31,17.24,01/07/23,7.8
+NALGONDA,Nalgonda,Dandampally,79.29,17.13,01/07/23,2.43
+NALGONDA,Kattangoor,Aitipamula,79.38,17.17,01/07/23,4.93
+NALGONDA,Nakrekal,Marrur,79.43,17.11,01/07/23,16.75
+NALGONDA,Kethepalle,Koppole,79.56,17.12,01/07/23,4.62
+NALGONDA,Vemulapalle,Laxmidevigudem,79.57,17.04,01/07/23,4.35
+NALGONDA,Vemulapalle,Buggabavigudem,79.51,16.94,01/07/23,2.43
+NALGONDA,Chandur,Bodangiparthy,79.04,17.04,01/07/23,8.21
+NALGONDA,Madugulapally,Madgulapally,79.46,16.97,01/07/23,7.36
+NALGONDA,Thipparthi,Ranigudem H/o Jangamreddy Gudem,79.36,17.02,01/07/23,2.2
+NALGONDA,Damaracherla,Dameracharla,79.63,16.74,01/07/23,3.6
+NALGONDA,Damaracherla,Wadapalli,79.67,16.69,01/07/23,25.65
+NALGONDA,Thripuraram,Tripuraram,79.46,16.83,01/07/23,4.42
+NALGONDA,Thripuraram,Pedda Devula palli,79.47,16.89,01/07/23,3.1
+NALGONDA,Nidamanur,Yerrabelli,79.35,16.91,01/07/23,16.69
+NALGONDA,Adavi devula palli,Mulkacherla,79.47,16.68,01/07/23,16.45
+NALGONDA,Tirumalagiri_Sagar,Tirumalagiri Sagar,79.33,16.73,01/07/23,2.9
+NALGONDA,Tirumalagiri_Sagar,Chinthalapalem,79.38,16.59,01/07/23,4.1
+NALGONDA,Tirumalagiri_Sagar,Timmaipalem,79.43,16.62,01/07/23,13.15
+NALGONDA,Peddavura,Pottichelma H/o Chalakurthi,79.28,16.67,01/07/23,7.53
+NALGONDA,Neredugommu,Peddamunigal,79.07,16.58,01/07/23,11.68
+NALGONDA,Chandampet,Rekulagadda,79.05,16.5,01/07/23,13.02
+NALGONDA,Chandampet,Pogilla,79.19,16.4,01/07/23,5.89
+NALGONDA,Chandampet,Yalmalamanda,79.07,16.45,01/07/23,13.75
+NALGONDA,Gundlapalle,Gonaboinapally,78.82,16.55,01/07/23,5.83
+NALGONDA,Gundlapalle,Yerraram,78.84,16.6,01/07/23,3.3
+NALGONDA,Gundlapalle,Singarajupally,78.72,16.64,01/07/23,16.56
+NALGONDA,Gundlapalle,Cherukupally,78.77,16.59,01/07/23,4.65
+NALGONDA,Chinthapalle,Chinthapally,78.83,16.82,01/07/23,10.6
+NALGONDA,Chinthapalle,Anajpur,78.79,16.75,01/07/23,7.43
+NALGONDA,Devarakonda,Devarakonda,78.9,16.7,01/07/23,12.36
+NALGONDA,Kondamallapally,Pendlipakala,78.99,16.68,01/07/23,5.66
+NALGONDA,Pedda_adiserlapalle,Gudipally,79.07,16.77,01/07/23,2.37
+NALGONDA,Gurrampode,Junuthla,79.06,16.81,01/07/23,4.85
+NALGONDA,Gurrampode,Chepur,79.16,16.82,01/07/23,6.1
+NALGONDA,Nampalle,Nampally,78.96,16.89,01/07/23,4.34
+NALGONDA,Nampalle,TP Gouraram,78.88,16.88,01/07/23,16.78
+NALGONDA,Marriguda,Venkepally,78.84,17.02,01/07/23,8.3
+NALGONDA,Chandur,Donipamula,78.97,16.98,01/07/23,6.1
+NALGONDA,Chandur,Kondapuram,78.99,17.06,01/07/23,13.1
+NALGONDA,Kangal,G.Yadavally,79.13,16.97,01/07/23,4.1
+NALGONDA,Kangal,Guwraram,79.22,16.91,01/07/23,9.25
+NALGONDA,Anumula_Haliya,Marepally,79.25,16.88,01/07/23,7.7
+NALGONDA,Anumula_Haliya,Hazarigudem H/o Perur,79.35,16.79,01/07/23,2.65
+NALGONDA,Kangal,Manchineela bavi H/o ,79.23,17,01/07/23,14.5
+NALGONDA,Nalgonda,Appajipeta,79.18,17.11,01/07/23,6.98
+NALGONDA,Chityala,Aregudem H/o Pedda Kaparthy,79.07,17.23,01/07/23,7.2
+WANAPARTHY,Amarchinta,Amarachintha,77.77,16.38,01/07/23,7.5
+WANAPARTHY,Amarchinta,Mastipur,77.75,16.37,01/07/23,2.6
+WANAPARTHY,Amarchinta,Mitta Nandimalla,77.69,16.38,01/07/23,1.6
+WANAPARTHY,Atmakur,Tippadampally,77.87,16.29,01/07/23,3.6
+WANAPARTHY,Chinnambavi,Bekkem,78.15,16.07,01/07/23,2.55
+WANAPARTHY,Chinnambavi,Velgonda,78.12,16.05,01/07/23,9.5
+WANAPARTHY,Madanapur,Ajjakollu,77.88,16.36,01/07/23,4.2
+WANAPARTHY,Madanapur,Dwarakanagar,77.88,16.44,01/07/23,14.6
+WANAPARTHY,Madanapur,Nelividi,77.88,16.39,01/07/23,4.55
+WANAPARTHY,Madanapur,Kothapally,77.85,16.38,01/07/23,13.85
+WANAPARTHY,Pangal,Remaddula,78.18,16.32,01/07/23,5.3
+WANAPARTHY,Pangal,Kethepally,78.16,16.2,01/07/23,2.6
+WANAPARTHY,Pebbair,Pebbair,77.99,16.2,01/07/23,8.5
+WANAPARTHY,Revelly,Revally,78.27,16.37,01/07/23,1.5
+WANAPARTHY,Srirangapur,Sri Rangapur,78.04,16.18,01/07/23,2.3
+WANAPARTHY,Veepangandla,Kalvarala,78.13,16.15,01/07/23,5.5
+WANAPARTHY,Veepangandla,Korlakunta-Bollaram,78.21,16.16,01/07/23,4.7

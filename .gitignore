@@ -17,9 +17,20 @@ env/
 models/**/*.pkl
 models/**/*.joblib
 
+# Raw government datasets
+data/raw/*
+!data/raw/groundwater/
+!data/raw/groundwater/.gitkeep
+!data/raw/rainfall/
+!data/raw/rainfall/.gitkeep
+!data/raw/classifications/
+!data/raw/classifications/.gitkeep
+
 # Generated data
 data/interim/*
 data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
 
 # RAG generated files
 rag/embeddings/*
@@ -40,5 +51,3 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
-
-data/raw/*
