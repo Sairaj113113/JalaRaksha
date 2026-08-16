@@ -11,6 +11,9 @@ from backend.schemas.risk_schema import (
 from backend.services.location_service import (
     get_latest_observation,
 )
+from backend.services.current_condition_service import (
+    build_current_observation,
+)
 from backend.services.risk_service import (
     predict_observation,
 )
@@ -30,7 +33,7 @@ MODEL_INFO = ModelInfo(
 
 def build_observation_info(observation):
     """
-    Convert the raw observation into the API observation structure.
+    Convert the observation into the API observation structure.
     """
     date_value = observation.get("date")
 
@@ -50,10 +53,10 @@ def build_observation_info(observation):
 
 def get_prediction(district, mandal):
     """
-    Shared prediction pipeline.
+    Existing prediction pipeline.
 
-    1. Resolve the latest observation.
-    2. Use that exact observation for ML prediction.
+    Uses the latest real groundwater observation.
+    Kept for the /predict endpoint.
     """
     observation = get_latest_observation(
         district,
@@ -91,6 +94,53 @@ def get_prediction(district, mandal):
     return observation, prediction
 
 
+def get_current_prediction(district, mandal):
+    """
+    Current Jala Raksha analysis pipeline.
+
+    1. Use historical groundwater data.
+    2. Estimate the current month's groundwater level.
+    3. Build a current-month feature row.
+    4. Classify the estimated current condition.
+    """
+    observation = build_current_observation(
+        district,
+        mandal,
+    )
+
+    if observation is None:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "code": "INSUFFICIENT_HISTORICAL_DATA",
+                "message": (
+                    "Insufficient historical groundwater "
+                    "data is available to estimate the "
+                    "current condition for this location."
+                ),
+            },
+        )
+
+    try:
+        prediction = predict_observation(
+            observation
+        )
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "code": "MODEL_ERROR",
+                "message": (
+                    "Unable to generate current "
+                    "groundwater risk prediction."
+                ),
+            },
+        ) from exc
+
+    return observation, prediction
+
+
 @router.post(
     "/predict",
     response_model=PredictionResponse,
@@ -98,7 +148,7 @@ def get_prediction(district, mandal):
 def predict(request: LocationRequest):
     """
     Generate a groundwater classification
-    using the latest observation.
+    using the latest real observation.
     """
     observation, prediction = get_prediction(
         request.district,
@@ -125,10 +175,12 @@ def analyze(request: LocationRequest):
     """
     Main Jala Raksha analysis endpoint.
 
-    Uses the exact same observation-selection
-    and ML prediction pipeline as /predict.
+    Uses historical groundwater and rainfall data
+    to estimate the current month's groundwater
+    condition and classify the estimated risk.
     """
-    observation, prediction = get_prediction(
+
+    observation, prediction = get_current_prediction(
         request.district,
         request.mandal,
     )
@@ -194,27 +246,51 @@ def analyze(request: LocationRequest):
         ),
     }
 
-    # Temporary explanation.
-    # This will be replaced by explanation_service.py
-    # when LLM integration is added.
+    target_date = observation.get(
+        "date"
+    )
+
+    if target_date is not None:
+        target_date = str(
+            target_date
+        )
+
+    last_real_date = observation.get(
+        "last_real_observation_date"
+    )
+
     explanation = {
         "summary": (
-            f"The model classified this location as "
+            f"The model estimates the current "
+            f"groundwater level at "
+            f"{groundwater_value:.3f} m and "
+            f"classifies the current condition as "
             f"{prediction['classification']}."
         ),
         "key_factors": [
             {
-                "factor": "Groundwater measurement",
+                "factor": "Estimated groundwater level",
                 "explanation": (
-                    "The latest groundwater observation "
-                    "was used by the ML model."
+                    "The current groundwater level "
+                    "is a model estimate derived from "
+                    "historical groundwater observations."
+                ),
+            },
+            {
+                "factor": "Historical groundwater trend",
+                "explanation": (
+                    "Historical groundwater behavior "
+                    "was used to estimate the current "
+                    "month's groundwater condition."
                 ),
             },
             {
                 "factor": "Rainfall conditions",
                 "explanation": (
-                    "Available rainfall features were "
-                    "included in the model input."
+                    "Historical rainfall behavior for "
+                    "the current calendar month was "
+                    "used to construct the current "
+                    "risk-model input."
                 ),
             },
         ],
@@ -224,8 +300,15 @@ def analyze(request: LocationRequest):
             "Use the prediction as decision-support information.",
         ],
         "disclaimer": (
-            "AI-generated decision support based on "
-            "available groundwater and rainfall data."
+            "This is an AI-generated estimate based "
+            "on historical groundwater and rainfall "
+            "data. It is not a direct measurement of "
+            "current groundwater conditions."
+        ),
+        "estimated": True,
+        "target_date": target_date,
+        "last_real_observation_date": (
+            last_real_date
         ),
     }
 
