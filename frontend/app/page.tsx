@@ -10,10 +10,12 @@ export default function Home() {
 
   const [loadingLocations, setLoadingLocations] = useState(true);
   const [locationError, setLocationError] = useState("");
+  const [usingCurrentLocation, setUsingCurrentLocation] = useState(false);
 
   const [result, setResult] = useState<any>(null);
   const [analyzing, setAnalyzing] = useState(false);
   const [analysisError, setAnalysisError] = useState("");
+
 
   useEffect(() => {
     async function loadLocations() {
@@ -142,11 +144,14 @@ export default function Home() {
 
             <button
               type="button"
-              className="rounded-xl border border-slate-300 px-5 py-3 font-medium text-slate-700 hover:bg-slate-50"
+              onClick={handleCurrentLocation}
+              disabled={usingCurrentLocation}
+              className="rounded-xl border border-slate-300 px-5 py-3 font-medium text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              📍 Use Current Location
+              {usingCurrentLocation
+                ? "📍 Getting Location..."
+                : "📍 Use Current Location"}
             </button>
-
             <button
               type="button"
               onClick={handleAnalyze}
@@ -229,20 +234,18 @@ export default function Home() {
               <h3 className="mt-6 font-semibold text-slate-900">
                 Key Factors
               </h3>
-<ul className="mt-3 list-disc space-y-3 pl-5 text-slate-600">
-  {result.explanation.key_factors.map(
-    (factor: { factor: string; explanation: string }, index: number) => (
-      <li key={`${factor.factor}-${index}`}>
-        <strong className="text-slate-900">
-          {factor.factor}
-        </strong>
-        <p className="mt-1">
-          {factor.explanation}
-        </p>
-      </li>
-    )
-  )}
-</ul>
+
+              <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-600">
+                {result.explanation.key_factors.map(
+                  (factor: any, index: number) => (
+                    <li key={`${factor.factor}-${index}`}>
+                      <strong>{factor.factor}</strong>
+                      <br />
+                      {factor.explanation}
+                    </li>
+                  )
+                )}
+              </ul>
 
               <h3 className="mt-6 font-semibold text-slate-900">
                 Recommended Actions
@@ -266,7 +269,64 @@ export default function Home() {
       </div>
     </main>
   );
+  async function handleCurrentLocation() {
+    if (!navigator.geolocation) {
+      setLocationError("Geolocation is not supported by this browser.");
+      return;
+    }
 
+    try {
+      setUsingCurrentLocation(true);
+      setLocationError("");
+
+      const position = await new Promise<GeolocationPosition>(
+        (resolve, reject) => {
+          navigator.geolocation.getCurrentPosition(resolve, reject, {
+            enableHighAccuracy: true,
+            timeout: 10000,
+            maximumAge: 0,
+          });
+        }
+      );
+
+      const { latitude, longitude } = position.coords;
+
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000"}/location/nearest?lat=${latitude}&lon=${longitude}`
+      );
+
+      if (!response.ok) {
+        throw new Error("Unable to find your nearest location.");
+      }
+
+      const data = await response.json();
+
+      setDistrict(data.district);
+      setMandal(data.mandal);
+    } catch (error) {
+      console.error(error);
+
+      if (error instanceof GeolocationPositionError) {
+        if (error.code === error.PERMISSION_DENIED) {
+          setLocationError(
+            "Location permission was denied. Please allow location access and try again."
+          );
+        } else if (error.code === error.POSITION_UNAVAILABLE) {
+          setLocationError("Your current location could not be determined.");
+        } else if (error.code === error.TIMEOUT) {
+          setLocationError("Location request timed out. Please try again.");
+        }
+      } else {
+        setLocationError(
+          error instanceof Error
+            ? error.message
+            : "Unable to get your current location."
+        );
+      }
+    } finally {
+      setUsingCurrentLocation(false);
+    }
+  }
   async function handleAnalyze() {
     if (!district || !mandal) return;
 
