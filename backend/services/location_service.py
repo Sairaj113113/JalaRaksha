@@ -2,6 +2,7 @@ from functools import lru_cache
 
 import numpy as np
 import pandas as pd
+import requests
 
 from backend.config import (
     GROUNDWATER_DATA_PATH,
@@ -246,13 +247,11 @@ def get_location_points():
 
 def resolve_location(lat, lon):
     """
-    Resolve GPS coordinates to the nearest
-    supported district + mandal.
-
-    If the nearest supported location is farther
-    than GPS_MAX_DISTANCE_KM, the location is
-    considered unsupported.
+    Resolve GPS coordinates to the actual Telangana
+    administrative district + mandal using TGRAC
+    mandal boundary polygons.
     """
+
     try:
         lat = float(lat)
         lon = float(lon)
@@ -272,42 +271,64 @@ def resolve_location(lat, lon):
             "Invalid longitude."
         )
 
-    points = get_location_points()
+    url = (
+        "https://tgrac.telangana.gov.in/"
+        "arcgis/rest/services/"
+        "TGIIC_Folder/BaseLayers/"
+        "MapServer/3/query"
+    )
 
-    if points.empty:
+    params = {
+        "f": "json",
+        "geometry": (
+            f'{{"x":{lon},"y":{lat},'
+            '"spatialReference":{"wkid":4326}}'
+        ),
+        "geometryType": "esriGeometryPoint",
+        "inSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "Mandal_Nam,Dist_Name",
+        "returnGeometry": "false",
+    }
+
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            timeout=10,
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+    except requests.RequestException as exc:
         return {
             "supported": False,
             "error": {
-                "code": "LOCATION_DATA_UNAVAILABLE",
+                "code": "LOCATION_SERVICE_UNAVAILABLE",
                 "message": (
-                    "No supported geographic locations "
-                    "are currently available."
+                    "Unable to resolve the current "
+                    "administrative location."
                 ),
             },
         }
 
-    distances = _haversine_distance_km(
-        lat,
-        lon,
-        points["lat"].to_numpy(),
-        points["long"].to_numpy(),
-    )
+    if "error" in data:
+        return {
+            "supported": False,
+            "error": {
+                "code": "LOCATION_SERVICE_ERROR",
+                "message": (
+                    "The Telangana geographic "
+                    "location service returned an error."
+                ),
+            },
+        }
 
-    nearest_index = int(
-        np.argmin(distances)
-    )
+    features = data.get("features", [])
 
-    nearest = points.iloc[
-        nearest_index
-    ]
-
-    distance_km = float(
-        distances[nearest_index]
-    )
-
-    # User is outside the supported
-    # groundwater assessment area.
-    if distance_km > GPS_MAX_DISTANCE_KM:
+    if not features:
         return {
             "supported": False,
             "error": {
@@ -320,30 +341,33 @@ def resolve_location(lat, lon):
             },
         }
 
+    attributes = features[0].get(
+        "attributes",
+        {}
+    )
+
+    district = attributes.get("Dist_Name")
+    mandal = attributes.get("Mandal_Nam")
+
+    if not district or not mandal:
+        return {
+            "supported": False,
+            "error": {
+                "code": "LOCATION_DATA_UNAVAILABLE",
+                "message": (
+                    "The administrative boundary service "
+                    "did not return a valid mandal."
+                ),
+            },
+        }
+
     return {
         "supported": True,
-        "district": nearest[
-            "district_key"
-        ],
-        "mandal": nearest[
-            "mandal_key"
-        ],
-        "distance_km": round(
-            distance_km,
-            2
-        ),
-        "latitude": float(
-            nearest["lat"]
-        ),
-        "longitude": float(
-            nearest["long"]
-        ),
-        "coordinate_source": nearest.get(
-            "coordinate_source",
-            None
-        ),
-        "coordinate_quality": nearest.get(
-            "coordinate_quality",
-            None
-        ),
+        "district": normalize_name(district),
+        "mandal": normalize_name(mandal),
+        "distance_km": 0.0,
+        "latitude": lat,
+        "longitude": lon,
+        "coordinate_source": "TGRAC_MANDAL_BOUNDARY",
+        "coordinate_quality": 1,
     }
