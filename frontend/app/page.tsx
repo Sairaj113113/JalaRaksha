@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import {
   analyzeLocation,
+  generateVoice,
   getLocations,
   Location,
 } from "@/lib/api";
@@ -36,6 +37,9 @@ export default function Home() {
 
   const [analyzing, setAnalyzing] =
     useState(false);
+
+  const [speaking, setSpeaking] = useState(false);
+  const [audioUrl, setAudioUrl] = useState<string | null>(null);
 
   const [analysisError, setAnalysisError] =
     useState("");
@@ -128,8 +132,8 @@ export default function Home() {
       language === "te"
         ? "te-IN"
         : language === "hi"
-        ? "hi-IN"
-        : "en-US";
+          ? "hi-IN"
+          : "en-US";
 
     return new Date(date).toLocaleDateString(
       locale,
@@ -308,8 +312,8 @@ export default function Home() {
         language === "te"
           ? "ఈ బ్రౌజర్‌లో ప్రస్తుత స్థాన సేవ అందుబాటులో లేదు."
           : language === "hi"
-          ? "इस ब्राउज़र में स्थान सेवा उपलब्ध नहीं है।"
-          : "Geolocation is not supported by this browser."
+            ? "इस ब्राउज़र में स्थान सेवा उपलब्ध नहीं है।"
+            : "Geolocation is not supported by this browser."
       );
 
       return;
@@ -340,9 +344,8 @@ export default function Home() {
       } = position.coords;
 
       const response = await fetch(
-        `${
-          process.env.NEXT_PUBLIC_API_URL ||
-          "http://127.0.0.1:8000"
+        `${process.env.NEXT_PUBLIC_API_URL ||
+        "http://127.0.0.1:8000"
         }/location/nearest?lat=${latitude}&lon=${longitude}`
       );
 
@@ -351,8 +354,8 @@ export default function Home() {
           language === "te"
             ? "మీ సమీప ప్రాంతాన్ని కనుగొనలేకపోయాము."
             : language === "hi"
-            ? "आपके निकटतम स्थान को खोजा नहीं जा सका।"
-            : "Unable to find your nearest location."
+              ? "आपके निकटतम स्थान को खोजा नहीं जा सका।"
+              : "Unable to find your nearest location."
         );
       }
 
@@ -368,10 +371,10 @@ export default function Home() {
         error instanceof Error
           ? error.message
           : language === "te"
-          ? "మీ ప్రస్తుత స్థానాన్ని పొందలేకపోయాము."
-          : language === "hi"
-          ? "आपका वर्तमान स्थान प्राप्त नहीं किया जा सका।"
-          : "Unable to get your current location."
+            ? "మీ ప్రస్తుత స్థానాన్ని పొందలేకపోయాము."
+            : language === "hi"
+              ? "आपका वर्तमान स्थान प्राप्त नहीं किया जा सका।"
+              : "Unable to get your current location."
       );
     } finally {
       setUsingCurrentLocation(false);
@@ -409,13 +412,63 @@ export default function Home() {
         error instanceof Error
           ? error.message
           : language === "te"
-          ? "ప్రాంతాన్ని విశ్లేషించలేకపోయాము."
-          : language === "hi"
-          ? "स्थान का विश्लेषण नहीं किया जा सका।"
-          : "Unable to analyze location."
+            ? "ప్రాంతాన్ని విశ్లేషించలేకపోయాము."
+            : language === "hi"
+              ? "स्थान का विश्लेषण नहीं किया जा सका।"
+              : "Unable to analyze location."
       );
     } finally {
       setAnalyzing(false);
+    }
+  }
+
+  async function handleSpeak() {
+    if (!result) {
+      return;
+    }
+
+    try {
+      setSpeaking(true);
+
+      if (audioUrl) {
+        URL.revokeObjectURL(audioUrl);
+        setAudioUrl(null);
+      }
+
+      const classification = result.prediction.classification;
+      const groundwater = Number(result.groundwater.value);
+
+      // Uses the same multilingual summary shown on screen
+      const text = getAiSummary(
+        classification,
+        groundwater
+      );
+
+      console.log("Voice language:", language);
+      console.log("Voice text:", text);
+
+      const audioBlob = await generateVoice(text);
+
+      const url = URL.createObjectURL(audioBlob);
+      setAudioUrl(url);
+
+      const audio = new Audio(url);
+
+      audio.onended = () => {
+        setSpeaking(false);
+        URL.revokeObjectURL(url);
+      };
+
+      audio.onerror = () => {
+        setSpeaking(false);
+        URL.revokeObjectURL(url);
+        console.error("Unable to play generated audio.");
+      };
+
+      await audio.play();
+    } catch (error) {
+      console.error("Voice generation error:", error);
+      setSpeaking(false);
     }
   }
 
@@ -500,11 +553,10 @@ export default function Home() {
                       className="flex h-full flex-1 items-end"
                     >
                       <div
-                        className={`w-full rounded-t-lg transition ${
-                          index === 11
-                            ? "bg-blue-600"
-                            : "bg-blue-200"
-                        }`}
+                        className={`w-full rounded-t-lg transition ${index === 11
+                          ? "bg-blue-600"
+                          : "bg-blue-200"
+                          }`}
                         style={{
                           height: `${height}%`,
                         }}
@@ -564,7 +616,7 @@ export default function Home() {
               label={t.semiCritical}
               value={Number(
                 probabilities[
-                  "Semi-Critical"
+                "Semi-Critical"
                 ] || 0
               )}
               active={
@@ -590,7 +642,7 @@ export default function Home() {
               label={t.overExploited}
               value={Number(
                 probabilities[
-                  "Over-Exploited"
+                "Over-Exploited"
                 ] || 0
               )}
               active={
@@ -670,11 +722,10 @@ export default function Home() {
                     className="flex flex-1 items-end"
                   >
                     <div
-                      className={`w-full rounded-t-xl ${
-                        index === 6
-                          ? "bg-blue-600"
-                          : "bg-blue-200"
-                      }`}
+                      className={`w-full rounded-t-xl ${index === 6
+                        ? "bg-blue-600"
+                        : "bg-blue-200"
+                        }`}
                       style={{
                         height: `${height}%`,
                       }}
@@ -728,11 +779,10 @@ export default function Home() {
                 (_, index) => (
                   <div
                     key={index}
-                    className={`h-5 rounded-md ${
-                      index < rainfallDays
-                        ? "bg-blue-500"
-                        : "bg-slate-100"
-                    }`}
+                    className={`h-5 rounded-md ${index < rainfallDays
+                      ? "bg-blue-500"
+                      : "bg-slate-100"
+                      }`}
                   />
                 )
               )}
@@ -783,252 +833,252 @@ export default function Home() {
     );
   }
 
-function renderFarmingTab() {
-  const classification =
-    result.prediction.classification;
+  function renderFarmingTab() {
+    const classification =
+      result.prediction.classification;
 
-  let headline: string =
-    t.planIrrigation;
+    let headline: string =
+      t.planIrrigation;
 
-  let description: string =
-    t.farmingDescription;
-
-  if (classification === "Safe") {
-    headline =
-      t.waterConditionsFavorable;
-
-    description =
-      t.normalFarming;
-  }
-
-  if (
-    classification === "Critical"
-  ) {
-    headline =
-      t.reduceGroundwater;
-
-    description =
+    let description: string =
       t.farmingDescription;
-  }
 
-  if (
-    classification === "Over-Exploited"
-  ) {
-    headline =
-      t.groundwaterIntensiveRisky;
+    if (classification === "Safe") {
+      headline =
+        t.waterConditionsFavorable;
 
-    description =
-      t.farmingDescription;
-  }
+      description =
+        t.normalFarming;
+    }
 
-  return (
-    <div className="space-y-5">
+    if (
+      classification === "Critical"
+    ) {
+      headline =
+        t.reduceGroundwater;
 
-      <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 p-6 text-white shadow-lg shadow-emerald-100 sm:p-8">
+      description =
+        t.farmingDescription;
+    }
 
-        <div className="flex items-start gap-4">
+    if (
+      classification === "Over-Exploited"
+    ) {
+      headline =
+        t.groundwaterIntensiveRisky;
 
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/15 text-2xl">
-            🌾
-          </div>
+      description =
+        t.farmingDescription;
+    }
 
-          <div>
+    return (
+      <div className="space-y-5">
 
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-100">
-              {t.farmerGuidance}
-            </p>
+        <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 to-teal-600 p-6 text-white shadow-lg shadow-emerald-100 sm:p-8">
 
-            <h3 className="mt-2 text-2xl font-bold">
-              {headline}
-            </h3>
+          <div className="flex items-start gap-4">
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-emerald-50">
-              {description}
-            </p>
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/15 text-2xl">
+              🌾
+            </div>
+
+            <div>
+
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-100">
+                {t.farmerGuidance}
+              </p>
+
+              <h3 className="mt-2 text-2xl font-bold">
+                {headline}
+              </h3>
+
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-emerald-50">
+                {description}
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
+        <div className="grid gap-4 md:grid-cols-2">
+
+          <GuidanceCard
+            icon="💧"
+            title={t.irrigation}
+            text={t.dripSprinkler}
+          />
+
+          <GuidanceCard
+            icon="🌱"
+            title={t.cropPlanning}
+            text={t.lowerWaterDemand}
+          />
+
+          <GuidanceCard
+            icon="🌧️"
+            title={t.rainwater}
+            text={t.captureRainfall}
+          />
+
+          <GuidanceCard
+            icon="📊"
+            title={t.monitor}
+            text={t.trackConditions}
+          />
+
+        </div>
+
+        <div className="rounded-3xl border border-blue-100 bg-blue-50 p-6">
+
+          <p className="font-semibold text-slate-900">
+            {t.important}
+          </p>
+
+          <p className="mt-2 text-sm leading-6 text-slate-600">
+            {t.cropDisclaimer}
+          </p>
+
+        </div>
+
       </div>
+    );
+  }
 
-      <div className="grid gap-4 md:grid-cols-2">
+  function renderPlanningTab() {
+    const classification =
+      result.prediction.classification;
 
-        <GuidanceCard
-          icon="💧"
-          title={t.irrigation}
-          text={t.dripSprinkler}
-        />
+    let headline: string =
+      t.verifyWater;
 
-        <GuidanceCard
-          icon="🌱"
-          title={t.cropPlanning}
-          text={t.lowerWaterDemand}
-        />
-
-        <GuidanceCard
-          icon="🌧️"
-          title={t.rainwater}
-          text={t.captureRainfall}
-        />
-
-        <GuidanceCard
-          icon="📊"
-          title={t.monitor}
-          text={t.trackConditions}
-        />
-
-      </div>
-
-      <div className="rounded-3xl border border-blue-100 bg-blue-50 p-6">
-
-        <p className="font-semibold text-slate-900">
-          {t.important}
-        </p>
-
-        <p className="mt-2 text-sm leading-6 text-slate-600">
-          {t.cropDisclaimer}
-        </p>
-
-      </div>
-
-    </div>
-  );
-}
-
-function renderPlanningTab() {
-  const classification =
-    result.prediction.classification;
-
-  let headline: string =
-    t.verifyWater;
-
-  let description: string =
-    t.highDemandAssessment;
-
-  if (
-    classification === "Semi-Critical"
-  ) {
-    headline =
-      t.carefulDevelopment;
-
-    description =
+    let description: string =
       t.highDemandAssessment;
-  }
 
-  if (
-    classification === "Critical"
-  ) {
-    headline =
-      t.strongerAssessment;
+    if (
+      classification === "Semi-Critical"
+    ) {
+      headline =
+        t.carefulDevelopment;
 
-    description =
-      t.significantStress;
-  }
+      description =
+        t.highDemandAssessment;
+    }
 
-  if (
-    classification === "Over-Exploited"
-  ) {
-    headline =
-      t.avoidDependence;
+    if (
+      classification === "Critical"
+    ) {
+      headline =
+        t.strongerAssessment;
 
-    description =
-      t.alternativeSources;
-  }
+      description =
+        t.significantStress;
+    }
 
-  return (
-    <div className="space-y-5">
+    if (
+      classification === "Over-Exploited"
+    ) {
+      headline =
+        t.avoidDependence;
 
-      <div className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-700 to-indigo-700 p-6 text-white shadow-lg shadow-blue-100 sm:p-8">
+      description =
+        t.alternativeSources;
+    }
 
-        <div className="flex items-start gap-4">
+    return (
+      <div className="space-y-5">
 
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/15 text-2xl">
-            🏗️
-          </div>
+        <div className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-700 to-indigo-700 p-6 text-white shadow-lg shadow-blue-100 sm:p-8">
 
-          <div>
+          <div className="flex items-start gap-4">
 
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-100">
-              {t.developmentGuidance}
-            </p>
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/15 text-2xl">
+              🏗️
+            </div>
 
-            <h3 className="mt-2 text-2xl font-bold">
-              {headline}
-            </h3>
+            <div>
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-blue-50">
-              {description}
-            </p>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-100">
+                {t.developmentGuidance}
+              </p>
+
+              <h3 className="mt-2 text-2xl font-bold">
+                {headline}
+              </h3>
+
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-blue-50">
+                {description}
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
-      </div>
+        <div className="rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
 
-      <div className="rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
+          <h3 className="font-semibold text-slate-900">
+            {t.beforeProject}
+          </h3>
 
-        <h3 className="font-semibold text-slate-900">
-          {t.beforeProject}
-        </h3>
+          <div className="mt-5 grid gap-3 md:grid-cols-2">
 
-        <div className="mt-5 grid gap-3 md:grid-cols-2">
+            {[
+              t.sustainableSupply,
+              t.assessAlternative,
+              t.avoidUnnecessary,
+              t.planRecharge,
+              t.fieldAssessment,
+            ].map(
+              (item, index) => (
+                <div
+                  key={item}
+                  className="flex items-start gap-3 rounded-2xl bg-blue-50 p-4"
+                >
 
-          {[
-            t.sustainableSupply,
-            t.assessAlternative,
-            t.avoidUnnecessary,
-            t.planRecharge,
-            t.fieldAssessment,
-          ].map(
-            (item, index) => (
-              <div
-                key={item}
-                className="flex items-start gap-3 rounded-2xl bg-blue-50 p-4"
-              >
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
+                    {index + 1}
+                  </span>
 
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
-                  {index + 1}
-                </span>
+                  <p className="text-sm leading-6 text-slate-600">
+                    {item}
+                  </p>
 
-                <p className="text-sm leading-6 text-slate-600">
-                  {item}
-                </p>
+                </div>
+              )
+            )}
 
-              </div>
-            )
-          )}
+          </div>
+
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-3">
+
+          <SmallInfo
+            icon="💧"
+            title={t.waterSource}
+            text={t.verifySupply}
+          />
+
+          <SmallInfo
+            icon="🌧️"
+            title={t.recharge}
+            text={t.planRainwater}
+          />
+
+          <SmallInfo
+            icon="📋"
+            title={t.assessment}
+            text={t.validateField}
+          />
 
         </div>
 
       </div>
-
-      <div className="grid gap-4 sm:grid-cols-3">
-
-        <SmallInfo
-          icon="💧"
-          title={t.waterSource}
-          text={t.verifySupply}
-        />
-
-        <SmallInfo
-          icon="🌧️"
-          title={t.recharge}
-          text={t.planRainwater}
-        />
-
-        <SmallInfo
-          icon="📋"
-          title={t.assessment}
-          text={t.validateField}
-        />
-
-      </div>
-
-    </div>
-  );
-}
+    );
+  }
 
   function renderActiveTab() {
     switch (activeTab) {
@@ -1232,11 +1282,10 @@ function renderPlanningTab() {
                   >
 
                     <div
-                      className={`w-full rounded-t-xl ${
-                        index === 9
-                          ? "bg-cyan-200"
-                          : "bg-white/25"
-                      }`}
+                      className={`w-full rounded-t-xl ${index === 9
+                        ? "bg-cyan-200"
+                        : "bg-white/25"
+                        }`}
                       style={{
                         height: `${height}%`,
                       }}
@@ -1510,13 +1559,13 @@ function renderPlanningTab() {
                   {
                     result.prediction
                       .classification ===
-                    "Safe"
+                      "Safe"
                       ? "💧"
                       : result.prediction
-                          .classification ===
+                        .classification ===
                         "Semi-Critical"
-                      ? "⚠️"
-                      : "🚨"
+                        ? "⚠️"
+                        : "🚨"
                   }
 
                 </div>
@@ -1548,11 +1597,10 @@ function renderPlanningTab() {
                 ).toFixed(1)} mm`}
                 subtitle={`${formatObservationDate(
                   result.observation.date
-                )} · ${
-                  result.rainfall
-                    .confidence ||
-                  t.historicalEstimate
-                }`}
+                )} · ${result.rainfall
+                  .confidence ||
+                t.historicalEstimate
+                  }`}
               />
 
               <MetricCard
@@ -1604,16 +1652,23 @@ function renderPlanningTab() {
               {/* QUICK AI SUMMARY */}
               <div className="mt-6 rounded-2xl border border-blue-100 bg-blue-50/70 p-5">
 
-                <p className="text-sm font-semibold leading-7 text-slate-700">
-                  {getAiSummary(
-                    result.prediction
-                      .classification,
-                    Number(
-                      result.groundwater
-                        .value
-                    )
-                  )}
-                </p>
+                <div className="flex items-start justify-between gap-4">
+                  <p className="text-sm font-semibold leading-7 text-slate-700">
+                    {getAiSummary(
+                      result.prediction.classification,
+                      Number(result.groundwater.value)
+                    )}
+                  </p>
+
+                  <button
+                    type="button"
+                    onClick={handleSpeak}
+                    disabled={speaking}
+                    className="shrink-0 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
+                  >
+                    {speaking ? "🔊 Speaking..." : "🔊 Listen"}
+                  </button>
+                </div>
 
               </div>
 
@@ -1922,21 +1977,19 @@ function ProbabilityCard({
 
   return (
     <div
-      className={`rounded-2xl border p-4 transition ${
-        active
-          ? "border-blue-200 bg-blue-50/70 shadow-sm"
-          : "border-slate-100 bg-white"
-      }`}
+      className={`rounded-2xl border p-4 transition ${active
+        ? "border-blue-200 bg-blue-50/70 shadow-sm"
+        : "border-slate-100 bg-white"
+        }`}
     >
 
       <div className="flex items-center justify-between">
 
         <span
-          className={`text-sm ${
-            active
-              ? "font-bold text-slate-900"
-              : "text-slate-500"
-          }`}
+          className={`text-sm ${active
+            ? "font-bold text-slate-900"
+            : "text-slate-500"
+            }`}
         >
           {label}
         </span>
@@ -2031,11 +2084,10 @@ function AnalysisTabButton({
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-xl px-3 py-3 text-xs font-bold transition sm:text-sm ${
-        active
-          ? "bg-white text-blue-700 shadow-md"
-          : "text-slate-500 hover:bg-white/70 hover:text-blue-600"
-      }`}
+      className={`rounded-xl px-3 py-3 text-xs font-bold transition sm:text-sm ${active
+        ? "bg-white text-blue-700 shadow-md"
+        : "text-slate-500 hover:bg-white/70 hover:text-blue-600"
+        }`}
     >
       {label}
     </button>
@@ -2083,11 +2135,10 @@ function LanguageButton({
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-full px-2.5 py-1.5 text-[10px] font-bold transition sm:px-3 sm:text-xs ${
-        active
-          ? "bg-white text-blue-700 shadow-sm"
-          : "text-blue-100 hover:bg-white/10"
-      }`}
+      className={`rounded-full px-2.5 py-1.5 text-[10px] font-bold transition sm:px-3 sm:text-xs ${active
+        ? "bg-white text-blue-700 shadow-sm"
+        : "text-blue-100 hover:bg-white/10"
+        }`}
     >
       {label}
     </button>

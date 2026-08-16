@@ -87,3 +87,19 @@ export async function analyzeLocation(
 
     return data;
 }
+
+export async function generateVoice(text: string): Promise<Blob> {
+    const response = await fetch(`${API_URL}/voice/speak`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text }),
+    });
+
+    if (!response.ok) {
+        throw new Error("Voice generation failed");
+    }
+
+    return response.blob();
+}
