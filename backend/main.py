@@ -19,6 +19,10 @@ from backend.routes.forecast import (
     router as forecast_router
 )
 
+from backend.routes.voice import (
+    router as voice_router
+)
+
 
 app = FastAPI(
     title=API_TITLE,
@@ -47,6 +51,7 @@ app.include_router(location_router)
 app.include_router(risk_router)
 app.include_router(explanation_router)
 app.include_router(forecast_router)
+app.include_router(voice_router)
 
 
 @app.get("/health")
