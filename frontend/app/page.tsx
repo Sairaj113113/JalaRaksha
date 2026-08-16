@@ -229,14 +229,20 @@ export default function Home() {
               <h3 className="mt-6 font-semibold text-slate-900">
                 Key Factors
               </h3>
-
-              <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-600">
-                {result.explanation.key_factors.map(
-                  (factor: string) => (
-                    <li key={factor}>{factor}</li>
-                  )
-                )}
-              </ul>
+<ul className="mt-3 list-disc space-y-3 pl-5 text-slate-600">
+  {result.explanation.key_factors.map(
+    (factor: { factor: string; explanation: string }, index: number) => (
+      <li key={`${factor.factor}-${index}`}>
+        <strong className="text-slate-900">
+          {factor.factor}
+        </strong>
+        <p className="mt-1">
+          {factor.explanation}
+        </p>
+      </li>
+    )
+  )}
+</ul>
 
               <h3 className="mt-6 font-semibold text-slate-900">
                 Recommended Actions
